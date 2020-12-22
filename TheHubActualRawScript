@@ -1,0 +1,1404 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Hub = Instance.new("ScreenGui")
+local OpenClose = Instance.new("TextButton")
+local OpenClose_Roundify_12px = Instance.new("ImageLabel")
+local OpenCloseText = Instance.new("TextLabel")
+local TopMain = Instance.new("Frame")
+local Page1 = Instance.new("Frame")
+local FeSozial = Instance.new("TextButton")
+local FeSozial_Roundify_12px = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local ChatBypass = Instance.new("TextButton")
+local ChatBypass_Roundify_12px = Instance.new("ImageLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local FlingSniper = Instance.new("TextButton")
+local FlingSniper_Roundify_12px = Instance.new("ImageLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local NepV = Instance.new("TextButton")
+local NepV_Roundify_12px = Instance.new("ImageLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local BadCop = Instance.new("TextButton")
+local BadCop_Roundify_12px = Instance.new("ImageLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local AbyssEye = Instance.new("TextButton")
+local AbyssEye_Roundify_12px = Instance.new("ImageLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local Page2 = Instance.new("Frame")
+local emp = Instance.new("TextButton")
+local emp_Roundify_12px = Instance.new("ImageLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local emp_2 = Instance.new("TextButton")
+local emp_Roundify_12px_2 = Instance.new("ImageLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local emp_3 = Instance.new("TextButton")
+local emp_Roundify_12px_3 = Instance.new("ImageLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local emptybruh = Instance.new("TextButton")
+local emptybruh_Roundify_12px = Instance.new("ImageLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local FeCarnage = Instance.new("TextButton")
+local FeCarnage_Roundify_12px = Instance.new("ImageLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local RBNeptunian = Instance.new("TextButton")
+local FeChatHax_Roundify_12px = Instance.new("ImageLabel")
+local TextLabel_12 = Instance.new("TextLabel")
+local Page3 = Instance.new("Frame")
+local FeChatHax = Instance.new("TextButton")
+local FeChatHax_Roundify_12px_2 = Instance.new("ImageLabel")
+local TextLabel_13 = Instance.new("TextLabel")
+local emp_4 = Instance.new("TextButton")
+local emp_Roundify_12px_4 = Instance.new("ImageLabel")
+local TextLabel_14 = Instance.new("TextLabel")
+local emp_5 = Instance.new("TextButton")
+local emp_Roundify_12px_5 = Instance.new("ImageLabel")
+local TextLabel_15 = Instance.new("TextLabel")
+local emp_6 = Instance.new("TextButton")
+local emp_Roundify_12px_6 = Instance.new("ImageLabel")
+local TextLabel_16 = Instance.new("TextLabel")
+local emptybruh_2 = Instance.new("TextButton")
+local emptybruh_Roundify_12px_2 = Instance.new("ImageLabel")
+local TextLabel_17 = Instance.new("TextLabel")
+local FeCarnage_2 = Instance.new("TextButton")
+local FeCarnage_Roundify_12px_2 = Instance.new("ImageLabel")
+local TextLabel_18 = Instance.new("TextLabel")
+local AdminPagePremium = Instance.new("Frame")
+local Shattervast = Instance.new("TextButton")
+local NepV_Roundify_12px_2 = Instance.new("ImageLabel")
+local TextLabel_19 = Instance.new("TextLabel")
+local InfY = Instance.new("TextButton")
+local BadCop_Roundify_12px_2 = Instance.new("ImageLabel")
+local TextLabel_20 = Instance.new("TextLabel")
+local CMDX = Instance.new("TextButton")
+local AbyssEye_Roundify_12px_2 = Instance.new("ImageLabel")
+local TextLabel_21 = Instance.new("TextLabel")
+local TextLabel_22 = Instance.new("TextLabel")
+local FeScriptHubTitle = Instance.new("TextLabel")
+local MadeBy = Instance.new("TextLabel")
+local TextThe = Instance.new("TextLabel")
+local TheHub = Instance.new("TextLabel")
+local TextLabel_Roundify_12px = Instance.new("ImageLabel")
+local TextHub = Instance.new("TextLabel")
+local AdminPageButton = Instance.new("TextButton")
+local AdminPageButton_Roundify_12px = Instance.new("ImageLabel")
+local AdminScriptsText = Instance.new("TextLabel")
+local Page1Button = Instance.new("TextButton")
+local Page1Button_Roundify_12px = Instance.new("ImageLabel")
+local TextLabel_23 = Instance.new("TextLabel")
+local Page2Button = Instance.new("TextButton")
+local Page2Button_Roundify_12px = Instance.new("ImageLabel")
+local TextLabel_24 = Instance.new("TextLabel")
+local Page3Button = Instance.new("TextButton")
+local Page3Button_Roundify_12px = Instance.new("ImageLabel")
+local TextLabel_25 = Instance.new("TextLabel")
+
+--Properties:
+
+Hub.Name = "Hub"
+Hub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Hub.ResetOnSpawn = false
+
+OpenClose.Name = "OpenClose"
+OpenClose.Parent = Hub
+OpenClose.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+OpenClose.BackgroundTransparency = 1.000
+OpenClose.BorderSizePixel = 0
+OpenClose.Position = UDim2.new(0.852191627, 0, 0.353619248, 0)
+OpenClose.Size = UDim2.new(0, 129, 0, 48)
+OpenClose.Font = Enum.Font.SourceSansSemibold
+OpenClose.Text = "Open/Close"
+OpenClose.TextColor3 = Color3.fromRGB(0, 0, 0)
+OpenClose.TextSize = 26.000
+OpenClose.TextStrokeTransparency = 0.000
+
+OpenClose_Roundify_12px.Name = "OpenClose_Roundify_12px"
+OpenClose_Roundify_12px.Parent = OpenClose
+OpenClose_Roundify_12px.Active = true
+OpenClose_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+OpenClose_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OpenClose_Roundify_12px.BackgroundTransparency = 1.000
+OpenClose_Roundify_12px.Position = UDim2.new(0.5, 0, 0.354166687, 0)
+OpenClose_Roundify_12px.Selectable = true
+OpenClose_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+OpenClose_Roundify_12px.Image = "rbxassetid://3570695787"
+OpenClose_Roundify_12px.ImageColor3 = Color3.fromRGB(255, 170, 0)
+OpenClose_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+OpenClose_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+OpenClose_Roundify_12px.SliceScale = 0.120
+
+OpenCloseText.Name = "OpenCloseText"
+OpenCloseText.Parent = OpenClose
+OpenCloseText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OpenCloseText.BackgroundTransparency = 1.000
+OpenCloseText.BorderSizePixel = 0
+OpenCloseText.Position = UDim2.new(-0.279069781, 0, -0.166666657, 0)
+OpenCloseText.Size = UDim2.new(0, 200, 0, 50)
+OpenCloseText.Font = Enum.Font.SourceSans
+OpenCloseText.Text = "Open/Close"
+OpenCloseText.TextColor3 = Color3.fromRGB(0, 0, 0)
+OpenCloseText.TextSize = 26.000
+
+TopMain.Name = "TopMain"
+TopMain.Parent = Hub
+TopMain.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+TopMain.BorderSizePixel = 0
+TopMain.Position = UDim2.new(0.208970428, 0, 0.262596101, 0)
+TopMain.Size = UDim2.new(0, 499, 0, 28)
+
+Page1.Name = "Page1"
+Page1.Parent = TopMain
+Page1.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Page1.BorderSizePixel = 0
+Page1.Position = UDim2.new(-4.08531632e-05, 0, 0.987399578, 0)
+Page1.Size = UDim2.new(0, 499, 0, 250)
+
+FeSozial.Name = "FeSozial"
+FeSozial.Parent = Page1
+FeSozial.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+FeSozial.BackgroundTransparency = 1.000
+FeSozial.BorderSizePixel = 0
+FeSozial.Position = UDim2.new(0.669338644, 0, 0.60799998, 0)
+FeSozial.Size = UDim2.new(0, 150, 0, 40)
+FeSozial.Font = Enum.Font.SourceSansLight
+FeSozial.Text = "Fe Sozial"
+FeSozial.TextColor3 = Color3.fromRGB(255, 255, 255)
+FeSozial.TextSize = 17.000
+
+FeSozial_Roundify_12px.Name = "FeSozial_Roundify_12px"
+FeSozial_Roundify_12px.Parent = FeSozial
+FeSozial_Roundify_12px.Active = true
+FeSozial_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+FeSozial_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FeSozial_Roundify_12px.BackgroundTransparency = 1.000
+FeSozial_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+FeSozial_Roundify_12px.Selectable = true
+FeSozial_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+FeSozial_Roundify_12px.Image = "rbxassetid://3570695787"
+FeSozial_Roundify_12px.ImageColor3 = Color3.fromRGB(39, 39, 39)
+FeSozial_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+FeSozial_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+FeSozial_Roundify_12px.SliceScale = 0.120
+
+TextLabel.Parent = FeSozial
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(-0.166666657, 0, -0.125, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.SourceSansSemibold
+TextLabel.Text = "Fe Sozial"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 23.000
+
+ChatBypass.Name = "ChatBypass"
+ChatBypass.Parent = Page1
+ChatBypass.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+ChatBypass.BackgroundTransparency = 1.000
+ChatBypass.BorderSizePixel = 0
+ChatBypass.Position = UDim2.new(0.346693397, 0, 0.60799998, 0)
+ChatBypass.Size = UDim2.new(0, 150, 0, 40)
+ChatBypass.Font = Enum.Font.SourceSansLight
+ChatBypass.Text = "Fe Chat Bypass"
+ChatBypass.TextColor3 = Color3.fromRGB(255, 255, 255)
+ChatBypass.TextSize = 17.000
+
+ChatBypass_Roundify_12px.Name = "ChatBypass_Roundify_12px"
+ChatBypass_Roundify_12px.Parent = ChatBypass
+ChatBypass_Roundify_12px.Active = true
+ChatBypass_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+ChatBypass_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ChatBypass_Roundify_12px.BackgroundTransparency = 1.000
+ChatBypass_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+ChatBypass_Roundify_12px.Selectable = true
+ChatBypass_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+ChatBypass_Roundify_12px.Image = "rbxassetid://3570695787"
+ChatBypass_Roundify_12px.ImageColor3 = Color3.fromRGB(39, 39, 39)
+ChatBypass_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+ChatBypass_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+ChatBypass_Roundify_12px.SliceScale = 0.120
+
+TextLabel_2.Parent = ChatBypass
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(-0.159999996, 0, -0.125, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSansSemibold
+TextLabel_2.Text = "Chat Bypass"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 23.000
+
+FlingSniper.Name = "FlingSniper"
+FlingSniper.Parent = Page1
+FlingSniper.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+FlingSniper.BackgroundTransparency = 1.000
+FlingSniper.BorderSizePixel = 0
+FlingSniper.Position = UDim2.new(0.0240480993, 0, 0.60799998, 0)
+FlingSniper.Size = UDim2.new(0, 150, 0, 40)
+FlingSniper.Font = Enum.Font.SourceSansLight
+FlingSniper.Text = "Fling Sniper"
+FlingSniper.TextColor3 = Color3.fromRGB(255, 255, 255)
+FlingSniper.TextSize = 17.000
+
+FlingSniper_Roundify_12px.Name = "FlingSniper_Roundify_12px"
+FlingSniper_Roundify_12px.Parent = FlingSniper
+FlingSniper_Roundify_12px.Active = true
+FlingSniper_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+FlingSniper_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FlingSniper_Roundify_12px.BackgroundTransparency = 1.000
+FlingSniper_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+FlingSniper_Roundify_12px.Selectable = true
+FlingSniper_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+FlingSniper_Roundify_12px.Image = "rbxassetid://3570695787"
+FlingSniper_Roundify_12px.ImageColor3 = Color3.fromRGB(39, 39, 39)
+FlingSniper_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+FlingSniper_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+FlingSniper_Roundify_12px.SliceScale = 0.120
+
+TextLabel_3.Parent = FlingSniper
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(-0.159999996, 0, -0.125, 0)
+TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_3.Font = Enum.Font.SourceSansSemibold
+TextLabel_3.Text = "Fe Sniper"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 23.000
+
+NepV.Name = "NepV"
+NepV.Parent = Page1
+NepV.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+NepV.BackgroundTransparency = 1.000
+NepV.BorderSizePixel = 0
+NepV.Position = UDim2.new(0.669338644, 0, 0.367999971, 0)
+NepV.Size = UDim2.new(0, 150, 0, 40)
+NepV.Font = Enum.Font.SourceSansLight
+NepV.Text = "Neptunian V"
+NepV.TextColor3 = Color3.fromRGB(255, 255, 255)
+NepV.TextSize = 17.000
+
+NepV_Roundify_12px.Name = "NepV_Roundify_12px"
+NepV_Roundify_12px.Parent = NepV
+NepV_Roundify_12px.Active = true
+NepV_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+NepV_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NepV_Roundify_12px.BackgroundTransparency = 1.000
+NepV_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+NepV_Roundify_12px.Selectable = true
+NepV_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+NepV_Roundify_12px.Image = "rbxassetid://3570695787"
+NepV_Roundify_12px.ImageColor3 = Color3.fromRGB(39, 39, 39)
+NepV_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+NepV_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+NepV_Roundify_12px.SliceScale = 0.120
+
+TextLabel_4.Parent = NepV
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(-0.159999996, 0, -0.125, 0)
+TextLabel_4.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_4.Font = Enum.Font.SourceSansSemibold
+TextLabel_4.Text = "Neptunian V"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 23.000
+
+BadCop.Name = "BadCop"
+BadCop.Parent = Page1
+BadCop.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+BadCop.BackgroundTransparency = 1.000
+BadCop.BorderSizePixel = 0
+BadCop.Position = UDim2.new(0.346693397, 0, 0.367999971, 0)
+BadCop.Size = UDim2.new(0, 150, 0, 40)
+BadCop.Font = Enum.Font.SourceSansLight
+BadCop.Text = "Bad Cop"
+BadCop.TextColor3 = Color3.fromRGB(255, 255, 255)
+BadCop.TextSize = 17.000
+
+BadCop_Roundify_12px.Name = "BadCop_Roundify_12px"
+BadCop_Roundify_12px.Parent = BadCop
+BadCop_Roundify_12px.Active = true
+BadCop_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+BadCop_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BadCop_Roundify_12px.BackgroundTransparency = 1.000
+BadCop_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+BadCop_Roundify_12px.Selectable = true
+BadCop_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+BadCop_Roundify_12px.Image = "rbxassetid://3570695787"
+BadCop_Roundify_12px.ImageColor3 = Color3.fromRGB(39, 39, 39)
+BadCop_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+BadCop_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+BadCop_Roundify_12px.SliceScale = 0.120
+
+TextLabel_5.Parent = BadCop
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(-0.159999996, 0, -0.125, 0)
+TextLabel_5.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_5.Font = Enum.Font.SourceSansSemibold
+TextLabel_5.Text = "Fe Cop"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 23.000
+
+AbyssEye.Name = "AbyssEye"
+AbyssEye.Parent = Page1
+AbyssEye.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+AbyssEye.BackgroundTransparency = 1.000
+AbyssEye.BorderSizePixel = 0
+AbyssEye.Position = UDim2.new(0.0240480993, 0, 0.367999971, 0)
+AbyssEye.Size = UDim2.new(0, 150, 0, 40)
+AbyssEye.Font = Enum.Font.SourceSansLight
+AbyssEye.Text = "Abyss Eye"
+AbyssEye.TextColor3 = Color3.fromRGB(255, 255, 255)
+AbyssEye.TextSize = 17.000
+
+AbyssEye_Roundify_12px.Name = "AbyssEye_Roundify_12px"
+AbyssEye_Roundify_12px.Parent = AbyssEye
+AbyssEye_Roundify_12px.Active = true
+AbyssEye_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+AbyssEye_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AbyssEye_Roundify_12px.BackgroundTransparency = 1.000
+AbyssEye_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+AbyssEye_Roundify_12px.Selectable = true
+AbyssEye_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+AbyssEye_Roundify_12px.Image = "rbxassetid://3570695787"
+AbyssEye_Roundify_12px.ImageColor3 = Color3.fromRGB(39, 39, 39)
+AbyssEye_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+AbyssEye_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+AbyssEye_Roundify_12px.SliceScale = 0.120
+
+TextLabel_6.Parent = AbyssEye
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(-0.166666672, 0, -0.125, 0)
+TextLabel_6.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_6.Font = Enum.Font.SourceSansSemibold
+TextLabel_6.Text = "Abyss Eye"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 23.000
+
+Page2.Name = "Page2"
+Page2.Parent = TopMain
+Page2.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Page2.BorderSizePixel = 0
+Page2.Position = UDim2.new(-4.08531923e-05, 0, 0.987399518, 0)
+Page2.Size = UDim2.new(0, 499, 0, 250)
+Page2.Visible = false
+
+emp.Name = "emp"
+emp.Parent = Page2
+emp.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+emp.BackgroundTransparency = 1.000
+emp.BorderSizePixel = 0
+emp.Position = UDim2.new(0.0240480993, 0, 0.60799998, 0)
+emp.Size = UDim2.new(0, 150, 0, 40)
+emp.Font = Enum.Font.SourceSansLight
+emp.Text = "donde esta la script?!?!?"
+emp.TextColor3 = Color3.fromRGB(255, 255, 255)
+emp.TextSize = 17.000
+
+emp_Roundify_12px.Name = "emp_Roundify_12px"
+emp_Roundify_12px.Parent = emp
+emp_Roundify_12px.Active = true
+emp_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+emp_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+emp_Roundify_12px.BackgroundTransparency = 1.000
+emp_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+emp_Roundify_12px.Selectable = true
+emp_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+emp_Roundify_12px.Image = "rbxassetid://3570695787"
+emp_Roundify_12px.ImageColor3 = Color3.fromRGB(39, 39, 39)
+emp_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+emp_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+emp_Roundify_12px.SliceScale = 0.120
+
+TextLabel_7.Parent = emp
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(-0.159999996, 0, -0.075000003, 0)
+TextLabel_7.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_7.Font = Enum.Font.SourceSansSemibold
+TextLabel_7.Text = "no tengo scripts yet"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 23.000
+
+emp_2.Name = "emp"
+emp_2.Parent = Page2
+emp_2.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+emp_2.BackgroundTransparency = 1.000
+emp_2.BorderSizePixel = 0
+emp_2.Position = UDim2.new(0.346693397, 0, 0.60799998, 0)
+emp_2.Size = UDim2.new(0, 150, 0, 40)
+emp_2.Font = Enum.Font.SourceSansLight
+emp_2.Text = "donde esta la script?!?!?"
+emp_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+emp_2.TextSize = 17.000
+
+emp_Roundify_12px_2.Name = "emp_Roundify_12px"
+emp_Roundify_12px_2.Parent = emp_2
+emp_Roundify_12px_2.Active = true
+emp_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+emp_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+emp_Roundify_12px_2.BackgroundTransparency = 1.000
+emp_Roundify_12px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+emp_Roundify_12px_2.Selectable = true
+emp_Roundify_12px_2.Size = UDim2.new(1, 0, 1, 0)
+emp_Roundify_12px_2.Image = "rbxassetid://3570695787"
+emp_Roundify_12px_2.ImageColor3 = Color3.fromRGB(39, 39, 39)
+emp_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
+emp_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+emp_Roundify_12px_2.SliceScale = 0.120
+
+TextLabel_8.Parent = emp_2
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(-0.159999996, 0, -0.075000003, 0)
+TextLabel_8.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_8.Font = Enum.Font.SourceSansSemibold
+TextLabel_8.Text = "no tengo scripts yet"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 23.000
+
+emp_3.Name = "emp"
+emp_3.Parent = Page2
+emp_3.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+emp_3.BackgroundTransparency = 1.000
+emp_3.BorderSizePixel = 0
+emp_3.Position = UDim2.new(0.669338644, 0, 0.60799998, 0)
+emp_3.Size = UDim2.new(0, 150, 0, 40)
+emp_3.Font = Enum.Font.SourceSansLight
+emp_3.Text = "donde esta la script?!?!?"
+emp_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+emp_3.TextSize = 17.000
+
+emp_Roundify_12px_3.Name = "emp_Roundify_12px"
+emp_Roundify_12px_3.Parent = emp_3
+emp_Roundify_12px_3.Active = true
+emp_Roundify_12px_3.AnchorPoint = Vector2.new(0.5, 0.5)
+emp_Roundify_12px_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+emp_Roundify_12px_3.BackgroundTransparency = 1.000
+emp_Roundify_12px_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+emp_Roundify_12px_3.Selectable = true
+emp_Roundify_12px_3.Size = UDim2.new(1, 0, 1, 0)
+emp_Roundify_12px_3.Image = "rbxassetid://3570695787"
+emp_Roundify_12px_3.ImageColor3 = Color3.fromRGB(39, 39, 39)
+emp_Roundify_12px_3.ScaleType = Enum.ScaleType.Slice
+emp_Roundify_12px_3.SliceCenter = Rect.new(100, 100, 100, 100)
+emp_Roundify_12px_3.SliceScale = 0.120
+
+TextLabel_9.Parent = emp_3
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(-0.159999996, 0, -0.075000003, 0)
+TextLabel_9.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_9.Font = Enum.Font.SourceSansSemibold
+TextLabel_9.Text = "no tengo scripts yet"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 23.000
+
+emptybruh.Name = "empty bruh"
+emptybruh.Parent = Page2
+emptybruh.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+emptybruh.BackgroundTransparency = 1.000
+emptybruh.BorderSizePixel = 0
+emptybruh.Position = UDim2.new(0.669338644, 0, 0.367999971, 0)
+emptybruh.Size = UDim2.new(0, 150, 0, 40)
+emptybruh.Font = Enum.Font.SourceSansLight
+emptybruh.Text = "donde esta la script?!?!?"
+emptybruh.TextColor3 = Color3.fromRGB(255, 255, 255)
+emptybruh.TextSize = 17.000
+
+emptybruh_Roundify_12px.Name = "empty bruh_Roundify_12px"
+emptybruh_Roundify_12px.Parent = emptybruh
+emptybruh_Roundify_12px.Active = true
+emptybruh_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+emptybruh_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+emptybruh_Roundify_12px.BackgroundTransparency = 1.000
+emptybruh_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+emptybruh_Roundify_12px.Selectable = true
+emptybruh_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+emptybruh_Roundify_12px.Image = "rbxassetid://3570695787"
+emptybruh_Roundify_12px.ImageColor3 = Color3.fromRGB(39, 39, 39)
+emptybruh_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+emptybruh_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+emptybruh_Roundify_12px.SliceScale = 0.120
+
+TextLabel_10.Parent = emptybruh
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(-0.159999996, 0, -0.075000003, 0)
+TextLabel_10.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_10.Font = Enum.Font.SourceSansSemibold
+TextLabel_10.Text = "no tengo scripts yet"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 23.000
+
+FeCarnage.Name = "FeCarnage"
+FeCarnage.Parent = Page2
+FeCarnage.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+FeCarnage.BackgroundTransparency = 1.000
+FeCarnage.BorderSizePixel = 0
+FeCarnage.Position = UDim2.new(0.346693397, 0, 0.367999971, 0)
+FeCarnage.Size = UDim2.new(0, 150, 0, 40)
+FeCarnage.Font = Enum.Font.SourceSansLight
+FeCarnage.Text = "Fe Carnage"
+FeCarnage.TextColor3 = Color3.fromRGB(255, 255, 255)
+FeCarnage.TextSize = 17.000
+
+FeCarnage_Roundify_12px.Name = "FeCarnage_Roundify_12px"
+FeCarnage_Roundify_12px.Parent = FeCarnage
+FeCarnage_Roundify_12px.Active = true
+FeCarnage_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+FeCarnage_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FeCarnage_Roundify_12px.BackgroundTransparency = 1.000
+FeCarnage_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+FeCarnage_Roundify_12px.Selectable = true
+FeCarnage_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+FeCarnage_Roundify_12px.Image = "rbxassetid://3570695787"
+FeCarnage_Roundify_12px.ImageColor3 = Color3.fromRGB(39, 39, 39)
+FeCarnage_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+FeCarnage_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+FeCarnage_Roundify_12px.SliceScale = 0.120
+
+TextLabel_11.Parent = FeCarnage
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(-0.159999996, 0, -0.075000003, 0)
+TextLabel_11.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_11.Font = Enum.Font.SourceSansSemibold
+TextLabel_11.Text = "Carnage"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 23.000
+
+RBNeptunian.Name = "RB Neptunian"
+RBNeptunian.Parent = Page2
+RBNeptunian.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+RBNeptunian.BackgroundTransparency = 1.000
+RBNeptunian.BorderSizePixel = 0
+RBNeptunian.Position = UDim2.new(0.0240480993, 0, 0.367999971, 0)
+RBNeptunian.Size = UDim2.new(0, 150, 0, 40)
+RBNeptunian.Font = Enum.Font.SourceSansLight
+RBNeptunian.Text = "Fe ChatHax"
+RBNeptunian.TextColor3 = Color3.fromRGB(255, 255, 255)
+RBNeptunian.TextSize = 17.000
+
+FeChatHax_Roundify_12px.Name = "FeChatHax_Roundify_12px"
+FeChatHax_Roundify_12px.Parent = RBNeptunian
+FeChatHax_Roundify_12px.Active = true
+FeChatHax_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+FeChatHax_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FeChatHax_Roundify_12px.BackgroundTransparency = 1.000
+FeChatHax_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+FeChatHax_Roundify_12px.Selectable = true
+FeChatHax_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+FeChatHax_Roundify_12px.Image = "rbxassetid://3570695787"
+FeChatHax_Roundify_12px.ImageColor3 = Color3.fromRGB(39, 39, 39)
+FeChatHax_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+FeChatHax_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+FeChatHax_Roundify_12px.SliceScale = 0.120
+
+TextLabel_12.Parent = RBNeptunian
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Position = UDim2.new(-0.159999996, 0, -0.075000003, 0)
+TextLabel_12.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_12.Font = Enum.Font.SourceSansSemibold
+TextLabel_12.Text = "RB Neptunian"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextSize = 23.000
+
+Page3.Name = "Page3"
+Page3.Parent = TopMain
+Page3.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Page3.BorderSizePixel = 0
+Page3.Position = UDim2.new(-4.08531923e-05, 0, 0.987399518, 0)
+Page3.Size = UDim2.new(0, 499, 0, 250)
+Page3.Visible = false
+
+FeChatHax.Name = "FeChatHax"
+FeChatHax.Parent = Page3
+FeChatHax.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+FeChatHax.BackgroundTransparency = 1.000
+FeChatHax.BorderSizePixel = 0
+FeChatHax.Position = UDim2.new(0.0240480993, 0, 0.367999971, 0)
+FeChatHax.Size = UDim2.new(0, 150, 0, 40)
+FeChatHax.Font = Enum.Font.SourceSansLight
+FeChatHax.Text = "no scripts yet off"
+FeChatHax.TextColor3 = Color3.fromRGB(255, 255, 255)
+FeChatHax.TextSize = 17.000
+
+FeChatHax_Roundify_12px_2.Name = "FeChatHax_Roundify_12px"
+FeChatHax_Roundify_12px_2.Parent = FeChatHax
+FeChatHax_Roundify_12px_2.Active = true
+FeChatHax_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+FeChatHax_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FeChatHax_Roundify_12px_2.BackgroundTransparency = 1.000
+FeChatHax_Roundify_12px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+FeChatHax_Roundify_12px_2.Selectable = true
+FeChatHax_Roundify_12px_2.Size = UDim2.new(1, 0, 1, 0)
+FeChatHax_Roundify_12px_2.Image = "rbxassetid://3570695787"
+FeChatHax_Roundify_12px_2.ImageColor3 = Color3.fromRGB(39, 39, 39)
+FeChatHax_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
+FeChatHax_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+FeChatHax_Roundify_12px_2.SliceScale = 0.120
+
+TextLabel_13.Parent = FeChatHax
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.Position = UDim2.new(-0.159999996, 0, -0.075000003, 0)
+TextLabel_13.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_13.Font = Enum.Font.SourceSansSemibold
+TextLabel_13.Text = "nooo scripttsss yet"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextSize = 23.000
+
+emp_4.Name = "emp"
+emp_4.Parent = Page3
+emp_4.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+emp_4.BackgroundTransparency = 1.000
+emp_4.BorderSizePixel = 0
+emp_4.Position = UDim2.new(0.346693397, 0, 0.60799998, 0)
+emp_4.Size = UDim2.new(0, 150, 0, 40)
+emp_4.Font = Enum.Font.SourceSansLight
+emp_4.Text = "no scripts yet off"
+emp_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+emp_4.TextSize = 17.000
+
+emp_Roundify_12px_4.Name = "emp_Roundify_12px"
+emp_Roundify_12px_4.Parent = emp_4
+emp_Roundify_12px_4.Active = true
+emp_Roundify_12px_4.AnchorPoint = Vector2.new(0.5, 0.5)
+emp_Roundify_12px_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+emp_Roundify_12px_4.BackgroundTransparency = 1.000
+emp_Roundify_12px_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+emp_Roundify_12px_4.Selectable = true
+emp_Roundify_12px_4.Size = UDim2.new(1, 0, 1, 0)
+emp_Roundify_12px_4.Image = "rbxassetid://3570695787"
+emp_Roundify_12px_4.ImageColor3 = Color3.fromRGB(39, 39, 39)
+emp_Roundify_12px_4.ScaleType = Enum.ScaleType.Slice
+emp_Roundify_12px_4.SliceCenter = Rect.new(100, 100, 100, 100)
+emp_Roundify_12px_4.SliceScale = 0.120
+
+TextLabel_14.Parent = emp_4
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.Position = UDim2.new(-0.159999996, 0, -0.075000003, 0)
+TextLabel_14.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_14.Font = Enum.Font.SourceSansSemibold
+TextLabel_14.Text = "nooo scripttsss yet"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextSize = 23.000
+
+emp_5.Name = "emp"
+emp_5.Parent = Page3
+emp_5.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+emp_5.BackgroundTransparency = 1.000
+emp_5.BorderSizePixel = 0
+emp_5.Position = UDim2.new(0.669338644, 0, 0.60799998, 0)
+emp_5.Size = UDim2.new(0, 150, 0, 40)
+emp_5.Font = Enum.Font.SourceSansLight
+emp_5.Text = "no scripts yet off"
+emp_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+emp_5.TextSize = 17.000
+
+emp_Roundify_12px_5.Name = "emp_Roundify_12px"
+emp_Roundify_12px_5.Parent = emp_5
+emp_Roundify_12px_5.Active = true
+emp_Roundify_12px_5.AnchorPoint = Vector2.new(0.5, 0.5)
+emp_Roundify_12px_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+emp_Roundify_12px_5.BackgroundTransparency = 1.000
+emp_Roundify_12px_5.Position = UDim2.new(0.5, 0, 0.5, 0)
+emp_Roundify_12px_5.Selectable = true
+emp_Roundify_12px_5.Size = UDim2.new(1, 0, 1, 0)
+emp_Roundify_12px_5.Image = "rbxassetid://3570695787"
+emp_Roundify_12px_5.ImageColor3 = Color3.fromRGB(39, 39, 39)
+emp_Roundify_12px_5.ScaleType = Enum.ScaleType.Slice
+emp_Roundify_12px_5.SliceCenter = Rect.new(100, 100, 100, 100)
+emp_Roundify_12px_5.SliceScale = 0.120
+
+TextLabel_15.Parent = emp_5
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.Position = UDim2.new(-0.159999996, 0, -0.075000003, 0)
+TextLabel_15.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_15.Font = Enum.Font.SourceSansSemibold
+TextLabel_15.Text = "nooo scripttsss yet"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextSize = 23.000
+
+emp_6.Name = "emp"
+emp_6.Parent = Page3
+emp_6.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+emp_6.BackgroundTransparency = 1.000
+emp_6.BorderSizePixel = 0
+emp_6.Position = UDim2.new(0.0240480993, 0, 0.60799998, 0)
+emp_6.Size = UDim2.new(0, 150, 0, 40)
+emp_6.Font = Enum.Font.SourceSansLight
+emp_6.Text = "no scripts yet off"
+emp_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+emp_6.TextSize = 17.000
+
+emp_Roundify_12px_6.Name = "emp_Roundify_12px"
+emp_Roundify_12px_6.Parent = emp_6
+emp_Roundify_12px_6.Active = true
+emp_Roundify_12px_6.AnchorPoint = Vector2.new(0.5, 0.5)
+emp_Roundify_12px_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+emp_Roundify_12px_6.BackgroundTransparency = 1.000
+emp_Roundify_12px_6.Position = UDim2.new(0.5, 0, 0.5, 0)
+emp_Roundify_12px_6.Selectable = true
+emp_Roundify_12px_6.Size = UDim2.new(1, 0, 1, 0)
+emp_Roundify_12px_6.Image = "rbxassetid://3570695787"
+emp_Roundify_12px_6.ImageColor3 = Color3.fromRGB(39, 39, 39)
+emp_Roundify_12px_6.ScaleType = Enum.ScaleType.Slice
+emp_Roundify_12px_6.SliceCenter = Rect.new(100, 100, 100, 100)
+emp_Roundify_12px_6.SliceScale = 0.120
+
+TextLabel_16.Parent = emp_6
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.Position = UDim2.new(-0.159999996, 0, -0.075000003, 0)
+TextLabel_16.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_16.Font = Enum.Font.SourceSansSemibold
+TextLabel_16.Text = "nooo scripttsss yet"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextSize = 23.000
+
+emptybruh_2.Name = "empty bruh"
+emptybruh_2.Parent = Page3
+emptybruh_2.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+emptybruh_2.BackgroundTransparency = 1.000
+emptybruh_2.BorderSizePixel = 0
+emptybruh_2.Position = UDim2.new(0.669338644, 0, 0.367999971, 0)
+emptybruh_2.Size = UDim2.new(0, 150, 0, 40)
+emptybruh_2.Font = Enum.Font.SourceSansLight
+emptybruh_2.Text = "no scripts yet off"
+emptybruh_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+emptybruh_2.TextSize = 17.000
+
+emptybruh_Roundify_12px_2.Name = "empty bruh_Roundify_12px"
+emptybruh_Roundify_12px_2.Parent = emptybruh_2
+emptybruh_Roundify_12px_2.Active = true
+emptybruh_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+emptybruh_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+emptybruh_Roundify_12px_2.BackgroundTransparency = 1.000
+emptybruh_Roundify_12px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+emptybruh_Roundify_12px_2.Selectable = true
+emptybruh_Roundify_12px_2.Size = UDim2.new(1, 0, 1, 0)
+emptybruh_Roundify_12px_2.Image = "rbxassetid://3570695787"
+emptybruh_Roundify_12px_2.ImageColor3 = Color3.fromRGB(39, 39, 39)
+emptybruh_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
+emptybruh_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+emptybruh_Roundify_12px_2.SliceScale = 0.120
+
+TextLabel_17.Parent = emptybruh_2
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.Position = UDim2.new(-0.159999996, 0, -0.075000003, 0)
+TextLabel_17.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_17.Font = Enum.Font.SourceSansSemibold
+TextLabel_17.Text = "nooo scripttsss yet"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextSize = 23.000
+
+FeCarnage_2.Name = "FeCarnage"
+FeCarnage_2.Parent = Page3
+FeCarnage_2.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+FeCarnage_2.BackgroundTransparency = 1.000
+FeCarnage_2.BorderSizePixel = 0
+FeCarnage_2.Position = UDim2.new(0.346693397, 0, 0.367999971, 0)
+FeCarnage_2.Size = UDim2.new(0, 150, 0, 40)
+FeCarnage_2.Font = Enum.Font.SourceSansLight
+FeCarnage_2.Text = "no scripts yet off"
+FeCarnage_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+FeCarnage_2.TextSize = 17.000
+
+FeCarnage_Roundify_12px_2.Name = "FeCarnage_Roundify_12px"
+FeCarnage_Roundify_12px_2.Parent = FeCarnage_2
+FeCarnage_Roundify_12px_2.Active = true
+FeCarnage_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+FeCarnage_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FeCarnage_Roundify_12px_2.BackgroundTransparency = 1.000
+FeCarnage_Roundify_12px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+FeCarnage_Roundify_12px_2.Selectable = true
+FeCarnage_Roundify_12px_2.Size = UDim2.new(1, 0, 1, 0)
+FeCarnage_Roundify_12px_2.Image = "rbxassetid://3570695787"
+FeCarnage_Roundify_12px_2.ImageColor3 = Color3.fromRGB(39, 39, 39)
+FeCarnage_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
+FeCarnage_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+FeCarnage_Roundify_12px_2.SliceScale = 0.120
+
+TextLabel_18.Parent = FeCarnage_2
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.Position = UDim2.new(-0.159999996, 0, -0.075000003, 0)
+TextLabel_18.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_18.Font = Enum.Font.SourceSansSemibold
+TextLabel_18.Text = "nooo scripttsss yet"
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextSize = 23.000
+
+AdminPagePremium.Name = "AdminPagePremium"
+AdminPagePremium.Parent = TopMain
+AdminPagePremium.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+AdminPagePremium.BorderSizePixel = 0
+AdminPagePremium.Position = UDim2.new(-4.08531923e-05, 0, 0.987399518, 0)
+AdminPagePremium.Size = UDim2.new(0, 499, 0, 250)
+AdminPagePremium.Visible = false
+
+Shattervast.Name = "Shattervast"
+Shattervast.Parent = AdminPagePremium
+Shattervast.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+Shattervast.BackgroundTransparency = 1.000
+Shattervast.BorderSizePixel = 0
+Shattervast.Position = UDim2.new(0.671342671, 0, 0.475999981, 0)
+Shattervast.Size = UDim2.new(0, 150, 0, 40)
+Shattervast.Font = Enum.Font.SourceSansLight
+Shattervast.Text = "bruhhh no script"
+Shattervast.TextColor3 = Color3.fromRGB(255, 255, 255)
+Shattervast.TextSize = 17.000
+
+NepV_Roundify_12px_2.Name = "NepV_Roundify_12px"
+NepV_Roundify_12px_2.Parent = Shattervast
+NepV_Roundify_12px_2.Active = true
+NepV_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+NepV_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NepV_Roundify_12px_2.BackgroundTransparency = 1.000
+NepV_Roundify_12px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+NepV_Roundify_12px_2.Selectable = true
+NepV_Roundify_12px_2.Size = UDim2.new(1, 0, 1, 0)
+NepV_Roundify_12px_2.Image = "rbxassetid://3570695787"
+NepV_Roundify_12px_2.ImageColor3 = Color3.fromRGB(39, 39, 39)
+NepV_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
+NepV_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+NepV_Roundify_12px_2.SliceScale = 0.120
+
+TextLabel_19.Parent = Shattervast
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.Position = UDim2.new(-0.166666672, 0, -0.125, 0)
+TextLabel_19.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_19.Font = Enum.Font.SourceSans
+TextLabel_19.Text = "Shattervast"
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextSize = 23.000
+
+InfY.Name = "InfY"
+InfY.Parent = AdminPagePremium
+InfY.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+InfY.BackgroundTransparency = 1.000
+InfY.BorderSizePixel = 0
+InfY.Position = UDim2.new(0.348697394, 0, 0.475999981, 0)
+InfY.Size = UDim2.new(0, 150, 0, 40)
+InfY.Font = Enum.Font.SourceSansLight
+InfY.Text = "bruhhh no script"
+InfY.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfY.TextSize = 17.000
+
+BadCop_Roundify_12px_2.Name = "BadCop_Roundify_12px"
+BadCop_Roundify_12px_2.Parent = InfY
+BadCop_Roundify_12px_2.Active = true
+BadCop_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+BadCop_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BadCop_Roundify_12px_2.BackgroundTransparency = 1.000
+BadCop_Roundify_12px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+BadCop_Roundify_12px_2.Selectable = true
+BadCop_Roundify_12px_2.Size = UDim2.new(1, 0, 1, 0)
+BadCop_Roundify_12px_2.Image = "rbxassetid://3570695787"
+BadCop_Roundify_12px_2.ImageColor3 = Color3.fromRGB(39, 39, 39)
+BadCop_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
+BadCop_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+BadCop_Roundify_12px_2.SliceScale = 0.120
+
+TextLabel_20.Parent = InfY
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.Position = UDim2.new(-0.166666672, 0, -0.125, 0)
+TextLabel_20.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_20.Font = Enum.Font.SourceSans
+TextLabel_20.Text = "Infinite Yield"
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.TextSize = 23.000
+
+CMDX.Name = "CMDX"
+CMDX.Parent = AdminPagePremium
+CMDX.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+CMDX.BackgroundTransparency = 1.000
+CMDX.BorderSizePixel = 0
+CMDX.Position = UDim2.new(0.026052108, 0, 0.475999981, 0)
+CMDX.Size = UDim2.new(0, 150, 0, 40)
+CMDX.Font = Enum.Font.SourceSansLight
+CMDX.Text = "bruhhh no script"
+CMDX.TextColor3 = Color3.fromRGB(255, 255, 255)
+CMDX.TextSize = 17.000
+
+AbyssEye_Roundify_12px_2.Name = "AbyssEye_Roundify_12px"
+AbyssEye_Roundify_12px_2.Parent = CMDX
+AbyssEye_Roundify_12px_2.Active = true
+AbyssEye_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+AbyssEye_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AbyssEye_Roundify_12px_2.BackgroundTransparency = 1.000
+AbyssEye_Roundify_12px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+AbyssEye_Roundify_12px_2.Selectable = true
+AbyssEye_Roundify_12px_2.Size = UDim2.new(1, 0, 1, 0)
+AbyssEye_Roundify_12px_2.Image = "rbxassetid://3570695787"
+AbyssEye_Roundify_12px_2.ImageColor3 = Color3.fromRGB(39, 39, 39)
+AbyssEye_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
+AbyssEye_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+AbyssEye_Roundify_12px_2.SliceScale = 0.120
+
+TextLabel_21.Parent = CMDX
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 1.000
+TextLabel_21.Position = UDim2.new(-0.166666672, 0, -0.125, 0)
+TextLabel_21.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_21.Font = Enum.Font.SourceSans
+TextLabel_21.Text = "CMDX"
+TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.TextSize = 23.000
+
+TextLabel_22.Parent = AdminPagePremium
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.BackgroundTransparency = 1.000
+TextLabel_22.Position = UDim2.new(0.268537074, 0, 0.656000018, 0)
+TextLabel_22.Size = UDim2.new(0, 231, 0, 50)
+TextLabel_22.Font = Enum.Font.SourceSans
+TextLabel_22.Text = "DM TemporaryNameScript#8378 for questions"
+TextLabel_22.TextColor3 = Color3.fromRGB(255, 118, 39)
+TextLabel_22.TextSize = 23.000
+
+FeScriptHubTitle.Name = "FeScriptHubTitle"
+FeScriptHubTitle.Parent = TopMain
+FeScriptHubTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FeScriptHubTitle.BackgroundTransparency = 1.000
+FeScriptHubTitle.Position = UDim2.new(0.344689369, 0, 0.197714299, 0)
+FeScriptHubTitle.Size = UDim2.new(0, 164, 0, 16)
+FeScriptHubTitle.Font = Enum.Font.SourceSans
+FeScriptHubTitle.Text = "FE Script Hub"
+FeScriptHubTitle.TextColor3 = Color3.fromRGB(0, 0, 0)
+FeScriptHubTitle.TextSize = 24.000
+
+MadeBy.Name = "MadeBy"
+MadeBy.Parent = TopMain
+MadeBy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MadeBy.BackgroundTransparency = 1.000
+MadeBy.Position = UDim2.new(0.298597187, 0, 8.12514305, 0)
+MadeBy.Size = UDim2.new(0, 200, 0, 50)
+MadeBy.Font = Enum.Font.SourceSans
+MadeBy.Text = "Made By PanzerKampfMeinFuhr1"
+MadeBy.TextColor3 = Color3.fromRGB(255, 148, 25)
+MadeBy.TextSize = 30.000
+
+TextThe.Name = "TextThe"
+TextThe.Parent = TopMain
+TextThe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextThe.BackgroundTransparency = 1.000
+TextThe.Position = UDim2.new(0.331024051, 0, 1.96399999, 0)
+TextThe.Size = UDim2.new(0, 104, 0, 27)
+TextThe.Font = Enum.Font.SourceSansLight
+TextThe.Text = " The"
+TextThe.TextColor3 = Color3.fromRGB(255, 118, 39)
+TextThe.TextSize = 40.000
+
+TheHub.Name = "TheHub"
+TheHub.Parent = TopMain
+TheHub.Active = true
+TheHub.BackgroundColor3 = Color3.fromRGB(255, 118, 39)
+TheHub.BackgroundTransparency = 1.000
+TheHub.BorderSizePixel = 0
+TheHub.Position = UDim2.new(0.496993989, 0, 0.0759999976, 0)
+TheHub.Size = UDim2.new(0, 60, 0, 48)
+TheHub.Font = Enum.Font.SourceSans
+TheHub.Text = ""
+TheHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+TheHub.TextSize = 14.000
+
+TextLabel_Roundify_12px.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px.Parent = TheHub
+TextLabel_Roundify_12px.Active = true
+TextLabel_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px.Position = UDim2.new(0.616666675, 0, 1.39583337, 0)
+TextLabel_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px.ImageColor3 = Color3.fromRGB(255, 118, 39)
+TextLabel_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px.SliceScale = 0.120
+
+TextHub.Name = "TextHub"
+TextHub.Parent = TopMain
+TextHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextHub.BackgroundTransparency = 1.000
+TextHub.Position = UDim2.new(0.460036069, 0, 2.03571439, 0)
+TextHub.Size = UDim2.new(0, 104, 0, 27)
+TextHub.Font = Enum.Font.SourceSansLight
+TextHub.Text = " Hub"
+TextHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextHub.TextSize = 40.000
+
+AdminPageButton.Name = "AdminPageButton"
+AdminPageButton.Parent = TopMain
+AdminPageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AdminPageButton.BackgroundTransparency = 1.000
+AdminPageButton.BorderSizePixel = 0
+AdminPageButton.Position = UDim2.new(0.0501001999, 0, 1.46428573, 0)
+AdminPageButton.Size = UDim2.new(0, 140, 0, 46)
+AdminPageButton.Font = Enum.Font.SourceSans
+AdminPageButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+AdminPageButton.TextSize = 14.000
+
+AdminPageButton_Roundify_12px.Name = "AdminPageButton_Roundify_12px"
+AdminPageButton_Roundify_12px.Parent = AdminPageButton
+AdminPageButton_Roundify_12px.Active = true
+AdminPageButton_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+AdminPageButton_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AdminPageButton_Roundify_12px.BackgroundTransparency = 1.000
+AdminPageButton_Roundify_12px.Position = UDim2.new(0.428571433, 0, 0.608695626, 0)
+AdminPageButton_Roundify_12px.Selectable = true
+AdminPageButton_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+AdminPageButton_Roundify_12px.Image = "rbxassetid://3570695787"
+AdminPageButton_Roundify_12px.ImageColor3 = Color3.fromRGB(255, 118, 39)
+AdminPageButton_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+AdminPageButton_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+AdminPageButton_Roundify_12px.SliceScale = 0.120
+
+AdminScriptsText.Name = "AdminScriptsText"
+AdminScriptsText.Parent = AdminPageButton
+AdminScriptsText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AdminScriptsText.BackgroundTransparency = 1.000
+AdminScriptsText.Position = UDim2.new(-0.285714209, 0, 0.0652175099, 0)
+AdminScriptsText.Size = UDim2.new(0, 200, 0, 50)
+AdminScriptsText.Font = Enum.Font.SourceSansLight
+AdminScriptsText.Text = "Admin Scripts"
+AdminScriptsText.TextColor3 = Color3.fromRGB(0, 0, 0)
+AdminScriptsText.TextSize = 20.000
+
+Page1Button.Name = "Page1Button"
+Page1Button.Parent = TopMain
+Page1Button.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Page1Button.BackgroundTransparency = 1.000
+Page1Button.BorderSizePixel = 0
+Page1Button.Position = UDim2.new(0.697394788, 0, 2.07142878, 0)
+Page1Button.Size = UDim2.new(0, 25, 0, 25)
+Page1Button.Font = Enum.Font.SourceSans
+Page1Button.Text = "1"
+Page1Button.TextColor3 = Color3.fromRGB(0, 0, 0)
+Page1Button.TextSize = 14.000
+
+Page1Button_Roundify_12px.Name = "Page1Button_Roundify_12px"
+Page1Button_Roundify_12px.Parent = Page1Button
+Page1Button_Roundify_12px.Active = true
+Page1Button_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+Page1Button_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+Page1Button_Roundify_12px.BackgroundTransparency = 1.000
+Page1Button_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+Page1Button_Roundify_12px.Selectable = true
+Page1Button_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+Page1Button_Roundify_12px.Image = "rbxassetid://3570695787"
+Page1Button_Roundify_12px.ImageColor3 = Color3.fromRGB(255, 118, 39)
+Page1Button_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+Page1Button_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+Page1Button_Roundify_12px.SliceScale = 0.120
+
+TextLabel_23.Parent = Page1Button
+TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.BackgroundTransparency = 1.000
+TextLabel_23.Position = UDim2.new(0.160000324, 0, -0.184078202, 0)
+TextLabel_23.Size = UDim2.new(0, 16, 0, 34)
+TextLabel_23.Font = Enum.Font.SourceSansLight
+TextLabel_23.Text = "1"
+TextLabel_23.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_23.TextSize = 18.000
+
+Page2Button.Name = "Page2Button"
+Page2Button.Parent = TopMain
+Page2Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page2Button.BackgroundTransparency = 1.000
+Page2Button.BorderSizePixel = 0
+Page2Button.Position = UDim2.new(0.781563103, 0, 2.07142878, 0)
+Page2Button.Size = UDim2.new(0, 25, 0, 25)
+Page2Button.Font = Enum.Font.SourceSans
+Page2Button.Text = "2"
+Page2Button.TextColor3 = Color3.fromRGB(0, 0, 0)
+Page2Button.TextSize = 14.000
+
+Page2Button_Roundify_12px.Name = "Page2Button_Roundify_12px"
+Page2Button_Roundify_12px.Parent = Page2Button
+Page2Button_Roundify_12px.Active = true
+Page2Button_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+Page2Button_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page2Button_Roundify_12px.BackgroundTransparency = 1.000
+Page2Button_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+Page2Button_Roundify_12px.Selectable = true
+Page2Button_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+Page2Button_Roundify_12px.Image = "rbxassetid://3570695787"
+Page2Button_Roundify_12px.ImageColor3 = Color3.fromRGB(255, 118, 39)
+Page2Button_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+Page2Button_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+Page2Button_Roundify_12px.SliceScale = 0.120
+
+TextLabel_24.Parent = Page2Button
+TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.BackgroundTransparency = 1.000
+TextLabel_24.Position = UDim2.new(0.159999996, 0, -0.187999994, 0)
+TextLabel_24.Size = UDim2.new(0, 16, 0, 34)
+TextLabel_24.Font = Enum.Font.SourceSansLight
+TextLabel_24.Text = "2"
+TextLabel_24.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_24.TextSize = 18.000
+
+Page3Button.Name = "Page3Button"
+Page3Button.Parent = TopMain
+Page3Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page3Button.BackgroundTransparency = 1.000
+Page3Button.BorderSizePixel = 0
+Page3Button.Position = UDim2.new(0.866999984, 0, 2.0710001, 0)
+Page3Button.Size = UDim2.new(0, 25, 0, 25)
+Page3Button.Font = Enum.Font.SourceSans
+Page3Button.Text = "3"
+Page3Button.TextColor3 = Color3.fromRGB(0, 0, 0)
+Page3Button.TextSize = 14.000
+
+Page3Button_Roundify_12px.Name = "Page3Button_Roundify_12px"
+Page3Button_Roundify_12px.Parent = Page3Button
+Page3Button_Roundify_12px.Active = true
+Page3Button_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+Page3Button_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page3Button_Roundify_12px.BackgroundTransparency = 1.000
+Page3Button_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+Page3Button_Roundify_12px.Selectable = true
+Page3Button_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+Page3Button_Roundify_12px.Image = "rbxassetid://3570695787"
+Page3Button_Roundify_12px.ImageColor3 = Color3.fromRGB(255, 118, 39)
+Page3Button_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+Page3Button_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+Page3Button_Roundify_12px.SliceScale = 0.120
+
+TextLabel_25.Parent = Page3Button
+TextLabel_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.BackgroundTransparency = 1.000
+TextLabel_25.BorderSizePixel = 0
+TextLabel_25.Position = UDim2.new(-0.23999995, 0, -0.176369637, 0)
+TextLabel_25.Size = UDim2.new(0, 36, 0, 33)
+TextLabel_25.Font = Enum.Font.SourceSansLight
+TextLabel_25.Text = "3"
+TextLabel_25.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_25.TextSize = 18.000
+
+-- Scripts:
+
+local function ZLLOUI_fake_script() -- OpenClose.OpenCloseFunction 
+	local script = Instance.new('Script', OpenClose)
+
+	local TopMain = script.Parent.Parent.TopMain
+	script.Parent.MouseButton1Click:Connect(function()
+		if TopMain.Visible == false then
+			TopMain.Visible = true
+		else
+			TopMain.Visible = false
+		end
+	end)
+end
+coroutine.wrap(ZLLOUI_fake_script)()
+local function PHIRTP_fake_script() -- OpenClose.OpenCloseDrag 
+	local script = Instance.new('Script', OpenClose)
+
+	local XTab = script.Parent
+	
+	XTab.Active = true
+	XTab.Selectable = true
+	XTab.Draggable = true
+end
+coroutine.wrap(PHIRTP_fake_script)()
+local function EKGEBOZ_fake_script() -- FeSozial.Script 
+	local script = Instance.new('Script', FeSozial)
+
+	local FeSozButton = script.Parent
+	
+	FeSozButton.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/PanzerKampfMeinFuhr1/FeSozial/main/TheHubRawScript'),true))()
+	end)
+end
+coroutine.wrap(EKGEBOZ_fake_script)()
+local function OEJJ_fake_script() -- ChatBypass.Script 
+	local script = Instance.new('Script', ChatBypass)
+
+	local ChatBB = script.Parent
+	
+	ChatBB.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/bedra45/chetbypasser/main/chetbypass'))()
+	end)
+end
+coroutine.wrap(OEJJ_fake_script)()
+local function TYVUIRQ_fake_script() -- FlingSniper.Script 
+	local script = Instance.new('Script', FlingSniper)
+
+	local sniperbutton = script.Parent
+	
+	sniperbutton.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/CPwjPg7N'),true))()
+	end)
+end
+coroutine.wrap(TYVUIRQ_fake_script)()
+local function UNWBWF_fake_script() -- NepV.Script 
+	local script = Instance.new('Script', NepV)
+
+	local NepVButton = script.Parent
+	
+	NepVButton.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/t0Mkc33N"))()
+	end)
+end
+coroutine.wrap(UNWBWF_fake_script)()
+local function OAVMMZ_fake_script() -- BadCop.Script 
+	local script = Instance.new('Script', BadCop)
+
+	local CopB = script.Parent
+	
+	CopB.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/PanzerKampfMeinFuhr1/fecop/main/fecopraw'),true))()
+	end)
+end
+coroutine.wrap(OAVMMZ_fake_script)()
+local function ATLF_fake_script() -- AbyssEye.Script 
+	local script = Instance.new('Script', AbyssEye)
+
+	local AbyssButton = script.Parent
+	
+	AbyssButton.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://paste.ee/r/tUPmo/0"))()
+	end)
+end
+coroutine.wrap(ATLF_fake_script)()
+local function GCAUSFR_fake_script() -- FeCarnage.Script 
+	local script = Instance.new('Script', FeCarnage)
+
+	local FeCarnButton = script.Parent
+	
+	FeCarnButton.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/2BKNVKTv'),true))()
+	end)
+end
+coroutine.wrap(GCAUSFR_fake_script)()
+local function AIRQHX_fake_script() -- RBNeptunian.Script 
+	local script = Instance.new('Script', RBNeptunian)
+
+	local rbnep = script.Parent
+	
+	rbnep.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/dCwg6C2z'),true))()
+	end)
+end
+coroutine.wrap(AIRQHX_fake_script)()
+local function YBCEB_fake_script() -- Shattervast.Script 
+	local script = Instance.new('Script', Shattervast)
+
+	local ShatterVButton = script.Parent
+	
+	ShatterVButton.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/MjmdAaq2'),true))()
+	end)
+end
+coroutine.wrap(YBCEB_fake_script)()
+local function ZXHYB_fake_script() -- InfY.Script 
+	local script = Instance.new('Script', InfY)
+
+	local InfYieldButton = script.Parent
+	
+	InfYieldButton.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+end
+coroutine.wrap(ZXHYB_fake_script)()
+local function AKPCCP_fake_script() -- CMDX.Script 
+	local script = Instance.new('Script', CMDX)
+
+	local CmdXButton = script.Parent
+	
+	CmdXButton.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+	end)
+end
+coroutine.wrap(AKPCCP_fake_script)()
+local function KRXXOQR_fake_script() -- AdminPageButton.AdminPageScript 
+	local script = Instance.new('Script', AdminPageButton)
+
+	local AdminPageButton = script.Parent
+	local page1 = script.Parent.Parent.Page1
+	local page2 = script.Parent.Parent.Page2
+	local page3 = script.Parent.Parent.Page3
+	local AdminPage = script.Parent.Parent.AdminPagePremium
+	
+	AdminPageButton.MouseButton1Down:Connect(function()
+		page1.Visible = false
+		page2.Visible = false
+		page3.Visible = false
+		AdminPage.Visible = true
+		
+	end)
+end
+coroutine.wrap(KRXXOQR_fake_script)()
+local function MHULZO_fake_script() -- Page1Button.Page1Script 
+	local script = Instance.new('Script', Page1Button)
+
+	local button1 = script.Parent
+	local Page1 = script.Parent.Parent.Page1
+	local Page2 = script.Parent.Parent.Page2
+	local Page3 = script.Parent.Parent.Page3
+	local AdminPage = script.Parent.Parent.AdminPagePremium
+	
+	button1.MouseButton1Down:connect(function()
+		Page1.Visible = true
+		Page2.Visible = false
+		Page3.Visible = false
+		AdminPage.Visible = false
+	end)
+end
+coroutine.wrap(MHULZO_fake_script)()
+local function WHMLMOP_fake_script() -- Page2Button.Page2Script 
+	local script = Instance.new('Script', Page2Button)
+
+	local button2 = script.Parent
+	local Page1 = script.Parent.Parent.Page1
+	local Page2 = script.Parent.Parent.Page2
+	local Page3 = script.Parent.Parent.Page3
+	local AdminPage = script.Parent.Parent.AdminPagePremium
+	
+	button2.MouseButton1Down:connect(function()
+		Page2.Visible = true
+		Page1.Visible = false
+		Page3.Visible = false
+		AdminPage.Visible = false
+	end)
+end
+coroutine.wrap(WHMLMOP_fake_script)()
+local function ILLJXCU_fake_script() -- Page3Button.Page3Script 
+	local script = Instance.new('Script', Page3Button)
+
+	local button3 = script.Parent
+	local Page1 = script.Parent.Parent.Page1
+	local Page2 = script.Parent.Parent.Page2
+	local Page3 = script.Parent.Parent.Page3
+	local AdminPage = script.Parent.Parent.AdminPagePremium
+	
+	button3.MouseButton1Down:connect(function()
+		Page3.Visible = true
+		Page2.Visible = false
+		Page1.Visible = false
+		AdminPage.Visible = false
+	end)
+end
+coroutine.wrap(ILLJXCU_fake_script)()
+local function IJDDVGX_fake_script() -- TopMain.TopMainDraggable 
+	local script = Instance.new('LocalScript', TopMain)
+
+	local TopMain = script.Parent
+	
+	TopMain.Draggable = true
+	TopMain.Active = true
+	TopMain.Selectable = true
+	
+	
+end
+coroutine.wrap(IJDDVGX_fake_script)()
