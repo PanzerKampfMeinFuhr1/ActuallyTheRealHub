@@ -1,7 +1,7 @@
 -- Gui to Lua
 -- Version: 3.2
 
--- Instances:
+--[[Made by PanzerKampfMeinFuhr1 my habibi]]--
 
 local Hub = Instance.new("ScreenGui")
 local OpenClose = Instance.new("TextButton")
@@ -94,6 +94,7 @@ local TextLabel_24 = Instance.new("TextLabel")
 local Page3Button = Instance.new("TextButton")
 local Page3Button_Roundify_12px = Instance.new("ImageLabel")
 local TextLabel_25 = Instance.new("TextLabel")
+local ThingToBalanceOutThing = Instance.new("Frame")
 
 --Properties:
 
@@ -145,14 +146,14 @@ TopMain.Name = "TopMain"
 TopMain.Parent = Hub
 TopMain.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
 TopMain.BorderSizePixel = 0
-TopMain.Position = UDim2.new(0.208970428, 0, 0.262596101, 0)
-TopMain.Size = UDim2.new(0, 499, 0, 28)
+TopMain.Position = UDim2.new(0.208970442, 0, 0.239829019, 0)
+TopMain.Size = UDim2.new(0, 499, 0, 41)
 
 Page1.Name = "Page1"
 Page1.Parent = TopMain
 Page1.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 Page1.BorderSizePixel = 0
-Page1.Position = UDim2.new(-4.08531632e-05, 0, 0.987399578, 0)
+Page1.Position = UDim2.new(-4.08531632e-05, 0, 0.808828115, 0)
 Page1.Size = UDim2.new(0, 499, 0, 250)
 
 FeSozial.Name = "FeSozial"
@@ -347,6 +348,7 @@ AbyssEye.BackgroundTransparency = 1.000
 AbyssEye.BorderSizePixel = 0
 AbyssEye.Position = UDim2.new(0.0240480993, 0, 0.367999971, 0)
 AbyssEye.Size = UDim2.new(0, 150, 0, 40)
+AbyssEye.Selected = true
 AbyssEye.Font = Enum.Font.SourceSansLight
 AbyssEye.Text = "Abyss Eye"
 AbyssEye.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -381,7 +383,7 @@ Page2.Name = "Page2"
 Page2.Parent = TopMain
 Page2.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 Page2.BorderSizePixel = 0
-Page2.Position = UDim2.new(-4.08531923e-05, 0, 0.987399518, 0)
+Page2.Position = UDim2.new(-4.08531923e-05, 0, 0.808828115, 0)
 Page2.Size = UDim2.new(0, 499, 0, 250)
 Page2.Visible = false
 
@@ -611,7 +613,7 @@ Page3.Name = "Page3"
 Page3.Parent = TopMain
 Page3.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 Page3.BorderSizePixel = 0
-Page3.Position = UDim2.new(-4.08531923e-05, 0, 0.987399518, 0)
+Page3.Position = UDim2.new(-4.08531923e-05, 0, 0.808828115, 0)
 Page3.Size = UDim2.new(0, 499, 0, 250)
 Page3.Visible = false
 
@@ -841,7 +843,7 @@ AdminPagePremium.Name = "AdminPagePremium"
 AdminPagePremium.Parent = TopMain
 AdminPagePremium.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 AdminPagePremium.BorderSizePixel = 0
-AdminPagePremium.Position = UDim2.new(-4.08531923e-05, 0, 0.987399518, 0)
+AdminPagePremium.Position = UDim2.new(-4.08531923e-05, 0, 0.808828115, 0)
 AdminPagePremium.Size = UDim2.new(0, 499, 0, 250)
 AdminPagePremium.Visible = false
 
@@ -970,7 +972,7 @@ FeScriptHubTitle.Name = "FeScriptHubTitle"
 FeScriptHubTitle.Parent = TopMain
 FeScriptHubTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 FeScriptHubTitle.BackgroundTransparency = 1.000
-FeScriptHubTitle.Position = UDim2.new(0.344689369, 0, 0.197714299, 0)
+FeScriptHubTitle.Position = UDim2.new(0.368000001, 0, 0.200000003, 0)
 FeScriptHubTitle.Size = UDim2.new(0, 164, 0, 16)
 FeScriptHubTitle.Font = Enum.Font.SourceSans
 FeScriptHubTitle.Text = "FE Script Hub"
@@ -981,7 +983,7 @@ MadeBy.Name = "MadeBy"
 MadeBy.Parent = TopMain
 MadeBy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 MadeBy.BackgroundTransparency = 1.000
-MadeBy.Position = UDim2.new(0.298597187, 0, 8.12514305, 0)
+MadeBy.Position = UDim2.new(0.308617234, 0, 5.67827892, 0)
 MadeBy.Size = UDim2.new(0, 200, 0, 50)
 MadeBy.Font = Enum.Font.SourceSans
 MadeBy.Text = "Made By PanzerKampfMeinFuhr1"
@@ -992,7 +994,7 @@ TextThe.Name = "TextThe"
 TextThe.Parent = TopMain
 TextThe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextThe.BackgroundTransparency = 1.000
-TextThe.Position = UDim2.new(0.331024051, 0, 1.96399999, 0)
+TextThe.Position = UDim2.new(0.329020053, 0, 1.80981874, 0)
 TextThe.Size = UDim2.new(0, 104, 0, 27)
 TextThe.Font = Enum.Font.SourceSansLight
 TextThe.Text = " The"
@@ -1005,7 +1007,7 @@ TheHub.Active = true
 TheHub.BackgroundColor3 = Color3.fromRGB(255, 118, 39)
 TheHub.BackgroundTransparency = 1.000
 TheHub.BorderSizePixel = 0
-TheHub.Position = UDim2.new(0.496993989, 0, 0.0759999976, 0)
+TheHub.Position = UDim2.new(0.496993989, 0, -0.102571435, 0)
 TheHub.Size = UDim2.new(0, 60, 0, 48)
 TheHub.Font = Enum.Font.SourceSans
 TheHub.Text = ""
@@ -1018,7 +1020,7 @@ TextLabel_Roundify_12px.Active = true
 TextLabel_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
 TextLabel_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_Roundify_12px.BackgroundTransparency = 1.000
-TextLabel_Roundify_12px.Position = UDim2.new(0.616666675, 0, 1.39583337, 0)
+TextLabel_Roundify_12px.Position = UDim2.new(0.616666675, 0, 1.875, 0)
 TextLabel_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
 TextLabel_Roundify_12px.Image = "rbxassetid://3570695787"
 TextLabel_Roundify_12px.ImageColor3 = Color3.fromRGB(255, 118, 39)
@@ -1030,7 +1032,7 @@ TextHub.Name = "TextHub"
 TextHub.Parent = TopMain
 TextHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextHub.BackgroundTransparency = 1.000
-TextHub.Position = UDim2.new(0.460036069, 0, 2.03571439, 0)
+TextHub.Position = UDim2.new(0.460036069, 0, 1.8327527, 0)
 TextHub.Size = UDim2.new(0, 104, 0, 27)
 TextHub.Font = Enum.Font.SourceSansLight
 TextHub.Text = " Hub"
@@ -1042,7 +1044,7 @@ AdminPageButton.Parent = TopMain
 AdminPageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 AdminPageButton.BackgroundTransparency = 1.000
 AdminPageButton.BorderSizePixel = 0
-AdminPageButton.Position = UDim2.new(0.0501001999, 0, 1.46428573, 0)
+AdminPageButton.Position = UDim2.new(0.0501001999, 0, 1.28571427, 0)
 AdminPageButton.Size = UDim2.new(0, 140, 0, 46)
 AdminPageButton.Font = Enum.Font.SourceSans
 AdminPageButton.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -1079,7 +1081,7 @@ Page1Button.Parent = TopMain
 Page1Button.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Page1Button.BackgroundTransparency = 1.000
 Page1Button.BorderSizePixel = 0
-Page1Button.Position = UDim2.new(0.697394788, 0, 2.07142878, 0)
+Page1Button.Position = UDim2.new(0.697394788, 0, 1.89285731, 0)
 Page1Button.Size = UDim2.new(0, 25, 0, 25)
 Page1Button.Font = Enum.Font.SourceSans
 Page1Button.Text = "1"
@@ -1116,7 +1118,7 @@ Page2Button.Parent = TopMain
 Page2Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Page2Button.BackgroundTransparency = 1.000
 Page2Button.BorderSizePixel = 0
-Page2Button.Position = UDim2.new(0.781563103, 0, 2.07142878, 0)
+Page2Button.Position = UDim2.new(0.781563103, 0, 1.89285731, 0)
 Page2Button.Size = UDim2.new(0, 25, 0, 25)
 Page2Button.Font = Enum.Font.SourceSans
 Page2Button.Text = "2"
@@ -1153,7 +1155,7 @@ Page3Button.Parent = TopMain
 Page3Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Page3Button.BackgroundTransparency = 1.000
 Page3Button.BorderSizePixel = 0
-Page3Button.Position = UDim2.new(0.866999984, 0, 2.0710001, 0)
+Page3Button.Position = UDim2.new(0.866999984, 0, 1.89242864, 0)
 Page3Button.Size = UDim2.new(0, 25, 0, 25)
 Page3Button.Font = Enum.Font.SourceSans
 Page3Button.Text = "3"
@@ -1186,9 +1188,16 @@ TextLabel_25.Text = "3"
 TextLabel_25.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_25.TextSize = 18.000
 
+ThingToBalanceOutThing.Name = "ThingToBalanceOutThing"
+ThingToBalanceOutThing.Parent = TopMain
+ThingToBalanceOutThing.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+ThingToBalanceOutThing.BorderSizePixel = 0
+ThingToBalanceOutThing.Position = UDim2.new(-4.08531923e-05, 0, 6.71126652, 0)
+ThingToBalanceOutThing.Size = UDim2.new(0, 499, 0, 15)
+
 -- Scripts:
 
-local function ZLLOUI_fake_script() -- OpenClose.OpenCloseFunction 
+local function RNAINW_fake_script() -- OpenClose.OpenCloseFunction 
 	local script = Instance.new('Script', OpenClose)
 
 	local TopMain = script.Parent.Parent.TopMain
@@ -1200,8 +1209,8 @@ local function ZLLOUI_fake_script() -- OpenClose.OpenCloseFunction
 		end
 	end)
 end
-coroutine.wrap(ZLLOUI_fake_script)()
-local function PHIRTP_fake_script() -- OpenClose.OpenCloseDrag 
+coroutine.wrap(RNAINW_fake_script)()
+local function NCEMODR_fake_script() -- OpenClose.OpenCloseDrag 
 	local script = Instance.new('Script', OpenClose)
 
 	local XTab = script.Parent
@@ -1210,18 +1219,18 @@ local function PHIRTP_fake_script() -- OpenClose.OpenCloseDrag
 	XTab.Selectable = true
 	XTab.Draggable = true
 end
-coroutine.wrap(PHIRTP_fake_script)()
-local function EKGEBOZ_fake_script() -- FeSozial.Script 
+coroutine.wrap(NCEMODR_fake_script)()
+local function QVCE_fake_script() -- FeSozial.Script 
 	local script = Instance.new('Script', FeSozial)
 
 	local FeSozButton = script.Parent
 	
 	FeSozButton.MouseButton1Down:Connect(function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/PanzerKampfMeinFuhr1/FeSozial/main/TheHubRawScript'),true))()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/PanzerKampfMeinFuhr1/TheHub/main/TheHubRawScript'),true))()
 	end)
 end
-coroutine.wrap(EKGEBOZ_fake_script)()
-local function OEJJ_fake_script() -- ChatBypass.Script 
+coroutine.wrap(QVCE_fake_script)()
+local function YPHOK_fake_script() -- ChatBypass.Script 
 	local script = Instance.new('Script', ChatBypass)
 
 	local ChatBB = script.Parent
@@ -1230,8 +1239,8 @@ local function OEJJ_fake_script() -- ChatBypass.Script
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/bedra45/chetbypasser/main/chetbypass'))()
 	end)
 end
-coroutine.wrap(OEJJ_fake_script)()
-local function TYVUIRQ_fake_script() -- FlingSniper.Script 
+coroutine.wrap(YPHOK_fake_script)()
+local function ZYEWZ_fake_script() -- FlingSniper.Script 
 	local script = Instance.new('Script', FlingSniper)
 
 	local sniperbutton = script.Parent
@@ -1240,8 +1249,8 @@ local function TYVUIRQ_fake_script() -- FlingSniper.Script
 		loadstring(game:HttpGet(('https://pastebin.com/raw/CPwjPg7N'),true))()
 	end)
 end
-coroutine.wrap(TYVUIRQ_fake_script)()
-local function UNWBWF_fake_script() -- NepV.Script 
+coroutine.wrap(ZYEWZ_fake_script)()
+local function CQGAYM_fake_script() -- NepV.Script 
 	local script = Instance.new('Script', NepV)
 
 	local NepVButton = script.Parent
@@ -1250,18 +1259,18 @@ local function UNWBWF_fake_script() -- NepV.Script
 		loadstring(game:HttpGetAsync("https://pastebin.com/raw/t0Mkc33N"))()
 	end)
 end
-coroutine.wrap(UNWBWF_fake_script)()
-local function OAVMMZ_fake_script() -- BadCop.Script 
+coroutine.wrap(CQGAYM_fake_script)()
+local function DTIPWAF_fake_script() -- BadCop.Script 
 	local script = Instance.new('Script', BadCop)
 
 	local CopB = script.Parent
 	
 	CopB.MouseButton1Down:Connect(function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/PanzerKampfMeinFuhr1/fecop/main/fecopraw'),true))()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/d8Ew8aKS'),true))()
 	end)
 end
-coroutine.wrap(OAVMMZ_fake_script)()
-local function ATLF_fake_script() -- AbyssEye.Script 
+coroutine.wrap(DTIPWAF_fake_script)()
+local function YSAVTP_fake_script() -- AbyssEye.Script 
 	local script = Instance.new('Script', AbyssEye)
 
 	local AbyssButton = script.Parent
@@ -1269,9 +1278,11 @@ local function ATLF_fake_script() -- AbyssEye.Script
 	AbyssButton.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://paste.ee/r/tUPmo/0"))()
 	end)
+	
+	
 end
-coroutine.wrap(ATLF_fake_script)()
-local function GCAUSFR_fake_script() -- FeCarnage.Script 
+coroutine.wrap(YSAVTP_fake_script)()
+local function YKFGTL_fake_script() -- FeCarnage.Script 
 	local script = Instance.new('Script', FeCarnage)
 
 	local FeCarnButton = script.Parent
@@ -1280,8 +1291,8 @@ local function GCAUSFR_fake_script() -- FeCarnage.Script
 		loadstring(game:HttpGet(('https://pastebin.com/raw/2BKNVKTv'),true))()
 	end)
 end
-coroutine.wrap(GCAUSFR_fake_script)()
-local function AIRQHX_fake_script() -- RBNeptunian.Script 
+coroutine.wrap(YKFGTL_fake_script)()
+local function ZYBZNTS_fake_script() -- RBNeptunian.Script 
 	local script = Instance.new('Script', RBNeptunian)
 
 	local rbnep = script.Parent
@@ -1290,8 +1301,8 @@ local function AIRQHX_fake_script() -- RBNeptunian.Script
 		loadstring(game:HttpGet(('https://pastebin.com/raw/dCwg6C2z'),true))()
 	end)
 end
-coroutine.wrap(AIRQHX_fake_script)()
-local function YBCEB_fake_script() -- Shattervast.Script 
+coroutine.wrap(ZYBZNTS_fake_script)()
+local function EMMIVV_fake_script() -- Shattervast.Script 
 	local script = Instance.new('Script', Shattervast)
 
 	local ShatterVButton = script.Parent
@@ -1300,8 +1311,8 @@ local function YBCEB_fake_script() -- Shattervast.Script
 		loadstring(game:HttpGet(('https://pastebin.com/raw/MjmdAaq2'),true))()
 	end)
 end
-coroutine.wrap(YBCEB_fake_script)()
-local function ZXHYB_fake_script() -- InfY.Script 
+coroutine.wrap(EMMIVV_fake_script)()
+local function HGLK_fake_script() -- InfY.Script 
 	local script = Instance.new('Script', InfY)
 
 	local InfYieldButton = script.Parent
@@ -1310,8 +1321,8 @@ local function ZXHYB_fake_script() -- InfY.Script
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(ZXHYB_fake_script)()
-local function AKPCCP_fake_script() -- CMDX.Script 
+coroutine.wrap(HGLK_fake_script)()
+local function WRILAP_fake_script() -- CMDX.Script 
 	local script = Instance.new('Script', CMDX)
 
 	local CmdXButton = script.Parent
@@ -1320,8 +1331,8 @@ local function AKPCCP_fake_script() -- CMDX.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
 	end)
 end
-coroutine.wrap(AKPCCP_fake_script)()
-local function KRXXOQR_fake_script() -- AdminPageButton.AdminPageScript 
+coroutine.wrap(WRILAP_fake_script)()
+local function HCDEEWH_fake_script() -- AdminPageButton.AdminPageScript 
 	local script = Instance.new('Script', AdminPageButton)
 
 	local AdminPageButton = script.Parent
@@ -1338,8 +1349,8 @@ local function KRXXOQR_fake_script() -- AdminPageButton.AdminPageScript
 		
 	end)
 end
-coroutine.wrap(KRXXOQR_fake_script)()
-local function MHULZO_fake_script() -- Page1Button.Page1Script 
+coroutine.wrap(HCDEEWH_fake_script)()
+local function YHWOF_fake_script() -- Page1Button.Page1Script 
 	local script = Instance.new('Script', Page1Button)
 
 	local button1 = script.Parent
@@ -1355,8 +1366,8 @@ local function MHULZO_fake_script() -- Page1Button.Page1Script
 		AdminPage.Visible = false
 	end)
 end
-coroutine.wrap(MHULZO_fake_script)()
-local function WHMLMOP_fake_script() -- Page2Button.Page2Script 
+coroutine.wrap(YHWOF_fake_script)()
+local function WYOQTDH_fake_script() -- Page2Button.Page2Script 
 	local script = Instance.new('Script', Page2Button)
 
 	local button2 = script.Parent
@@ -1372,8 +1383,8 @@ local function WHMLMOP_fake_script() -- Page2Button.Page2Script
 		AdminPage.Visible = false
 	end)
 end
-coroutine.wrap(WHMLMOP_fake_script)()
-local function ILLJXCU_fake_script() -- Page3Button.Page3Script 
+coroutine.wrap(WYOQTDH_fake_script)()
+local function IDVII_fake_script() -- Page3Button.Page3Script 
 	local script = Instance.new('Script', Page3Button)
 
 	local button3 = script.Parent
@@ -1389,8 +1400,8 @@ local function ILLJXCU_fake_script() -- Page3Button.Page3Script
 		AdminPage.Visible = false
 	end)
 end
-coroutine.wrap(ILLJXCU_fake_script)()
-local function IJDDVGX_fake_script() -- TopMain.TopMainDraggable 
+coroutine.wrap(IDVII_fake_script)()
+local function PILYW_fake_script() -- TopMain.TopMainDraggable 
 	local script = Instance.new('LocalScript', TopMain)
 
 	local TopMain = script.Parent
@@ -1401,4 +1412,4 @@ local function IJDDVGX_fake_script() -- TopMain.TopMainDraggable
 	
 	
 end
-coroutine.wrap(IJDDVGX_fake_script)()
+coroutine.wrap(PILYW_fake_script)()
