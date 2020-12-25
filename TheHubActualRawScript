@@ -1,12 +1,9 @@
 -- Gui to Lua
 -- Version: 3.2
 
---[[Made by PanzerKampfMeinFuhr1]]--
+--[[Made By PanzerKampfMeinFuhr1 Bruv]]--
 
 local Hub = Instance.new("ScreenGui")
-local OpenClose = Instance.new("TextButton")
-local OpenClose_Roundify_12px = Instance.new("ImageLabel")
-local OpenCloseText = Instance.new("TextLabel")
 local TopMain = Instance.new("Frame")
 local Page1 = Instance.new("Frame")
 local FeSozial = Instance.new("TextButton")
@@ -77,7 +74,6 @@ local AbyssEye_Roundify_12px_2 = Instance.new("ImageLabel")
 local TextLabel_21 = Instance.new("TextLabel")
 local TextLabel_22 = Instance.new("TextLabel")
 local MadeBy = Instance.new("TextLabel")
-local TextThe = Instance.new("TextLabel")
 local TheHub = Instance.new("TextLabel")
 local TextLabel_Roundify_12px = Instance.new("ImageLabel")
 local TextHub = Instance.new("TextLabel")
@@ -94,55 +90,28 @@ local Page3Button = Instance.new("TextButton")
 local Page3Button_Roundify_12px = Instance.new("ImageLabel")
 local TextLabel_25 = Instance.new("TextLabel")
 local ThingToBalanceOutThing = Instance.new("ImageLabel")
-local RoundMain = Instance.new("ImageLabel")
 local Rounder = Instance.new("Frame")
+local TextThe = Instance.new("TextLabel")
+local Balancer = Instance.new("ImageLabel")
+local Balancer11 = Instance.new("ImageLabel")
 local TextLabel_26 = Instance.new("TextLabel")
+local Balancer3 = Instance.new("Frame")
+local Balancer2 = Instance.new("Frame")
+local DateText = Instance.new("TextLabel")
+local UpdateTing = Instance.new("ScrollingFrame")
+local UpdateText = Instance.new("TextLabel")
+local UpdateText1 = Instance.new("TextLabel")
+local UpdateText2 = Instance.new("TextLabel")
+local UpdateText3 = Instance.new("TextLabel")
+local PowerBtn = Instance.new("ImageButton")
+local ThingPopUp = Instance.new("TextLabel")
+local UpdateText4 = Instance.new("TextLabel")
 
 --Properties:
 
 Hub.Name = "Hub"
 Hub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 Hub.ResetOnSpawn = false
-
-OpenClose.Name = "OpenClose"
-OpenClose.Parent = Hub
-OpenClose.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
-OpenClose.BackgroundTransparency = 1.000
-OpenClose.BorderSizePixel = 0
-OpenClose.Position = UDim2.new(0.852191627, 0, 0.353619248, 0)
-OpenClose.Size = UDim2.new(0, 129, 0, 48)
-OpenClose.Font = Enum.Font.SourceSansSemibold
-OpenClose.Text = "Open/Close"
-OpenClose.TextColor3 = Color3.fromRGB(0, 0, 0)
-OpenClose.TextSize = 26.000
-OpenClose.TextStrokeTransparency = 0.000
-
-OpenClose_Roundify_12px.Name = "OpenClose_Roundify_12px"
-OpenClose_Roundify_12px.Parent = OpenClose
-OpenClose_Roundify_12px.Active = true
-OpenClose_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
-OpenClose_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-OpenClose_Roundify_12px.BackgroundTransparency = 1.000
-OpenClose_Roundify_12px.Position = UDim2.new(0.5, 0, 0.354166687, 0)
-OpenClose_Roundify_12px.Selectable = true
-OpenClose_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
-OpenClose_Roundify_12px.Image = "rbxassetid://3570695787"
-OpenClose_Roundify_12px.ImageColor3 = Color3.fromRGB(255, 170, 0)
-OpenClose_Roundify_12px.ScaleType = Enum.ScaleType.Slice
-OpenClose_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
-OpenClose_Roundify_12px.SliceScale = 0.120
-
-OpenCloseText.Name = "OpenCloseText"
-OpenCloseText.Parent = OpenClose
-OpenCloseText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-OpenCloseText.BackgroundTransparency = 1.000
-OpenCloseText.BorderSizePixel = 0
-OpenCloseText.Position = UDim2.new(-0.279069781, 0, -0.166666657, 0)
-OpenCloseText.Size = UDim2.new(0, 200, 0, 50)
-OpenCloseText.Font = Enum.Font.SourceSans
-OpenCloseText.Text = "Open/Close"
-OpenCloseText.TextColor3 = Color3.fromRGB(0, 0, 0)
-OpenCloseText.TextSize = 26.000
 
 TopMain.Name = "TopMain"
 TopMain.Parent = Hub
@@ -156,7 +125,7 @@ Page1.Name = "Page1"
 Page1.Parent = TopMain
 Page1.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 Page1.BorderSizePixel = 0
-Page1.Position = UDim2.new(-4.08531632e-05, 0, 0.808828115, 0)
+Page1.Position = UDim2.new(-0.242525831, 0, 0.223462284, 0)
 Page1.Size = UDim2.new(0, 499, 0, 250)
 
 FeSozial.Name = "FeSozial"
@@ -386,7 +355,7 @@ Page2.Name = "Page2"
 Page2.Parent = TopMain
 Page2.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 Page2.BorderSizePixel = 0
-Page2.Position = UDim2.new(-4.08531923e-05, 0, 0.808828115, 0)
+Page2.Position = UDim2.new(-0.242525831, 0, 0.223462284, 0)
 Page2.Size = UDim2.new(0, 499, 0, 250)
 Page2.Visible = false
 
@@ -616,7 +585,7 @@ Page3.Name = "Page3"
 Page3.Parent = TopMain
 Page3.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 Page3.BorderSizePixel = 0
-Page3.Position = UDim2.new(-4.08531923e-05, 0, 0.808828115, 0)
+Page3.Position = UDim2.new(-0.242525831, 0, 0.223462284, 0)
 Page3.Size = UDim2.new(0, 499, 0, 250)
 Page3.Visible = false
 
@@ -846,7 +815,7 @@ AdminPagePremium.Name = "AdminPagePremium"
 AdminPagePremium.Parent = TopMain
 AdminPagePremium.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 AdminPagePremium.BorderSizePixel = 0
-AdminPagePremium.Position = UDim2.new(-4.08531923e-05, 0, 0.808828115, 0)
+AdminPagePremium.Position = UDim2.new(-0.242525831, 0, 0.223462284, 0)
 AdminPagePremium.Size = UDim2.new(0, 499, 0, 250)
 AdminPagePremium.Visible = false
 
@@ -975,23 +944,12 @@ MadeBy.Name = "MadeBy"
 MadeBy.Parent = TopMain
 MadeBy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 MadeBy.BackgroundTransparency = 1.000
-MadeBy.Position = UDim2.new(0.308617234, 0, 5.67827892, 0)
+MadeBy.Position = UDim2.new(0.0681362674, 0, 4.89779139, 0)
 MadeBy.Size = UDim2.new(0, 200, 0, 50)
 MadeBy.Font = Enum.Font.SourceSans
 MadeBy.Text = "Made By PanzerKampfMeinFuhr1"
 MadeBy.TextColor3 = Color3.fromRGB(255, 148, 25)
 MadeBy.TextSize = 30.000
-
-TextThe.Name = "TextThe"
-TextThe.Parent = TopMain
-TextThe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextThe.BackgroundTransparency = 1.000
-TextThe.Position = UDim2.new(0.329020053, 0, 1.80981874, 0)
-TextThe.Size = UDim2.new(0, 104, 0, 27)
-TextThe.Font = Enum.Font.SourceSansLight
-TextThe.Text = " The"
-TextThe.TextColor3 = Color3.fromRGB(255, 118, 39)
-TextThe.TextSize = 40.000
 
 TheHub.Name = "TheHub"
 TheHub.Parent = TopMain
@@ -999,7 +957,7 @@ TheHub.Active = true
 TheHub.BackgroundColor3 = Color3.fromRGB(255, 118, 39)
 TheHub.BackgroundTransparency = 1.000
 TheHub.BorderSizePixel = 0
-TheHub.Position = UDim2.new(0.496993989, 0, -0.102571435, 0)
+TheHub.Position = UDim2.new(0.254509032, 0, -0.68793726, 0)
 TheHub.Size = UDim2.new(0, 60, 0, 48)
 TheHub.Font = Enum.Font.SourceSans
 TheHub.Text = ""
@@ -1024,7 +982,7 @@ TextHub.Name = "TextHub"
 TextHub.Parent = TopMain
 TextHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextHub.BackgroundTransparency = 1.000
-TextHub.Position = UDim2.new(0.460036069, 0, 1.8327527, 0)
+TextHub.Position = UDim2.new(0.217551097, 0, 1.24738693, 0)
 TextHub.Size = UDim2.new(0, 104, 0, 27)
 TextHub.Font = Enum.Font.SourceSansLight
 TextHub.Text = " Hub"
@@ -1036,7 +994,7 @@ AdminPageButton.Parent = TopMain
 AdminPageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 AdminPageButton.BackgroundTransparency = 1.000
 AdminPageButton.BorderSizePixel = 0
-AdminPageButton.Position = UDim2.new(0.0501001999, 0, 1.28571427, 0)
+AdminPageButton.Position = UDim2.new(-0.192384779, 0, 0.700348437, 0)
 AdminPageButton.Size = UDim2.new(0, 140, 0, 46)
 AdminPageButton.Font = Enum.Font.SourceSans
 AdminPageButton.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -1073,7 +1031,7 @@ Page1Button.Parent = TopMain
 Page1Button.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Page1Button.BackgroundTransparency = 1.000
 Page1Button.BorderSizePixel = 0
-Page1Button.Position = UDim2.new(0.697394788, 0, 1.89285731, 0)
+Page1Button.Position = UDim2.new(0.454909801, 0, 1.30749154, 0)
 Page1Button.Size = UDim2.new(0, 25, 0, 25)
 Page1Button.Font = Enum.Font.SourceSans
 Page1Button.Text = "1"
@@ -1110,7 +1068,7 @@ Page2Button.Parent = TopMain
 Page2Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Page2Button.BackgroundTransparency = 1.000
 Page2Button.BorderSizePixel = 0
-Page2Button.Position = UDim2.new(0.781563103, 0, 1.89285731, 0)
+Page2Button.Position = UDim2.new(0.539078116, 0, 1.30749154, 0)
 Page2Button.Size = UDim2.new(0, 25, 0, 25)
 Page2Button.Font = Enum.Font.SourceSans
 Page2Button.Text = "2"
@@ -1147,7 +1105,7 @@ Page3Button.Parent = TopMain
 Page3Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Page3Button.BackgroundTransparency = 1.000
 Page3Button.BorderSizePixel = 0
-Page3Button.Position = UDim2.new(0.866999984, 0, 1.89242864, 0)
+Page3Button.Position = UDim2.new(0.624514997, 0, 1.30706286, 0)
 Page3Button.Size = UDim2.new(0, 25, 0, 25)
 Page3Button.Font = Enum.Font.SourceSans
 Page3Button.Text = "3"
@@ -1184,7 +1142,7 @@ ThingToBalanceOutThing.Name = "ThingToBalanceOutThing"
 ThingToBalanceOutThing.Parent = TopMain
 ThingToBalanceOutThing.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ThingToBalanceOutThing.BackgroundTransparency = 1.000
-ThingToBalanceOutThing.Position = UDim2.new(-4.08531923e-05, 0, 6.71126652, 0)
+ThingToBalanceOutThing.Position = UDim2.new(-0.242525831, 0, 6.12590075, 0)
 ThingToBalanceOutThing.Size = UDim2.new(0, 499, 0, 15)
 ThingToBalanceOutThing.Image = "rbxassetid://3570695787"
 ThingToBalanceOutThing.ImageColor3 = Color3.fromRGB(15, 15, 15)
@@ -1192,61 +1150,170 @@ ThingToBalanceOutThing.ScaleType = Enum.ScaleType.Slice
 ThingToBalanceOutThing.SliceCenter = Rect.new(100, 100, 100, 100)
 ThingToBalanceOutThing.SliceScale = 0.120
 
-RoundMain.Name = "RoundMain"
-RoundMain.Parent = TopMain
-RoundMain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-RoundMain.BackgroundTransparency = 1.000
-RoundMain.Position = UDim2.new(-4.08531923e-05, 0, -0.15041481, 0)
-RoundMain.Size = UDim2.new(0, 499, 0, 52)
-RoundMain.Image = "rbxassetid://3570695787"
-RoundMain.ImageColor3 = Color3.fromRGB(25, 25, 25)
-RoundMain.ScaleType = Enum.ScaleType.Slice
-RoundMain.SliceCenter = Rect.new(100, 100, 100, 100)
-RoundMain.SliceScale = 0.120
-
 Rounder.Name = "Rounder"
 Rounder.Parent = TopMain
 Rounder.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 Rounder.BorderSizePixel = 0
-Rounder.Position = UDim2.new(-4.08531923e-05, 0, 0.93077904, 0)
+Rounder.Position = UDim2.new(-0.242525831, 0, 0.345413208, 0)
 Rounder.Size = UDim2.new(0, 497, 0, 9)
 
-TextLabel_26.Parent = TopMain
+TextThe.Name = "TextThe"
+TextThe.Parent = TopMain
+TextThe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextThe.BackgroundTransparency = 1.000
+TextThe.Position = UDim2.new(0.0865350813, 0, 1.22445297, 0)
+TextThe.Size = UDim2.new(0, 104, 0, 27)
+TextThe.Font = Enum.Font.SourceSansLight
+TextThe.Text = " The"
+TextThe.TextColor3 = Color3.fromRGB(255, 118, 39)
+TextThe.TextSize = 40.000
+
+Balancer.Name = "Balancer"
+Balancer.Parent = TopMain
+Balancer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Balancer.BackgroundTransparency = 1.000
+Balancer.Position = UDim2.new(-0.242525816, 0, -0.476373076, 0)
+Balancer.Size = UDim2.new(0, 499, 0, 42)
+Balancer.Image = "rbxassetid://3570695787"
+Balancer.ImageColor3 = Color3.fromRGB(30, 30, 30)
+Balancer.ScaleType = Enum.ScaleType.Slice
+Balancer.SliceCenter = Rect.new(100, 100, 100, 100)
+Balancer.SliceScale = 0.120
+
+Balancer11.Name = "Balancer11"
+Balancer11.Parent = TopMain
+Balancer11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Balancer11.BackgroundTransparency = 1.000
+Balancer11.Position = UDim2.new(-0.242525816, 0, 6.11871672, 0)
+Balancer11.Size = UDim2.new(0, 499, 0, 39)
+Balancer11.Image = "rbxassetid://3570695787"
+Balancer11.ImageColor3 = Color3.fromRGB(30, 30, 30)
+Balancer11.ScaleType = Enum.ScaleType.Slice
+Balancer11.SliceCenter = Rect.new(100, 100, 100, 100)
+Balancer11.SliceScale = 0.120
+
+TextLabel_26.Parent = Balancer11
 TextLabel_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_26.BackgroundTransparency = 1.000
-TextLabel_26.Position = UDim2.new(0.308617234, 0, -0.219512194, 0)
+TextLabel_26.Position = UDim2.new(0.294987977, 0, -0.145641029, 0)
 TextLabel_26.Size = UDim2.new(0, 200, 0, 50)
 TextLabel_26.Font = Enum.Font.SourceSans
-TextLabel_26.Text = "Fe Script Hub"
+TextLabel_26.Text = "TemporaryNameScript#8378"
 TextLabel_26.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_26.TextSize = 32.000
+TextLabel_26.TextSize = 25.000
+
+Balancer3.Name = "Balancer3"
+Balancer3.Parent = TopMain
+Balancer3.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Balancer3.BorderSizePixel = 0
+Balancer3.Position = UDim2.new(-0.242525816, 0, 5.85730076, 0)
+Balancer3.Size = UDim2.new(0, 498, 0, 18)
+
+Balancer2.Name = "Balancer2"
+Balancer2.Parent = TopMain
+Balancer2.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Balancer2.BorderSizePixel = 0
+Balancer2.Position = UDim2.new(-0.242525816, 0, 0.345413208, 0)
+Balancer2.Size = UDim2.new(0, 496, 0, 13)
+
+DateText.Name = "DateText"
+DateText.Parent = TopMain
+DateText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DateText.BackgroundTransparency = 1.000
+DateText.Position = UDim2.new(0.0665310621, 0, -0.657836139, 0)
+DateText.Size = UDim2.new(0, 200, 0, 50)
+DateText.Font = Enum.Font.SourceSans
+DateText.Text = "DateText"
+DateText.TextColor3 = Color3.fromRGB(255, 255, 255)
+DateText.TextSize = 25.000
+
+UpdateTing.Name = "UpdateTing"
+UpdateTing.Parent = Hub
+UpdateTing.Active = true
+UpdateTing.BackgroundColor3 = Color3.fromRGB(49, 52, 53)
+UpdateTing.Position = UDim2.new(0.645259917, 0, 0.429383814, 0)
+UpdateTing.Size = UDim2.new(0, 314, 0, 86)
+UpdateTing.CanvasPosition = Vector2.new(0, 313.055725)
+UpdateTing.CanvasSize = UDim2.new(0, 0, 0.899999976, 0)
+UpdateTing.VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Left
+
+UpdateText.Name = "UpdateText"
+UpdateText.Parent = UpdateTing
+UpdateText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UpdateText.BackgroundTransparency = 1.000
+UpdateText.Position = UDim2.new(0.126930222, 0, -0.00150661357, 0)
+UpdateText.Size = UDim2.new(0, 234, 0, 60)
+UpdateText.Font = Enum.Font.SourceSansItalic
+UpdateText.Text = "Updates:"
+UpdateText.TextColor3 = Color3.fromRGB(0, 0, 0)
+UpdateText.TextSize = 50.000
+
+UpdateText1.Name = "UpdateText1"
+UpdateText1.Parent = UpdateTing
+UpdateText1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UpdateText1.BackgroundTransparency = 1.000
+UpdateText1.Position = UDim2.new(0.126930222, 0, 0.0957796425, 0)
+UpdateText1.Size = UDim2.new(0, 234, 0, 60)
+UpdateText1.Font = Enum.Font.SourceSansBold
+UpdateText1.Text = "*Added this page"
+UpdateText1.TextColor3 = Color3.fromRGB(255, 255, 255)
+UpdateText1.TextSize = 32.000
+
+UpdateText2.Name = "UpdateText2"
+UpdateText2.Parent = UpdateTing
+UpdateText2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UpdateText2.BackgroundTransparency = 1.000
+UpdateText2.Position = UDim2.new(0.126930222, 0, 0.210138366, 0)
+UpdateText2.Size = UDim2.new(0, 234, 0, 60)
+UpdateText2.Font = Enum.Font.SourceSansBold
+UpdateText2.Text = "*Keybind is now R Shift"
+UpdateText2.TextColor3 = Color3.fromRGB(255, 255, 255)
+UpdateText2.TextSize = 32.000
+
+UpdateText3.Name = "UpdateText3"
+UpdateText3.Parent = UpdateTing
+UpdateText3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UpdateText3.BackgroundTransparency = 1.000
+UpdateText3.Position = UDim2.new(0.126930222, 0, 0.328691721, 0)
+UpdateText3.Size = UDim2.new(0, 234, 0, 60)
+UpdateText3.Font = Enum.Font.SourceSansBold
+UpdateText3.Text = "Made UI a little smoother"
+UpdateText3.TextColor3 = Color3.fromRGB(255, 255, 255)
+UpdateText3.TextSize = 32.000
+
+PowerBtn.Name = "PowerBtn"
+PowerBtn.Parent = UpdateTing
+PowerBtn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PowerBtn.Position = UDim2.new(0.337579608, 0, 0.767441869, 0)
+PowerBtn.Size = UDim2.new(0, 100, 0, 100)
+PowerBtn.Image = "http://www.roblox.com/asset/?id=5718924949"
+
+ThingPopUp.Name = "ThingPopUp"
+ThingPopUp.Parent = UpdateTing
+ThingPopUp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ThingPopUp.BackgroundTransparency = 1.000
+ThingPopUp.Position = UDim2.new(0.123999998, 0, 0.820813954, 0)
+ThingPopUp.Size = UDim2.new(0, 234, 0, 60)
+ThingPopUp.Visible = false
+ThingPopUp.Font = Enum.Font.SourceSansBold
+ThingPopUp.Text = "Destroys Page"
+ThingPopUp.TextColor3 = Color3.fromRGB(255, 118, 39)
+ThingPopUp.TextSize = 32.000
+
+UpdateText4.Name = "UpdateText4"
+UpdateText4.Parent = UpdateTing
+UpdateText4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UpdateText4.BackgroundTransparency = 1.000
+UpdateText4.Position = UDim2.new(0.181528658, 0, 0.50000006, 0)
+UpdateText4.Size = UDim2.new(0, 200, 0, 50)
+UpdateText4.Font = Enum.Font.SourceSansBold
+UpdateText4.Text = "Added text that shows your date"
+UpdateText4.TextColor3 = Color3.fromRGB(255, 255, 255)
+UpdateText4.TextSize = 26.000
 
 -- Scripts:
 
-local function DYYMNOC_fake_script() -- OpenClose.OpenCloseFunction 
-	local script = Instance.new('Script', OpenClose)
-
-	local TopMain = script.Parent.Parent.TopMain
-	script.Parent.MouseButton1Click:Connect(function()
-		if TopMain.Visible == false then
-			TopMain.Visible = true
-		else
-			TopMain.Visible = false
-		end
-	end)
-end
-coroutine.wrap(DYYMNOC_fake_script)()
-local function PRCTYD_fake_script() -- OpenClose.OpenCloseDrag 
-	local script = Instance.new('Script', OpenClose)
-
-	local XTab = script.Parent
-	
-	XTab.Active = true
-	XTab.Selectable = true
-	XTab.Draggable = true
-end
-coroutine.wrap(PRCTYD_fake_script)()
-local function FABMFVU_fake_script() -- FeSozial.Script 
+local function QMYN_fake_script() -- FeSozial.Script 
 	local script = Instance.new('Script', FeSozial)
 
 	local FeSozButton = script.Parent
@@ -1255,8 +1322,8 @@ local function FABMFVU_fake_script() -- FeSozial.Script
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/PanzerKampfMeinFuhr1/TheHub/main/TheHubRawScript'),true))()
 	end)
 end
-coroutine.wrap(FABMFVU_fake_script)()
-local function PLYBT_fake_script() -- ChatBypass.Script 
+coroutine.wrap(QMYN_fake_script)()
+local function RBKEUU_fake_script() -- ChatBypass.Script 
 	local script = Instance.new('Script', ChatBypass)
 
 	local ChatBB = script.Parent
@@ -1265,8 +1332,8 @@ local function PLYBT_fake_script() -- ChatBypass.Script
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/bedra45/chetbypasser/main/chetbypass'))()
 	end)
 end
-coroutine.wrap(PLYBT_fake_script)()
-local function YAJS_fake_script() -- FlingSniper.Script 
+coroutine.wrap(RBKEUU_fake_script)()
+local function EDASX_fake_script() -- FlingSniper.Script 
 	local script = Instance.new('Script', FlingSniper)
 
 	local sniperbutton = script.Parent
@@ -1275,8 +1342,8 @@ local function YAJS_fake_script() -- FlingSniper.Script
 		loadstring(game:HttpGet(('https://pastebin.com/raw/CPwjPg7N'),true))()
 	end)
 end
-coroutine.wrap(YAJS_fake_script)()
-local function XTXHIX_fake_script() -- NepV.Script 
+coroutine.wrap(EDASX_fake_script)()
+local function KWNRZJ_fake_script() -- NepV.Script 
 	local script = Instance.new('Script', NepV)
 
 	local NepVButton = script.Parent
@@ -1285,8 +1352,8 @@ local function XTXHIX_fake_script() -- NepV.Script
 		loadstring(game:HttpGetAsync("https://pastebin.com/raw/t0Mkc33N"))()
 	end)
 end
-coroutine.wrap(XTXHIX_fake_script)()
-local function XLBB_fake_script() -- BadCop.Script 
+coroutine.wrap(KWNRZJ_fake_script)()
+local function XVPYJ_fake_script() -- BadCop.Script 
 	local script = Instance.new('Script', BadCop)
 
 	local CopB = script.Parent
@@ -1295,8 +1362,8 @@ local function XLBB_fake_script() -- BadCop.Script
 		loadstring(game:HttpGet(('https://pastebin.com/raw/d8Ew8aKS'),true))()
 	end)
 end
-coroutine.wrap(XLBB_fake_script)()
-local function USIBAY_fake_script() -- AbyssEye.Script 
+coroutine.wrap(XVPYJ_fake_script)()
+local function OCKXUW_fake_script() -- AbyssEye.Script 
 	local script = Instance.new('Script', AbyssEye)
 
 	local AbyssButton = script.Parent
@@ -1307,8 +1374,8 @@ local function USIBAY_fake_script() -- AbyssEye.Script
 	
 	
 end
-coroutine.wrap(USIBAY_fake_script)()
-local function LTDUGXU_fake_script() -- FeCarnage.Script 
+coroutine.wrap(OCKXUW_fake_script)()
+local function RYSVP_fake_script() -- FeCarnage.Script 
 	local script = Instance.new('Script', FeCarnage)
 
 	local FeCarnButton = script.Parent
@@ -1317,8 +1384,8 @@ local function LTDUGXU_fake_script() -- FeCarnage.Script
 		loadstring(game:HttpGet(('https://pastebin.com/raw/2BKNVKTv'),true))()
 	end)
 end
-coroutine.wrap(LTDUGXU_fake_script)()
-local function NAVAZB_fake_script() -- RBNeptunian.Script 
+coroutine.wrap(RYSVP_fake_script)()
+local function FLVFSH_fake_script() -- RBNeptunian.Script 
 	local script = Instance.new('Script', RBNeptunian)
 
 	local rbnep = script.Parent
@@ -1327,8 +1394,8 @@ local function NAVAZB_fake_script() -- RBNeptunian.Script
 		loadstring(game:HttpGet(('https://pastebin.com/raw/dCwg6C2z'),true))()
 	end)
 end
-coroutine.wrap(NAVAZB_fake_script)()
-local function NKIK_fake_script() -- Shattervast.Script 
+coroutine.wrap(FLVFSH_fake_script)()
+local function KJFM_fake_script() -- Shattervast.Script 
 	local script = Instance.new('Script', Shattervast)
 
 	local ShatterVButton = script.Parent
@@ -1337,8 +1404,8 @@ local function NKIK_fake_script() -- Shattervast.Script
 		loadstring(game:HttpGet(('https://pastebin.com/raw/MjmdAaq2'),true))()
 	end)
 end
-coroutine.wrap(NKIK_fake_script)()
-local function XDSMMMX_fake_script() -- InfY.Script 
+coroutine.wrap(KJFM_fake_script)()
+local function QMEKIMF_fake_script() -- InfY.Script 
 	local script = Instance.new('Script', InfY)
 
 	local InfYieldButton = script.Parent
@@ -1347,8 +1414,8 @@ local function XDSMMMX_fake_script() -- InfY.Script
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(XDSMMMX_fake_script)()
-local function HVSR_fake_script() -- CMDX.Script 
+coroutine.wrap(QMEKIMF_fake_script)()
+local function GZYNGZT_fake_script() -- CMDX.Script 
 	local script = Instance.new('Script', CMDX)
 
 	local CmdXButton = script.Parent
@@ -1357,8 +1424,8 @@ local function HVSR_fake_script() -- CMDX.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
 	end)
 end
-coroutine.wrap(HVSR_fake_script)()
-local function ULTDP_fake_script() -- AdminPageButton.AdminPageScript 
+coroutine.wrap(GZYNGZT_fake_script)()
+local function EMFWPU_fake_script() -- AdminPageButton.AdminPageScript 
 	local script = Instance.new('Script', AdminPageButton)
 
 	local AdminPageButton = script.Parent
@@ -1375,8 +1442,8 @@ local function ULTDP_fake_script() -- AdminPageButton.AdminPageScript
 		
 	end)
 end
-coroutine.wrap(ULTDP_fake_script)()
-local function ZZIDFU_fake_script() -- Page1Button.Page1Script 
+coroutine.wrap(EMFWPU_fake_script)()
+local function ZQZTP_fake_script() -- Page1Button.Page1Script 
 	local script = Instance.new('Script', Page1Button)
 
 	local button1 = script.Parent
@@ -1392,8 +1459,8 @@ local function ZZIDFU_fake_script() -- Page1Button.Page1Script
 		AdminPage.Visible = false
 	end)
 end
-coroutine.wrap(ZZIDFU_fake_script)()
-local function JIFVXV_fake_script() -- Page2Button.Page2Script 
+coroutine.wrap(ZQZTP_fake_script)()
+local function EEHTRLO_fake_script() -- Page2Button.Page2Script 
 	local script = Instance.new('Script', Page2Button)
 
 	local button2 = script.Parent
@@ -1409,8 +1476,8 @@ local function JIFVXV_fake_script() -- Page2Button.Page2Script
 		AdminPage.Visible = false
 	end)
 end
-coroutine.wrap(JIFVXV_fake_script)()
-local function IYTTI_fake_script() -- Page3Button.Page3Script 
+coroutine.wrap(EEHTRLO_fake_script)()
+local function UNMR_fake_script() -- Page3Button.Page3Script 
 	local script = Instance.new('Script', Page3Button)
 
 	local button3 = script.Parent
@@ -1426,8 +1493,8 @@ local function IYTTI_fake_script() -- Page3Button.Page3Script
 		AdminPage.Visible = false
 	end)
 end
-coroutine.wrap(IYTTI_fake_script)()
-local function FHWC_fake_script() -- TopMain.TopMainDraggable 
+coroutine.wrap(UNMR_fake_script)()
+local function ZSLHQZ_fake_script() -- TopMain.TopMainDraggable 
 	local script = Instance.new('LocalScript', TopMain)
 
 	local TopMain = script.Parent
@@ -1438,4 +1505,62 @@ local function FHWC_fake_script() -- TopMain.TopMainDraggable
 	
 	
 end
-coroutine.wrap(FHWC_fake_script)()
+coroutine.wrap(ZSLHQZ_fake_script)()
+local function CRUI_fake_script() -- DateText.Script 
+	local script = Instance.new('Script', DateText)
+
+	while true do
+		script.Parent.Text = os.date()
+		wait(1)
+		script.Parent.Text = os.date()
+	end
+end
+coroutine.wrap(CRUI_fake_script)()
+local function OFQJZTC_fake_script() -- Hub.DetectRightShift 
+	local script = Instance.new('LocalScript', Hub)
+
+	local UserTing = game:GetService("UserInputService")
+	local TopMain = script.Parent.TopMain
+	
+	
+	UserTing.InputBegan:connect(function(input, gameProcessedEvent)
+		if gameProcessedEvent then return end
+		if input.UserInputType == Enum.UserInputType.Keyboard then
+			if input.KeyCode == Enum.KeyCode.RightShift then
+				if TopMain.Visible == true then
+					TopMain.Visible = false else
+					TopMain.Visible = true
+					
+				end
+			end
+		end
+		
+	end)
+end
+coroutine.wrap(OFQJZTC_fake_script)()
+local function ZZSWC_fake_script() -- PowerBtn.TingPopUpScr 
+	local script = Instance.new('LocalScript', PowerBtn)
+
+	local PowerBtn = script.Parent
+	local ThingPopText = script.Parent.Parent.ThingPopUp
+	local UpdateTing = script.Parent.Parent
+	
+	PowerBtn.MouseEnter:Connect(function()
+		ThingPopText.Visible = true
+	end)
+	
+	PowerBtn.MouseLeave:Connect(function()
+		ThingPopText.Visible = false
+	end)
+	
+	PowerBtn.MouseButton1Down:Connect(function()
+		UpdateTing:Destroy()
+	end)
+end
+coroutine.wrap(ZZSWC_fake_script)()
+local function PZQKQ_fake_script() -- Hub.Script 
+	local script = Instance.new('Script', Hub)
+
+	
+end
+coroutine.wrap(PZQKQ_fake_script)()
