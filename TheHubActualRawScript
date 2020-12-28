@@ -2,8 +2,7 @@
 -- Version: 3.2
 
 -- Instances:
-
---[[Made my PanzerKampfMeinFuhr1]]--
+--[[made by PanzerKampfMeinFuhr1]]--
 
 local Hub = Instance.new("ScreenGui")
 local TopMain = Instance.new("Frame")
@@ -137,7 +136,6 @@ Page1.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 Page1.BorderSizePixel = 0
 Page1.Position = UDim2.new(-0.242525831, 0, 0.321023256, 0)
 Page1.Size = UDim2.new(0, 499, 0, 250)
-Page1.Visible = false
 
 FeSozial.Name = "FeSozial"
 FeSozial.Parent = Page1
@@ -368,6 +366,7 @@ Page2.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 Page2.BorderSizePixel = 0
 Page2.Position = UDim2.new(-0.242525831, 0, 0.00395008922, 0)
 Page2.Size = UDim2.new(0, 499, 0, 250)
+Page2.Visible = false
 
 FeZen.Name = "FeZen"
 FeZen.Parent = Page2
@@ -954,7 +953,7 @@ MadeBy.Name = "MadeBy"
 MadeBy.Parent = TopMain
 MadeBy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 MadeBy.BackgroundTransparency = 1.000
-MadeBy.Position = UDim2.new(0.0801603124, 0, 5.11730337, 0)
+MadeBy.Position = UDim2.new(0.0681362674, 0, 4.89779139, 0)
 MadeBy.Size = UDim2.new(0, 200, 0, 50)
 MadeBy.Font = Enum.Font.SourceSans
 MadeBy.Text = "Made By PanzerKampfMeinFuhr1"
@@ -1194,8 +1193,8 @@ Balancer11.Name = "Balancer11"
 Balancer11.Parent = TopMain
 Balancer11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Balancer11.BackgroundTransparency = 1.000
-Balancer11.Position = UDim2.new(-0.242525816, 0, 6.11871672, 0)
-Balancer11.Size = UDim2.new(0, 499, 0, 39)
+Balancer11.Position = UDim2.new(-0.242525816, 0, 6.07321167, 0)
+Balancer11.Size = UDim2.new(0, 499, 0, 40)
 Balancer11.Image = "rbxassetid://3570695787"
 Balancer11.ImageColor3 = Color3.fromRGB(30, 30, 30)
 Balancer11.ScaleType = Enum.ScaleType.Slice
@@ -1216,8 +1215,8 @@ Balancer3.Name = "Balancer3"
 Balancer3.Parent = TopMain
 Balancer3.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 Balancer3.BorderSizePixel = 0
-Balancer3.Position = UDim2.new(-0.242525816, 0, 6.101511, 0)
-Balancer3.Size = UDim2.new(0, 499, 0, 5)
+Balancer3.Position = UDim2.new(-0.242525816, 0, 6.00491905, 0)
+Balancer3.Size = UDim2.new(0, 499, 0, 9)
 
 Balancer2.Name = "Balancer2"
 Balancer2.Parent = TopMain
@@ -1401,7 +1400,7 @@ TextLabel_31.TextSize = 22.000
 
 -- Scripts:
 
-local function FWOWTVZ_fake_script() -- FeSozial.Script 
+local function KTSVA_fake_script() -- FeSozial.Script 
 	local script = Instance.new('Script', FeSozial)
 
 	local FeSozButton = script.Parent
@@ -1410,8 +1409,8 @@ local function FWOWTVZ_fake_script() -- FeSozial.Script
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/PanzerKampfMeinFuhr1/TheHub/main/TheHubRawScript'),true))()
 	end)
 end
-coroutine.wrap(FWOWTVZ_fake_script)()
-local function ESSS_fake_script() -- ChatBypass.Script 
+coroutine.wrap(KTSVA_fake_script)()
+local function WXEIM_fake_script() -- ChatBypass.Script 
 	local script = Instance.new('Script', ChatBypass)
 
 	local ChatBB = script.Parent
@@ -1420,8 +1419,8 @@ local function ESSS_fake_script() -- ChatBypass.Script
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/bedra45/chetbypasser/main/chetbypass'))()
 	end)
 end
-coroutine.wrap(ESSS_fake_script)()
-local function IEIEP_fake_script() -- FlingSniper.Script 
+coroutine.wrap(WXEIM_fake_script)()
+local function HERV_fake_script() -- FlingSniper.Script 
 	local script = Instance.new('Script', FlingSniper)
 
 	local sniperbutton = script.Parent
@@ -1430,8 +1429,8 @@ local function IEIEP_fake_script() -- FlingSniper.Script
 		loadstring(game:HttpGet(('https://pastebin.com/raw/CPwjPg7N'),true))()
 	end)
 end
-coroutine.wrap(IEIEP_fake_script)()
-local function RPEG_fake_script() -- NepV.Script 
+coroutine.wrap(HERV_fake_script)()
+local function BGDS_fake_script() -- NepV.Script 
 	local script = Instance.new('Script', NepV)
 
 	local NepVButton = script.Parent
@@ -1440,8 +1439,8 @@ local function RPEG_fake_script() -- NepV.Script
 		loadstring(game:HttpGetAsync("https://pastebin.com/raw/t0Mkc33N"))()
 	end)
 end
-coroutine.wrap(RPEG_fake_script)()
-local function KCPYQ_fake_script() -- BadCop.Script 
+coroutine.wrap(BGDS_fake_script)()
+local function XUIO_fake_script() -- BadCop.Script 
 	local script = Instance.new('Script', BadCop)
 
 	local CopB = script.Parent
@@ -1450,8 +1449,8 @@ local function KCPYQ_fake_script() -- BadCop.Script
 		loadstring(game:HttpGet(('https://pastebin.com/raw/d8Ew8aKS'),true))()
 	end)
 end
-coroutine.wrap(KCPYQ_fake_script)()
-local function QJIQAN_fake_script() -- AbyssEye.Script 
+coroutine.wrap(XUIO_fake_script)()
+local function QJSKHM_fake_script() -- AbyssEye.Script 
 	local script = Instance.new('Script', AbyssEye)
 
 	local AbyssButton = script.Parent
@@ -1462,8 +1461,8 @@ local function QJIQAN_fake_script() -- AbyssEye.Script
 	
 	
 end
-coroutine.wrap(QJIQAN_fake_script)()
-local function SGHGMSR_fake_script() -- FeZen.Script 
+coroutine.wrap(QJSKHM_fake_script)()
+local function MUARQ_fake_script() -- FeZen.Script 
 	local script = Instance.new('Script', FeZen)
 
 	local fezen = script.Parent
@@ -1472,8 +1471,8 @@ local function SGHGMSR_fake_script() -- FeZen.Script
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/o5u3/Zen/main/ZenFlingFE.txt'),true))()
 	end)
 end
-coroutine.wrap(SGHGMSR_fake_script)()
-local function XYFHPX_fake_script() -- FeGaleFighter.Script 
+coroutine.wrap(MUARQ_fake_script)()
+local function BQOU_fake_script() -- FeGaleFighter.Script 
 	local script = Instance.new('Script', FeGaleFighter)
 
 	local feGaleFighter = script.Parent
@@ -1482,8 +1481,8 @@ local function XYFHPX_fake_script() -- FeGaleFighter.Script
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/PanzerKampfMeinFuhr1/FeGaleFighter/main/FeGaleFighterRaw'),true))()
 	end)
 end
-coroutine.wrap(XYFHPX_fake_script)()
-local function KINYD_fake_script() -- FeCarnage.Script 
+coroutine.wrap(BQOU_fake_script)()
+local function ACGZR_fake_script() -- FeCarnage.Script 
 	local script = Instance.new('Script', FeCarnage)
 
 	local FeCarnButton = script.Parent
@@ -1492,8 +1491,8 @@ local function KINYD_fake_script() -- FeCarnage.Script
 		loadstring(game:HttpGet(('https://pastebin.com/raw/2BKNVKTv'),true))()
 	end)
 end
-coroutine.wrap(KINYD_fake_script)()
-local function QXTX_fake_script() -- RBNeptunian.Script 
+coroutine.wrap(ACGZR_fake_script)()
+local function YMBFU_fake_script() -- RBNeptunian.Script 
 	local script = Instance.new('Script', RBNeptunian)
 
 	local rbnep = script.Parent
@@ -1502,8 +1501,8 @@ local function QXTX_fake_script() -- RBNeptunian.Script
 		loadstring(game:HttpGet(('https://pastebin.com/raw/dCwg6C2z'),true))()
 	end)
 end
-coroutine.wrap(QXTX_fake_script)()
-local function XMXRPF_fake_script() -- Shattervast.Script 
+coroutine.wrap(YMBFU_fake_script)()
+local function OGFTLP_fake_script() -- Shattervast.Script 
 	local script = Instance.new('Script', Shattervast)
 
 	local ShatterVButton = script.Parent
@@ -1512,8 +1511,8 @@ local function XMXRPF_fake_script() -- Shattervast.Script
 		loadstring(game:HttpGet(('https://pastebin.com/raw/MjmdAaq2'),true))()
 	end)
 end
-coroutine.wrap(XMXRPF_fake_script)()
-local function IJMHWH_fake_script() -- InfY.Script 
+coroutine.wrap(OGFTLP_fake_script)()
+local function UEJXOIF_fake_script() -- InfY.Script 
 	local script = Instance.new('Script', InfY)
 
 	local InfYieldButton = script.Parent
@@ -1522,8 +1521,8 @@ local function IJMHWH_fake_script() -- InfY.Script
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(IJMHWH_fake_script)()
-local function VFCQNPU_fake_script() -- CMDX.Script 
+coroutine.wrap(UEJXOIF_fake_script)()
+local function WUHCAWE_fake_script() -- CMDX.Script 
 	local script = Instance.new('Script', CMDX)
 
 	local CmdXButton = script.Parent
@@ -1532,8 +1531,8 @@ local function VFCQNPU_fake_script() -- CMDX.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
 	end)
 end
-coroutine.wrap(VFCQNPU_fake_script)()
-local function BWRGXW_fake_script() -- AdminPageButton.AdminPageScript 
+coroutine.wrap(WUHCAWE_fake_script)()
+local function YNKRDIZ_fake_script() -- AdminPageButton.AdminPageScript 
 	local script = Instance.new('Script', AdminPageButton)
 
 	local AdminPageButton = script.Parent
@@ -1550,8 +1549,8 @@ local function BWRGXW_fake_script() -- AdminPageButton.AdminPageScript
 		
 	end)
 end
-coroutine.wrap(BWRGXW_fake_script)()
-local function VPJJVY_fake_script() -- Page1Button.Page1Script 
+coroutine.wrap(YNKRDIZ_fake_script)()
+local function JYVN_fake_script() -- Page1Button.Page1Script 
 	local script = Instance.new('Script', Page1Button)
 
 	local button1 = script.Parent
@@ -1567,8 +1566,8 @@ local function VPJJVY_fake_script() -- Page1Button.Page1Script
 		AdminPage.Visible = false
 	end)
 end
-coroutine.wrap(VPJJVY_fake_script)()
-local function QXJFTI_fake_script() -- Page2Button.Page2Script 
+coroutine.wrap(JYVN_fake_script)()
+local function XRYSUEX_fake_script() -- Page2Button.Page2Script 
 	local script = Instance.new('Script', Page2Button)
 
 	local button2 = script.Parent
@@ -1584,8 +1583,8 @@ local function QXJFTI_fake_script() -- Page2Button.Page2Script
 		AdminPage.Visible = false
 	end)
 end
-coroutine.wrap(QXJFTI_fake_script)()
-local function WVWC_fake_script() -- Page3Button.Page3Script 
+coroutine.wrap(XRYSUEX_fake_script)()
+local function PMEUWE_fake_script() -- Page3Button.Page3Script 
 	local script = Instance.new('Script', Page3Button)
 
 	local button3 = script.Parent
@@ -1601,8 +1600,8 @@ local function WVWC_fake_script() -- Page3Button.Page3Script
 		AdminPage.Visible = false
 	end)
 end
-coroutine.wrap(WVWC_fake_script)()
-local function MDCZ_fake_script() -- TopMain.TopMainDraggable 
+coroutine.wrap(PMEUWE_fake_script)()
+local function GILCBN_fake_script() -- TopMain.TopMainDraggable 
 	local script = Instance.new('LocalScript', TopMain)
 
 	local UIS = game:GetService("UserInputService")
@@ -1645,8 +1644,8 @@ local function MDCZ_fake_script() -- TopMain.TopMainDraggable
 		end
 	end)
 end
-coroutine.wrap(MDCZ_fake_script)()
-local function BAJUW_fake_script() -- DateText.Script 
+coroutine.wrap(GILCBN_fake_script)()
+local function NONZ_fake_script() -- DateText.Script 
 	local script = Instance.new('Script', DateText)
 
 	while true do
@@ -1655,8 +1654,8 @@ local function BAJUW_fake_script() -- DateText.Script
 		script.Parent.Text = os.date()
 	end
 end
-coroutine.wrap(BAJUW_fake_script)()
-local function GWUD_fake_script() -- Hub.DetectRightShift 
+coroutine.wrap(NONZ_fake_script)()
+local function PUNNE_fake_script() -- Hub.DetectRightShift 
 	local script = Instance.new('LocalScript', Hub)
 
 	local UserTing = game:GetService("UserInputService")
@@ -1677,8 +1676,8 @@ local function GWUD_fake_script() -- Hub.DetectRightShift
 		
 	end)
 end
-coroutine.wrap(GWUD_fake_script)()
-local function FEHT_fake_script() -- PowerBtn.PageDestroy 
+coroutine.wrap(PUNNE_fake_script)()
+local function FKABFC_fake_script() -- PowerBtn.PageDestroy 
 	local script = Instance.new('LocalScript', PowerBtn)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1718,8 +1717,8 @@ local function FEHT_fake_script() -- PowerBtn.PageDestroy
 	
 	
 end
-coroutine.wrap(FEHT_fake_script)()
-local function HEEL_fake_script() -- TimeLabel.TimeLabelScript 
+coroutine.wrap(FKABFC_fake_script)()
+local function KAJTWO_fake_script() -- TimeLabel.TimeLabelScript 
 	local script = Instance.new('LocalScript', TimeLabel)
 
 	local TimeLabel = script.Parent
@@ -1730,8 +1729,8 @@ local function HEEL_fake_script() -- TimeLabel.TimeLabelScript
 		TimeLabel.Text = os.date()
 	end
 end
-coroutine.wrap(HEEL_fake_script)()
-local function ESNAN_fake_script() -- UpdateFrame.UpdateFrameDrag 
+coroutine.wrap(KAJTWO_fake_script)()
+local function ZOVI_fake_script() -- UpdateFrame.UpdateFrameDrag 
 	local script = Instance.new('LocalScript', UpdateFrame)
 
 	local UIS = game:GetService("UserInputService")
@@ -1774,4 +1773,4 @@ local function ESNAN_fake_script() -- UpdateFrame.UpdateFrameDrag
 		end
 	end)
 end
-coroutine.wrap(ESNAN_fake_script)()
+coroutine.wrap(ZOVI_fake_script)()
