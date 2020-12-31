@@ -10,52 +10,8 @@ game.StarterGui:SetCore("SendNotification", {
     Duration = 5;
     })
 
+
 local Hub = Instance.new("ScreenGui")
-local mainFrame = Instance.new("Frame")
-local Balancer2 = Instance.new("ImageLabel")
-local Frame = Instance.new("Frame")
-local Balancer1 = Instance.new("ImageLabel")
-local Frame_2 = Instance.new("Frame")
-local Abyss = Instance.new("TextButton")
-local TextButton_Roundify_12px = Instance.new("ImageLabel")
-local TextLabel = Instance.new("TextLabel")
-local Cop = Instance.new("TextButton")
-local TextButton_Roundify_12px_2 = Instance.new("ImageLabel")
-local TextLabel_2 = Instance.new("TextLabel")
-local Zen = Instance.new("TextButton")
-local TextButton_Roundify_12px_3 = Instance.new("ImageLabel")
-local TextLabel_3 = Instance.new("TextLabel")
-local GaleFighter = Instance.new("TextButton")
-local GFighter = Instance.new("ImageLabel")
-local TextLabel_4 = Instance.new("TextLabel")
-local Sniper = Instance.new("TextButton")
-local TextButton_Roundify_12px_4 = Instance.new("ImageLabel")
-local TextLabel_5 = Instance.new("TextLabel")
-local Nep = Instance.new("TextButton")
-local TextButton_Roundify_12px_5 = Instance.new("ImageLabel")
-local TextLabel_6 = Instance.new("TextLabel")
-local Page2 = Instance.new("Frame")
-local Inf = Instance.new("TextButton")
-local TextButton_Roundify_12px_6 = Instance.new("ImageLabel")
-local TextLabel_7 = Instance.new("TextLabel")
-local Shater = Instance.new("TextButton")
-local TextButton_Roundify_12px_7 = Instance.new("ImageLabel")
-local TextLabel_8 = Instance.new("TextLabel")
-local Cmd = Instance.new("TextButton")
-local TextButton_Roundify_12px_8 = Instance.new("ImageLabel")
-local TextLabel_9 = Instance.new("TextLabel")
-local backToMain = Instance.new("TextButton")
-local TextButton_Roundify_12px_9 = Instance.new("ImageLabel")
-local TextLabel_10 = Instance.new("TextLabel")
-local adminPage = Instance.new("TextButton")
-local TextButton_Roundify_12px_10 = Instance.new("ImageLabel")
-local TextLabel_11 = Instance.new("TextLabel")
-local TextLabel_12 = Instance.new("TextLabel")
-local TextLabel_13 = Instance.new("TextLabel")
-local TextLabel_14 = Instance.new("TextLabel")
-local The = Instance.new("TextLabel")
-local HubHighlight = Instance.new("ImageLabel")
-local Hub_2 = Instance.new("TextLabel")
 local UpdateFrame = Instance.new("Frame")
 local CameraThing = Instance.new("ImageLabel")
 local MicThing = Instance.new("ImageLabel")
@@ -66,552 +22,72 @@ local Rounder2Child = Instance.new("Frame")
 local PowerBtn = Instance.new("ImageLabel")
 local PowerBtnLabel = Instance.new("TextLabel")
 local SecondPageIcon = Instance.new("ImageLabel")
-local TextLabel_15 = Instance.new("TextLabel")
-local TextLabel_16 = Instance.new("TextLabel")
-local TextLabel_17 = Instance.new("TextLabel")
-local TextLabel_18 = Instance.new("TextLabel")
 local FirstPageIcon = Instance.new("ImageLabel")
-local TextLabel_19 = Instance.new("TextLabel")
-local Page2_2 = Instance.new("Frame")
-local TextLabel_20 = Instance.new("TextLabel")
-local TextLabel_21 = Instance.new("TextLabel")
+local TextLabel = Instance.new("TextLabel")
+local Page2 = Instance.new("Frame")
 local UpdateLabel = Instance.new("TextLabel")
 local TimeLabel = Instance.new("TextLabel")
 local ToTheLeft = Instance.new("TextButton")
 local BaseImage = Instance.new("ImageLabel")
-local TextLabel_22 = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
 local ToTheRight = Instance.new("TextButton")
 local TextButton_Roundify_4px = Instance.new("ImageLabel")
-local TextLabel_23 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local mainFrame = Instance.new("Frame")
+local Abyss = Instance.new("TextButton")
+local TextButton_Roundify_12px = Instance.new("ImageLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local adminPage = Instance.new("TextButton")
+local TextButton_Roundify_12px_2 = Instance.new("ImageLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local Zen = Instance.new("TextButton")
+local TextButton_Roundify_12px_3 = Instance.new("ImageLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local Sniper = Instance.new("TextButton")
+local TextButton_Roundify_12px_4 = Instance.new("ImageLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local Nep = Instance.new("TextButton")
+local TextButton_Roundify_12px_5 = Instance.new("ImageLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local GaleFighter = Instance.new("TextButton")
+local GFighter = Instance.new("ImageLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local Cop = Instance.new("TextButton")
+local TextButton_Roundify_12px_6 = Instance.new("ImageLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local Balancer2 = Instance.new("ImageLabel")
+local Frame = Instance.new("Frame")
+local Balancer1 = Instance.new("ImageLabel")
+local Frame_2 = Instance.new("Frame")
+local The = Instance.new("TextLabel")
+local TextLabel_12 = Instance.new("TextLabel")
+local TextLabel_13 = Instance.new("TextLabel")
+local TextLabel_14 = Instance.new("TextLabel")
+local HubHighlight = Instance.new("ImageLabel")
+local Hub_2 = Instance.new("TextLabel")
+local Page2_2 = Instance.new("Frame")
+local backToMain = Instance.new("TextButton")
+local TextButton_Roundify_12px_7 = Instance.new("ImageLabel")
+local TextLabel_15 = Instance.new("TextLabel")
+local Cmd = Instance.new("TextButton")
+local TextButton_Roundify_12px_8 = Instance.new("ImageLabel")
+local TextLabel_16 = Instance.new("TextLabel")
+local Shater = Instance.new("TextButton")
+local TextButton_Roundify_12px_9 = Instance.new("ImageLabel")
+local TextLabel_17 = Instance.new("TextLabel")
+local Inf = Instance.new("TextButton")
+local TextButton_Roundify_12px_10 = Instance.new("ImageLabel")
+local TextLabel_18 = Instance.new("TextLabel")
+local chatbypass = Instance.new("TextButton")
+local TextButton_Roundify_12px_11 = Instance.new("ImageLabel")
+local TextLabel_19 = Instance.new("TextLabel")
 
 --Properties:
 
 Hub.Name = "Hub"
 Hub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 Hub.ResetOnSpawn = false
-
-mainFrame.Name = "mainFrame"
-mainFrame.Parent = Hub
-mainFrame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
-mainFrame.BorderSizePixel = 0
-mainFrame.Position = UDim2.new(0.1290631, 0, 0.21507065, 0)
-mainFrame.Size = UDim2.new(0, 512, 0, 316)
-
-Balancer2.Name = "Balancer2"
-Balancer2.Parent = mainFrame
-Balancer2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Balancer2.BackgroundTransparency = 1.000
-Balancer2.Position = UDim2.new(0, 0, 0.965189874, 0)
-Balancer2.Size = UDim2.new(0, 512, 0, 46)
-Balancer2.Image = "rbxassetid://3570695787"
-Balancer2.ImageColor3 = Color3.fromRGB(45, 45, 45)
-Balancer2.ScaleType = Enum.ScaleType.Slice
-Balancer2.SliceCenter = Rect.new(100, 100, 100, 100)
-Balancer2.SliceScale = 0.120
-
-Frame.Parent = Balancer2
-Frame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
-Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0, 0, -0.300000012, 0)
-Frame.Size = UDim2.new(0, 512, 0, 22)
-
-Balancer1.Name = "Balancer1"
-Balancer1.Parent = mainFrame
-Balancer1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Balancer1.BackgroundTransparency = 1.000
-Balancer1.Position = UDim2.new(0, 0, -0.110759497, 0)
-Balancer1.Size = UDim2.new(0, 512, 0, 46)
-Balancer1.Image = "rbxassetid://3570695787"
-Balancer1.ImageColor3 = Color3.fromRGB(45, 45, 45)
-Balancer1.ScaleType = Enum.ScaleType.Slice
-Balancer1.SliceCenter = Rect.new(100, 100, 100, 100)
-Balancer1.SliceScale = 0.120
-
-Frame_2.Parent = Balancer1
-Frame_2.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
-Frame_2.BorderColor3 = Color3.fromRGB(15, 15, 15)
-Frame_2.BorderSizePixel = 0
-Frame_2.Position = UDim2.new(0, 0, 0.804347873, 0)
-Frame_2.Size = UDim2.new(0, 512, 0, 22)
-
-Abyss.Name = "Abyss"
-Abyss.Parent = mainFrame
-Abyss.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Abyss.BackgroundTransparency = 1.000
-Abyss.BorderSizePixel = 0
-Abyss.Position = UDim2.new(0.037109375, 0, 0.348101258, 0)
-Abyss.Size = UDim2.new(0, 135, 0, 50)
-Abyss.Font = Enum.Font.SourceSans
-Abyss.TextColor3 = Color3.fromRGB(0, 0, 0)
-Abyss.TextSize = 14.000
-
-TextButton_Roundify_12px.Name = "TextButton_Roundify_12px"
-TextButton_Roundify_12px.Parent = Abyss
-TextButton_Roundify_12px.Active = true
-TextButton_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
-TextButton_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_Roundify_12px.BackgroundTransparency = 1.000
-TextButton_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextButton_Roundify_12px.Selectable = true
-TextButton_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
-TextButton_Roundify_12px.Image = "rbxassetid://3570695787"
-TextButton_Roundify_12px.ImageColor3 = Color3.fromRGB(112, 119, 121)
-TextButton_Roundify_12px.ScaleType = Enum.ScaleType.Slice
-TextButton_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
-TextButton_Roundify_12px.SliceScale = 0.120
-
-TextLabel.Parent = Abyss
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.BackgroundTransparency = 1.000
-TextLabel.Position = UDim2.new(-0.244444445, 0, 0, 0)
-TextLabel.Size = UDim2.new(0, 200, 0, 50)
-TextLabel.Font = Enum.Font.SourceSansSemibold
-TextLabel.Text = "Abyss Eye"
-TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.TextSize = 35.000
-TextLabel.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-
-Cop.Name = "Cop"
-Cop.Parent = mainFrame
-Cop.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Cop.BackgroundTransparency = 1.000
-Cop.BorderSizePixel = 0
-Cop.Position = UDim2.new(0.37109375, 0, 0.348101258, 0)
-Cop.Size = UDim2.new(0, 135, 0, 50)
-Cop.Font = Enum.Font.SourceSans
-Cop.TextColor3 = Color3.fromRGB(0, 0, 0)
-Cop.TextSize = 14.000
-
-TextButton_Roundify_12px_2.Name = "TextButton_Roundify_12px"
-TextButton_Roundify_12px_2.Parent = Cop
-TextButton_Roundify_12px_2.Active = true
-TextButton_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
-TextButton_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_Roundify_12px_2.BackgroundTransparency = 1.000
-TextButton_Roundify_12px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextButton_Roundify_12px_2.Selectable = true
-TextButton_Roundify_12px_2.Size = UDim2.new(1, 0, 1, 0)
-TextButton_Roundify_12px_2.Image = "rbxassetid://3570695787"
-TextButton_Roundify_12px_2.ImageColor3 = Color3.fromRGB(112, 119, 121)
-TextButton_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
-TextButton_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
-TextButton_Roundify_12px_2.SliceScale = 0.120
-
-TextLabel_2.Parent = Cop
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.BackgroundTransparency = 1.000
-TextLabel_2.Position = UDim2.new(-0.244444445, 0, 0, 0)
-TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_2.Font = Enum.Font.SourceSansSemibold
-TextLabel_2.Text = "Cop"
-TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.TextSize = 35.000
-TextLabel_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-
-Zen.Name = "Zen"
-Zen.Parent = mainFrame
-Zen.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Zen.BackgroundTransparency = 1.000
-Zen.BorderSizePixel = 0
-Zen.Position = UDim2.new(0.69921875, 0, 0.348101258, 0)
-Zen.Size = UDim2.new(0, 135, 0, 50)
-Zen.Font = Enum.Font.SourceSans
-Zen.TextColor3 = Color3.fromRGB(0, 0, 0)
-Zen.TextSize = 14.000
-
-TextButton_Roundify_12px_3.Name = "TextButton_Roundify_12px"
-TextButton_Roundify_12px_3.Parent = Zen
-TextButton_Roundify_12px_3.Active = true
-TextButton_Roundify_12px_3.AnchorPoint = Vector2.new(0.5, 0.5)
-TextButton_Roundify_12px_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_Roundify_12px_3.BackgroundTransparency = 1.000
-TextButton_Roundify_12px_3.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextButton_Roundify_12px_3.Selectable = true
-TextButton_Roundify_12px_3.Size = UDim2.new(1, 0, 1, 0)
-TextButton_Roundify_12px_3.Image = "rbxassetid://3570695787"
-TextButton_Roundify_12px_3.ImageColor3 = Color3.fromRGB(112, 119, 121)
-TextButton_Roundify_12px_3.ScaleType = Enum.ScaleType.Slice
-TextButton_Roundify_12px_3.SliceCenter = Rect.new(100, 100, 100, 100)
-TextButton_Roundify_12px_3.SliceScale = 0.120
-
-TextLabel_3.Parent = Zen
-TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.BackgroundTransparency = 1.000
-TextLabel_3.Position = UDim2.new(-0.244444445, 0, 0, 0)
-TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_3.Font = Enum.Font.SourceSansSemibold
-TextLabel_3.Text = "Zen"
-TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.TextSize = 35.000
-TextLabel_3.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-
-GaleFighter.Name = "GaleFighter"
-GaleFighter.Parent = mainFrame
-GaleFighter.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-GaleFighter.BackgroundTransparency = 1.000
-GaleFighter.BorderSizePixel = 0
-GaleFighter.Position = UDim2.new(0.037109375, 0, 0.604430377, 0)
-GaleFighter.Size = UDim2.new(0, 135, 0, 50)
-GaleFighter.Font = Enum.Font.SourceSans
-GaleFighter.TextColor3 = Color3.fromRGB(0, 0, 0)
-GaleFighter.TextSize = 14.000
-
-GFighter.Name = "GFighter"
-GFighter.Parent = GaleFighter
-GFighter.Active = true
-GFighter.AnchorPoint = Vector2.new(0.5, 0.5)
-GFighter.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-GFighter.BackgroundTransparency = 1.000
-GFighter.Position = UDim2.new(0.5, 0, 0.5, 0)
-GFighter.Selectable = true
-GFighter.Size = UDim2.new(1, 0, 1, 0)
-GFighter.Image = "rbxassetid://3570695787"
-GFighter.ImageColor3 = Color3.fromRGB(112, 119, 121)
-GFighter.ScaleType = Enum.ScaleType.Slice
-GFighter.SliceCenter = Rect.new(100, 100, 100, 100)
-GFighter.SliceScale = 0.120
-
-TextLabel_4.Parent = GaleFighter
-TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_4.BackgroundTransparency = 1.000
-TextLabel_4.Position = UDim2.new(-0.244444445, 0, 0, 0)
-TextLabel_4.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_4.Font = Enum.Font.SourceSansSemibold
-TextLabel_4.Text = "Gale Fighter"
-TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_4.TextSize = 27.000
-TextLabel_4.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-
-Sniper.Name = "Sniper"
-Sniper.Parent = mainFrame
-Sniper.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Sniper.BackgroundTransparency = 1.000
-Sniper.BorderSizePixel = 0
-Sniper.Position = UDim2.new(0.69921875, 0, 0.604430377, 0)
-Sniper.Size = UDim2.new(0, 135, 0, 50)
-Sniper.Font = Enum.Font.SourceSans
-Sniper.TextColor3 = Color3.fromRGB(0, 0, 0)
-Sniper.TextSize = 14.000
-
-TextButton_Roundify_12px_4.Name = "TextButton_Roundify_12px"
-TextButton_Roundify_12px_4.Parent = Sniper
-TextButton_Roundify_12px_4.Active = true
-TextButton_Roundify_12px_4.AnchorPoint = Vector2.new(0.5, 0.5)
-TextButton_Roundify_12px_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_Roundify_12px_4.BackgroundTransparency = 1.000
-TextButton_Roundify_12px_4.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextButton_Roundify_12px_4.Selectable = true
-TextButton_Roundify_12px_4.Size = UDim2.new(1, 0, 1, 0)
-TextButton_Roundify_12px_4.Image = "rbxassetid://3570695787"
-TextButton_Roundify_12px_4.ImageColor3 = Color3.fromRGB(112, 119, 121)
-TextButton_Roundify_12px_4.ScaleType = Enum.ScaleType.Slice
-TextButton_Roundify_12px_4.SliceCenter = Rect.new(100, 100, 100, 100)
-TextButton_Roundify_12px_4.SliceScale = 0.120
-
-TextLabel_5.Parent = Sniper
-TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_5.BackgroundTransparency = 1.000
-TextLabel_5.Position = UDim2.new(-0.244444445, 0, 0, 0)
-TextLabel_5.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_5.Font = Enum.Font.SourceSansSemibold
-TextLabel_5.Text = "Sniper"
-TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_5.TextSize = 35.000
-TextLabel_5.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-
-Nep.Name = "Nep"
-Nep.Parent = mainFrame
-Nep.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Nep.BackgroundTransparency = 1.000
-Nep.BorderSizePixel = 0
-Nep.Position = UDim2.new(0.37109375, 0, 0.604430377, 0)
-Nep.Size = UDim2.new(0, 135, 0, 50)
-Nep.Font = Enum.Font.SourceSans
-Nep.TextColor3 = Color3.fromRGB(0, 0, 0)
-Nep.TextSize = 14.000
-
-TextButton_Roundify_12px_5.Name = "TextButton_Roundify_12px"
-TextButton_Roundify_12px_5.Parent = Nep
-TextButton_Roundify_12px_5.Active = true
-TextButton_Roundify_12px_5.AnchorPoint = Vector2.new(0.5, 0.5)
-TextButton_Roundify_12px_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_Roundify_12px_5.BackgroundTransparency = 1.000
-TextButton_Roundify_12px_5.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextButton_Roundify_12px_5.Selectable = true
-TextButton_Roundify_12px_5.Size = UDim2.new(1, 0, 1, 0)
-TextButton_Roundify_12px_5.Image = "rbxassetid://3570695787"
-TextButton_Roundify_12px_5.ImageColor3 = Color3.fromRGB(112, 119, 121)
-TextButton_Roundify_12px_5.ScaleType = Enum.ScaleType.Slice
-TextButton_Roundify_12px_5.SliceCenter = Rect.new(100, 100, 100, 100)
-TextButton_Roundify_12px_5.SliceScale = 0.120
-
-TextLabel_6.Parent = Nep
-TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_6.BackgroundTransparency = 1.000
-TextLabel_6.Position = UDim2.new(-0.244444445, 0, 0, 0)
-TextLabel_6.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_6.Font = Enum.Font.SourceSansSemibold
-TextLabel_6.Text = "Nep V"
-TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_6.TextSize = 35.000
-TextLabel_6.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-
-Page2.Name = "Page2"
-Page2.Parent = mainFrame
-Page2.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
-Page2.BorderSizePixel = 0
-Page2.Position = UDim2.new(0.00211000443, 0, 0.00620994065, 0)
-Page2.Size = UDim2.new(0, 510, 0, 314)
-Page2.Visible = false
-
-Inf.Name = "Inf"
-Inf.Parent = Page2
-Inf.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Inf.BackgroundTransparency = 1.000
-Inf.BorderSizePixel = 0
-Inf.Position = UDim2.new(0.673728585, 0, 0.376763672, 0)
-Inf.Size = UDim2.new(0, 135, 0, 50)
-Inf.Font = Enum.Font.SourceSans
-Inf.TextColor3 = Color3.fromRGB(0, 0, 0)
-Inf.TextSize = 14.000
-
-TextButton_Roundify_12px_6.Name = "TextButton_Roundify_12px"
-TextButton_Roundify_12px_6.Parent = Inf
-TextButton_Roundify_12px_6.Active = true
-TextButton_Roundify_12px_6.AnchorPoint = Vector2.new(0.5, 0.5)
-TextButton_Roundify_12px_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_Roundify_12px_6.BackgroundTransparency = 1.000
-TextButton_Roundify_12px_6.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextButton_Roundify_12px_6.Selectable = true
-TextButton_Roundify_12px_6.Size = UDim2.new(1, 0, 1, 0)
-TextButton_Roundify_12px_6.Image = "rbxassetid://3570695787"
-TextButton_Roundify_12px_6.ImageColor3 = Color3.fromRGB(112, 119, 121)
-TextButton_Roundify_12px_6.ScaleType = Enum.ScaleType.Slice
-TextButton_Roundify_12px_6.SliceCenter = Rect.new(100, 100, 100, 100)
-TextButton_Roundify_12px_6.SliceScale = 0.120
-
-TextLabel_7.Parent = Inf
-TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_7.BackgroundTransparency = 1.000
-TextLabel_7.Position = UDim2.new(-0.244444445, 0, 0, 0)
-TextLabel_7.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_7.Font = Enum.Font.SourceSansSemibold
-TextLabel_7.Text = "Inf Yield"
-TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_7.TextSize = 35.000
-TextLabel_7.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-
-Shater.Name = "Shater"
-Shater.Parent = Page2
-Shater.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Shater.BackgroundTransparency = 1.000
-Shater.BorderSizePixel = 0
-Shater.Position = UDim2.new(0.369132966, 0, 0.375131011, 0)
-Shater.Size = UDim2.new(0, 135, 0, 50)
-Shater.Font = Enum.Font.SourceSans
-Shater.TextColor3 = Color3.fromRGB(0, 0, 0)
-Shater.TextSize = 14.000
-
-TextButton_Roundify_12px_7.Name = "TextButton_Roundify_12px"
-TextButton_Roundify_12px_7.Parent = Shater
-TextButton_Roundify_12px_7.Active = true
-TextButton_Roundify_12px_7.AnchorPoint = Vector2.new(0.5, 0.5)
-TextButton_Roundify_12px_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_Roundify_12px_7.BackgroundTransparency = 1.000
-TextButton_Roundify_12px_7.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextButton_Roundify_12px_7.Selectable = true
-TextButton_Roundify_12px_7.Size = UDim2.new(1, 0, 1, 0)
-TextButton_Roundify_12px_7.Image = "rbxassetid://3570695787"
-TextButton_Roundify_12px_7.ImageColor3 = Color3.fromRGB(112, 119, 121)
-TextButton_Roundify_12px_7.ScaleType = Enum.ScaleType.Slice
-TextButton_Roundify_12px_7.SliceCenter = Rect.new(100, 100, 100, 100)
-TextButton_Roundify_12px_7.SliceScale = 0.120
-
-TextLabel_8.Parent = Shater
-TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_8.BackgroundTransparency = 1.000
-TextLabel_8.Position = UDim2.new(-0.244444445, 0, -0.0199999996, 0)
-TextLabel_8.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_8.Font = Enum.Font.SourceSansSemibold
-TextLabel_8.Text = "Shattervast"
-TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_8.TextSize = 32.000
-TextLabel_8.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-
-Cmd.Name = "Cmd"
-Cmd.Parent = Page2
-Cmd.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Cmd.BackgroundTransparency = 1.000
-Cmd.BorderSizePixel = 0
-Cmd.Position = UDim2.new(0.0658854246, 0, 0.378315717, 0)
-Cmd.Size = UDim2.new(0, 135, 0, 50)
-Cmd.Font = Enum.Font.SourceSans
-Cmd.TextColor3 = Color3.fromRGB(0, 0, 0)
-Cmd.TextSize = 14.000
-
-TextButton_Roundify_12px_8.Name = "TextButton_Roundify_12px"
-TextButton_Roundify_12px_8.Parent = Cmd
-TextButton_Roundify_12px_8.Active = true
-TextButton_Roundify_12px_8.AnchorPoint = Vector2.new(0.5, 0.5)
-TextButton_Roundify_12px_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_Roundify_12px_8.BackgroundTransparency = 1.000
-TextButton_Roundify_12px_8.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextButton_Roundify_12px_8.Selectable = true
-TextButton_Roundify_12px_8.Size = UDim2.new(1, 0, 1, 0)
-TextButton_Roundify_12px_8.Image = "rbxassetid://3570695787"
-TextButton_Roundify_12px_8.ImageColor3 = Color3.fromRGB(112, 119, 121)
-TextButton_Roundify_12px_8.ScaleType = Enum.ScaleType.Slice
-TextButton_Roundify_12px_8.SliceCenter = Rect.new(100, 100, 100, 100)
-TextButton_Roundify_12px_8.SliceScale = 0.120
-
-TextLabel_9.Parent = Cmd
-TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_9.BackgroundTransparency = 1.000
-TextLabel_9.Position = UDim2.new(-0.244444445, 0, 0, 0)
-TextLabel_9.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_9.Font = Enum.Font.SourceSansSemibold
-TextLabel_9.Text = "CMD-X"
-TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_9.TextSize = 35.000
-TextLabel_9.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-
-backToMain.Name = "backToMain"
-backToMain.Parent = Page2
-backToMain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-backToMain.BackgroundTransparency = 1.000
-backToMain.BorderSizePixel = 0
-backToMain.Position = UDim2.new(0.0331878029, 0, 0.0614770502, 0)
-backToMain.Size = UDim2.new(0, 135, 0, 50)
-backToMain.Font = Enum.Font.SourceSans
-backToMain.TextColor3 = Color3.fromRGB(0, 0, 0)
-backToMain.TextSize = 14.000
-
-TextButton_Roundify_12px_9.Name = "TextButton_Roundify_12px"
-TextButton_Roundify_12px_9.Parent = backToMain
-TextButton_Roundify_12px_9.Active = true
-TextButton_Roundify_12px_9.AnchorPoint = Vector2.new(0.5, 0.5)
-TextButton_Roundify_12px_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_Roundify_12px_9.BackgroundTransparency = 1.000
-TextButton_Roundify_12px_9.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextButton_Roundify_12px_9.Selectable = true
-TextButton_Roundify_12px_9.Size = UDim2.new(1, 0, 1, 0)
-TextButton_Roundify_12px_9.Image = "rbxassetid://3570695787"
-TextButton_Roundify_12px_9.ImageColor3 = Color3.fromRGB(255, 118, 39)
-TextButton_Roundify_12px_9.ScaleType = Enum.ScaleType.Slice
-TextButton_Roundify_12px_9.SliceCenter = Rect.new(100, 100, 100, 100)
-TextButton_Roundify_12px_9.SliceScale = 0.120
-
-TextLabel_10.Parent = backToMain
-TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_10.BackgroundTransparency = 1.000
-TextLabel_10.Position = UDim2.new(-0.244444445, 0, 0, 0)
-TextLabel_10.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_10.Font = Enum.Font.SourceSansSemibold
-TextLabel_10.Text = "Back"
-TextLabel_10.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_10.TextSize = 35.000
-TextLabel_10.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-
-adminPage.Name = "adminPage"
-adminPage.Parent = mainFrame
-adminPage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-adminPage.BackgroundTransparency = 1.000
-adminPage.BorderSizePixel = 0
-adminPage.Position = UDim2.new(0.0370098352, 0, 0.0792953074, 0)
-adminPage.Size = UDim2.new(0, 135, 0, 50)
-adminPage.Font = Enum.Font.SourceSans
-adminPage.TextColor3 = Color3.fromRGB(0, 0, 0)
-adminPage.TextSize = 14.000
-
-TextButton_Roundify_12px_10.Name = "TextButton_Roundify_12px"
-TextButton_Roundify_12px_10.Parent = adminPage
-TextButton_Roundify_12px_10.Active = true
-TextButton_Roundify_12px_10.AnchorPoint = Vector2.new(0.5, 0.5)
-TextButton_Roundify_12px_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_Roundify_12px_10.BackgroundTransparency = 1.000
-TextButton_Roundify_12px_10.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextButton_Roundify_12px_10.Selectable = true
-TextButton_Roundify_12px_10.Size = UDim2.new(1, 0, 1, 0)
-TextButton_Roundify_12px_10.Image = "rbxassetid://3570695787"
-TextButton_Roundify_12px_10.ImageColor3 = Color3.fromRGB(255, 118, 39)
-TextButton_Roundify_12px_10.ScaleType = Enum.ScaleType.Slice
-TextButton_Roundify_12px_10.SliceCenter = Rect.new(100, 100, 100, 100)
-TextButton_Roundify_12px_10.SliceScale = 0.120
-
-TextLabel_11.Parent = adminPage
-TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_11.BackgroundTransparency = 1.000
-TextLabel_11.Position = UDim2.new(-0.244444445, 0, 0, 0)
-TextLabel_11.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_11.Font = Enum.Font.SourceSansSemibold
-TextLabel_11.Text = "Admin Scripts"
-TextLabel_11.TextColor3 = Color3.fromRGB(45, 45, 45)
-TextLabel_11.TextSize = 26.000
-TextLabel_11.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-
-TextLabel_12.Parent = mainFrame
-TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_12.BackgroundTransparency = 1.000
-TextLabel_12.Position = UDim2.new(0.30078125, 0, 0.965189874, 0)
-TextLabel_12.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_12.Font = Enum.Font.SourceSans
-TextLabel_12.Text = "Made By PanzerKampfMeinFuhr1"
-TextLabel_12.TextColor3 = Color3.fromRGB(232, 232, 232)
-TextLabel_12.TextSize = 28.000
-
-TextLabel_13.Parent = mainFrame
-TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_13.BackgroundTransparency = 1.000
-TextLabel_13.Position = UDim2.new(0.30078125, 0, 0.83227849, 0)
-TextLabel_13.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_13.Font = Enum.Font.SourceSans
-TextLabel_13.Text = "TemporaryNameScript#8378"
-TextLabel_13.TextColor3 = Color3.fromRGB(255, 156, 35)
-TextLabel_13.TextSize = 28.000
-
-TextLabel_14.Parent = mainFrame
-TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_14.BackgroundTransparency = 1.000
-TextLabel_14.Position = UDim2.new(0.307000011, 0, -0.133000001, 0)
-TextLabel_14.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_14.Font = Enum.Font.SourceSans
-TextLabel_14.Text = "The Hub V2.0"
-TextLabel_14.TextColor3 = Color3.fromRGB(232, 232, 232)
-TextLabel_14.TextSize = 32.000
-
-The.Name = "The"
-The.Parent = mainFrame
-The.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-The.BackgroundTransparency = 1.000
-The.Position = UDim2.new(0.21875, 0, 0.0632911325, 0)
-The.Size = UDim2.new(0, 200, 0, 50)
-The.Font = Enum.Font.SourceSans
-The.Text = "The"
-The.TextColor3 = Color3.fromRGB(255, 255, 255)
-The.TextSize = 50.000
-
-HubHighlight.Name = "HubHighlight"
-HubHighlight.Parent = mainFrame
-HubHighlight.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HubHighlight.BackgroundTransparency = 1.000
-HubHighlight.Position = UDim2.new(0.500781238, 0, 0.0569620281, 0)
-HubHighlight.Size = UDim2.new(0, 82, 0, 58)
-HubHighlight.Image = "rbxassetid://3570695787"
-HubHighlight.ImageColor3 = Color3.fromRGB(255, 118, 39)
-HubHighlight.ScaleType = Enum.ScaleType.Slice
-HubHighlight.SliceCenter = Rect.new(100, 100, 100, 100)
-HubHighlight.SliceScale = 0.120
-
-Hub_2.Name = "Hub"
-Hub_2.Parent = HubHighlight
-Hub_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Hub_2.BackgroundTransparency = 1.000
-Hub_2.Position = UDim2.new(-0.723625839, 0, 0.0499845967, 0)
-Hub_2.Size = UDim2.new(0, 200, 0, 50)
-Hub_2.Font = Enum.Font.SourceSans
-Hub_2.Text = "Hub"
-Hub_2.TextColor3 = Color3.fromRGB(25, 25, 25)
-Hub_2.TextSize = 50.000
 
 UpdateFrame.Name = "UpdateFrame"
 UpdateFrame.Parent = Hub
@@ -714,46 +190,6 @@ SecondPageIcon.ScaleType = Enum.ScaleType.Slice
 SecondPageIcon.SliceCenter = Rect.new(100, 100, 100, 100)
 SecondPageIcon.SliceScale = 0.120
 
-TextLabel_15.Parent = UpdateFrame
-TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_15.BackgroundTransparency = 1.000
-TextLabel_15.Position = UDim2.new(0.032110095, 0, 0.25090909, 0)
-TextLabel_15.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_15.Font = Enum.Font.SourceSans
-TextLabel_15.Text = "Remade the entire GUI	"
-TextLabel_15.TextColor3 = Color3.fromRGB(188, 199, 203)
-TextLabel_15.TextSize = 22.000
-
-TextLabel_16.Parent = UpdateFrame
-TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_16.BackgroundTransparency = 1.000
-TextLabel_16.Position = UDim2.new(0.032110095, 0, 0.585454583, 0)
-TextLabel_16.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_16.Font = Enum.Font.SourceSans
-TextLabel_16.Text = "Added Fe Zen"
-TextLabel_16.TextColor3 = Color3.fromRGB(188, 199, 203)
-TextLabel_16.TextSize = 22.000
-
-TextLabel_17.Parent = UpdateFrame
-TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_17.BackgroundTransparency = 1.000
-TextLabel_17.Position = UDim2.new(0.0320000015, 0, 0.479909092, 0)
-TextLabel_17.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_17.Font = Enum.Font.SourceSans
-TextLabel_17.Text = "(Both don't require hats)"
-TextLabel_17.TextColor3 = Color3.fromRGB(188, 199, 203)
-TextLabel_17.TextSize = 15.000
-
-TextLabel_18.Parent = UpdateFrame
-TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_18.BackgroundTransparency = 1.000
-TextLabel_18.Position = UDim2.new(0.032110095, 0, 0.698181808, 0)
-TextLabel_18.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_18.Font = Enum.Font.SourceSans
-TextLabel_18.Text = "Made dragging better"
-TextLabel_18.TextColor3 = Color3.fromRGB(188, 199, 203)
-TextLabel_18.TextSize = 22.000
-
 FirstPageIcon.Name = "FirstPageIcon"
 FirstPageIcon.Parent = UpdateFrame
 FirstPageIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -766,43 +202,23 @@ FirstPageIcon.ScaleType = Enum.ScaleType.Slice
 FirstPageIcon.SliceCenter = Rect.new(100, 100, 100, 100)
 FirstPageIcon.SliceScale = 0.120
 
-TextLabel_19.Parent = UpdateFrame
-TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_19.BackgroundTransparency = 1.000
-TextLabel_19.Position = UDim2.new(0.0412844047, 0, 0.360000014, 0)
-TextLabel_19.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_19.Font = Enum.Font.SourceSans
-TextLabel_19.Text = "Added Fe Gale Fighter"
-TextLabel_19.TextColor3 = Color3.fromRGB(188, 199, 203)
-TextLabel_19.TextSize = 22.000
+TextLabel.Parent = UpdateFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.0412844047, 0, 0.301818192, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Minor color change"
+TextLabel.TextColor3 = Color3.fromRGB(188, 199, 203)
+TextLabel.TextSize = 22.000
 
-Page2_2.Name = "Page2"
-Page2_2.Parent = UpdateFrame
-Page2_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-Page2_2.BorderSizePixel = 0
-Page2_2.Position = UDim2.new(-0.0018243352, 0, 0.0381446965, 0)
-Page2_2.Size = UDim2.new(0, 218, 0, 242)
-Page2_2.Visible = false
-
-TextLabel_20.Parent = Page2_2
-TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_20.BackgroundTransparency = 1.000
-TextLabel_20.Position = UDim2.new(0.0412844047, 0, 0.593719006, 0)
-TextLabel_20.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_20.Font = Enum.Font.SourceSans
-TextLabel_20.Text = "Added Notifs when"
-TextLabel_20.TextColor3 = Color3.fromRGB(188, 199, 203)
-TextLabel_20.TextSize = 22.000
-
-TextLabel_21.Parent = Page2_2
-TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_21.BackgroundTransparency = 1.000
-TextLabel_21.Position = UDim2.new(0.0412844047, 0, 0.292066127, 0)
-TextLabel_21.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_21.Font = Enum.Font.SourceSans
-TextLabel_21.Text = "Added a button hover"
-TextLabel_21.TextColor3 = Color3.fromRGB(188, 199, 203)
-TextLabel_21.TextSize = 22.000
+Page2.Name = "Page2"
+Page2.Parent = UpdateFrame
+Page2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Page2.BorderSizePixel = 0
+Page2.Position = UDim2.new(-0.0018243352, 0, 0.0381446965, 0)
+Page2.Size = UDim2.new(0, 218, 0, 242)
+Page2.Visible = false
 
 UpdateLabel.Name = "UpdateLabel"
 UpdateLabel.Parent = UpdateFrame
@@ -853,15 +269,15 @@ BaseImage.ScaleType = Enum.ScaleType.Slice
 BaseImage.SliceCenter = Rect.new(100, 100, 100, 100)
 BaseImage.SliceScale = 0.040
 
-TextLabel_22.Parent = ToTheLeft
-TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_22.BackgroundTransparency = 1.000
-TextLabel_22.Position = UDim2.new(-5.4117651, 0, -1, 0)
-TextLabel_22.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_22.Font = Enum.Font.SourceSansBold
-TextLabel_22.Text = "<"
-TextLabel_22.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_22.TextSize = 14.000
+TextLabel_2.Parent = ToTheLeft
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(-5.4117651, 0, -1, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSansBold
+TextLabel_2.Text = "<"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 14.000
 
 ToTheRight.Name = "ToTheRight"
 ToTheRight.Parent = UpdateFrame
@@ -890,650 +306,589 @@ TextButton_Roundify_4px.ScaleType = Enum.ScaleType.Slice
 TextButton_Roundify_4px.SliceCenter = Rect.new(100, 100, 100, 100)
 TextButton_Roundify_4px.SliceScale = 0.040
 
-TextLabel_23.Parent = ToTheRight
-TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_23.BackgroundTransparency = 1.000
-TextLabel_23.Position = UDim2.new(-5.4117651, 0, -1, 0)
-TextLabel_23.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_23.Font = Enum.Font.SourceSansBold
-TextLabel_23.Text = ">"
-TextLabel_23.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_23.TextSize = 14.000
+TextLabel_3.Parent = ToTheRight
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(-5.4117651, 0, -1, 0)
+TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_3.Font = Enum.Font.SourceSansBold
+TextLabel_3.Text = ">"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 14.000
+
+TextLabel_4.Parent = UpdateFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.0412844047, 0, 0.519999981, 0)
+TextLabel_4.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Added chat bypass "
+TextLabel_4.TextColor3 = Color3.fromRGB(188, 199, 203)
+TextLabel_4.TextSize = 22.000
+
+mainFrame.Name = "mainFrame"
+mainFrame.Parent = Hub
+mainFrame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+mainFrame.BorderSizePixel = 0
+mainFrame.Position = UDim2.new(0.1290631, 0, 0.21507065, 0)
+mainFrame.Size = UDim2.new(0, 512, 0, 316)
+
+Abyss.Name = "Abyss"
+Abyss.Parent = mainFrame
+Abyss.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Abyss.BackgroundTransparency = 1.000
+Abyss.BorderSizePixel = 0
+Abyss.Position = UDim2.new(0.037109375, 0, 0.348101258, 0)
+Abyss.Size = UDim2.new(0, 135, 0, 50)
+Abyss.Font = Enum.Font.SourceSans
+Abyss.TextColor3 = Color3.fromRGB(0, 0, 0)
+Abyss.TextSize = 14.000
+
+TextButton_Roundify_12px.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px.Parent = Abyss
+TextButton_Roundify_12px.Active = true
+TextButton_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px.BackgroundTransparency = 1.000
+TextButton_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px.Selectable = true
+TextButton_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px.ImageColor3 = Color3.fromRGB(50, 50, 50)
+TextButton_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px.SliceScale = 0.120
+
+TextLabel_5.Parent = Abyss
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(-0.244444445, 0, 0, 0)
+TextLabel_5.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_5.Font = Enum.Font.SourceSansSemibold
+TextLabel_5.Text = "Abyss Eye"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 35.000
+TextLabel_5.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+adminPage.Name = "adminPage"
+adminPage.Parent = mainFrame
+adminPage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+adminPage.BackgroundTransparency = 1.000
+adminPage.BorderSizePixel = 0
+adminPage.Position = UDim2.new(0.0370098352, 0, 0.0792953074, 0)
+adminPage.Size = UDim2.new(0, 135, 0, 50)
+adminPage.Font = Enum.Font.SourceSans
+adminPage.TextColor3 = Color3.fromRGB(0, 0, 0)
+adminPage.TextSize = 14.000
+
+TextButton_Roundify_12px_2.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_2.Parent = adminPage
+TextButton_Roundify_12px_2.Active = true
+TextButton_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_2.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_2.Selectable = true
+TextButton_Roundify_12px_2.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_2.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_2.ImageColor3 = Color3.fromRGB(255, 118, 39)
+TextButton_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_2.SliceScale = 0.120
+
+TextLabel_6.Parent = adminPage
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(-0.244444445, 0, 0, 0)
+TextLabel_6.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_6.Font = Enum.Font.SourceSansSemibold
+TextLabel_6.Text = "Admin Scripts"
+TextLabel_6.TextColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_6.TextSize = 26.000
+TextLabel_6.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+Zen.Name = "Zen"
+Zen.Parent = mainFrame
+Zen.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Zen.BackgroundTransparency = 1.000
+Zen.BorderSizePixel = 0
+Zen.Position = UDim2.new(0.69921875, 0, 0.348101258, 0)
+Zen.Size = UDim2.new(0, 135, 0, 50)
+Zen.Font = Enum.Font.SourceSans
+Zen.TextColor3 = Color3.fromRGB(0, 0, 0)
+Zen.TextSize = 14.000
+
+TextButton_Roundify_12px_3.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_3.Parent = Zen
+TextButton_Roundify_12px_3.Active = true
+TextButton_Roundify_12px_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_3.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_3.Selectable = true
+TextButton_Roundify_12px_3.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_3.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_3.ImageColor3 = Color3.fromRGB(50, 50, 50)
+TextButton_Roundify_12px_3.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_3.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_3.SliceScale = 0.120
+
+TextLabel_7.Parent = Zen
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(-0.244444445, 0, 0, 0)
+TextLabel_7.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_7.Font = Enum.Font.SourceSansSemibold
+TextLabel_7.Text = "Zen"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 35.000
+TextLabel_7.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+Sniper.Name = "Sniper"
+Sniper.Parent = mainFrame
+Sniper.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Sniper.BackgroundTransparency = 1.000
+Sniper.BorderSizePixel = 0
+Sniper.Position = UDim2.new(0.69921875, 0, 0.604430377, 0)
+Sniper.Size = UDim2.new(0, 135, 0, 50)
+Sniper.Font = Enum.Font.SourceSans
+Sniper.TextColor3 = Color3.fromRGB(0, 0, 0)
+Sniper.TextSize = 14.000
+
+TextButton_Roundify_12px_4.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_4.Parent = Sniper
+TextButton_Roundify_12px_4.Active = true
+TextButton_Roundify_12px_4.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_4.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_4.Selectable = true
+TextButton_Roundify_12px_4.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_4.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_4.ImageColor3 = Color3.fromRGB(50, 50, 50)
+TextButton_Roundify_12px_4.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_4.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_4.SliceScale = 0.120
+
+TextLabel_8.Parent = Sniper
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(-0.244444445, 0, 0, 0)
+TextLabel_8.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_8.Font = Enum.Font.SourceSansSemibold
+TextLabel_8.Text = "Sniper"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 35.000
+TextLabel_8.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+Nep.Name = "Nep"
+Nep.Parent = mainFrame
+Nep.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Nep.BackgroundTransparency = 1.000
+Nep.BorderSizePixel = 0
+Nep.Position = UDim2.new(0.37109375, 0, 0.604430377, 0)
+Nep.Size = UDim2.new(0, 135, 0, 50)
+Nep.Font = Enum.Font.SourceSans
+Nep.TextColor3 = Color3.fromRGB(0, 0, 0)
+Nep.TextSize = 14.000
+
+TextButton_Roundify_12px_5.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_5.Parent = Nep
+TextButton_Roundify_12px_5.Active = true
+TextButton_Roundify_12px_5.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_5.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_5.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_5.Selectable = true
+TextButton_Roundify_12px_5.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_5.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_5.ImageColor3 = Color3.fromRGB(50, 50, 50)
+TextButton_Roundify_12px_5.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_5.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_5.SliceScale = 0.120
+
+TextLabel_9.Parent = Nep
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(-0.244444445, 0, 0, 0)
+TextLabel_9.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_9.Font = Enum.Font.SourceSansSemibold
+TextLabel_9.Text = "Nep V"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 35.000
+TextLabel_9.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+GaleFighter.Name = "GaleFighter"
+GaleFighter.Parent = mainFrame
+GaleFighter.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GaleFighter.BackgroundTransparency = 1.000
+GaleFighter.BorderSizePixel = 0
+GaleFighter.Position = UDim2.new(0.037109375, 0, 0.604430377, 0)
+GaleFighter.Size = UDim2.new(0, 135, 0, 50)
+GaleFighter.Font = Enum.Font.SourceSans
+GaleFighter.TextColor3 = Color3.fromRGB(0, 0, 0)
+GaleFighter.TextSize = 14.000
+
+GFighter.Name = "GFighter"
+GFighter.Parent = GaleFighter
+GFighter.Active = true
+GFighter.AnchorPoint = Vector2.new(0.5, 0.5)
+GFighter.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GFighter.BackgroundTransparency = 1.000
+GFighter.Position = UDim2.new(0.5, 0, 0.5, 0)
+GFighter.Selectable = true
+GFighter.Size = UDim2.new(1, 0, 1, 0)
+GFighter.Image = "rbxassetid://3570695787"
+GFighter.ImageColor3 = Color3.fromRGB(50, 50, 50)
+GFighter.ScaleType = Enum.ScaleType.Slice
+GFighter.SliceCenter = Rect.new(100, 100, 100, 100)
+GFighter.SliceScale = 0.120
+
+TextLabel_10.Parent = GaleFighter
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(-0.244444445, 0, 0, 0)
+TextLabel_10.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_10.Font = Enum.Font.SourceSansSemibold
+TextLabel_10.Text = "Gale Fighter"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 27.000
+TextLabel_10.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+Cop.Name = "Cop"
+Cop.Parent = mainFrame
+Cop.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Cop.BackgroundTransparency = 1.000
+Cop.BorderSizePixel = 0
+Cop.Position = UDim2.new(0.37109375, 0, 0.348101258, 0)
+Cop.Size = UDim2.new(0, 135, 0, 50)
+Cop.Font = Enum.Font.SourceSans
+Cop.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cop.TextSize = 14.000
+
+TextButton_Roundify_12px_6.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_6.Parent = Cop
+TextButton_Roundify_12px_6.Active = true
+TextButton_Roundify_12px_6.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_6.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_6.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_6.Selectable = true
+TextButton_Roundify_12px_6.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_6.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_6.ImageColor3 = Color3.fromRGB(50, 50, 50)
+TextButton_Roundify_12px_6.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_6.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_6.SliceScale = 0.120
+
+TextLabel_11.Parent = Cop
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(-0.244444445, 0, 0, 0)
+TextLabel_11.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_11.Font = Enum.Font.SourceSansSemibold
+TextLabel_11.Text = "Cop"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 35.000
+TextLabel_11.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+Balancer2.Name = "Balancer2"
+Balancer2.Parent = mainFrame
+Balancer2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Balancer2.BackgroundTransparency = 1.000
+Balancer2.Position = UDim2.new(0, 0, 0.965189874, 0)
+Balancer2.Size = UDim2.new(0, 512, 0, 46)
+Balancer2.Image = "rbxassetid://3570695787"
+Balancer2.ImageColor3 = Color3.fromRGB(45, 45, 45)
+Balancer2.ScaleType = Enum.ScaleType.Slice
+Balancer2.SliceCenter = Rect.new(100, 100, 100, 100)
+Balancer2.SliceScale = 0.120
+
+Frame.Parent = Balancer2
+Frame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0, 0, -0.300000012, 0)
+Frame.Size = UDim2.new(0, 512, 0, 22)
+
+Balancer1.Name = "Balancer1"
+Balancer1.Parent = mainFrame
+Balancer1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Balancer1.BackgroundTransparency = 1.000
+Balancer1.Position = UDim2.new(0, 0, -0.110759497, 0)
+Balancer1.Size = UDim2.new(0, 512, 0, 46)
+Balancer1.Image = "rbxassetid://3570695787"
+Balancer1.ImageColor3 = Color3.fromRGB(45, 45, 45)
+Balancer1.ScaleType = Enum.ScaleType.Slice
+Balancer1.SliceCenter = Rect.new(100, 100, 100, 100)
+Balancer1.SliceScale = 0.120
+
+Frame_2.Parent = Balancer1
+Frame_2.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Frame_2.BorderColor3 = Color3.fromRGB(15, 15, 15)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0, 0, 0.804347873, 0)
+Frame_2.Size = UDim2.new(0, 512, 0, 22)
+
+The.Name = "The"
+The.Parent = mainFrame
+The.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+The.BackgroundTransparency = 1.000
+The.Position = UDim2.new(0.21875, 0, 0.0632911325, 0)
+The.Size = UDim2.new(0, 200, 0, 50)
+The.Font = Enum.Font.SourceSans
+The.Text = "The"
+The.TextColor3 = Color3.fromRGB(255, 255, 255)
+The.TextSize = 50.000
+
+TextLabel_12.Parent = mainFrame
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Position = UDim2.new(0.30078125, 0, 0.83227849, 0)
+TextLabel_12.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_12.Font = Enum.Font.SourceSans
+TextLabel_12.Text = "TemporaryNameScript#8378"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 156, 35)
+TextLabel_12.TextSize = 28.000
+
+TextLabel_13.Parent = mainFrame
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.Position = UDim2.new(0.30078125, 0, 0.965189874, 0)
+TextLabel_13.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_13.Font = Enum.Font.SourceSans
+TextLabel_13.Text = "Made By PanzerKampfMeinFuhr1"
+TextLabel_13.TextColor3 = Color3.fromRGB(232, 232, 232)
+TextLabel_13.TextSize = 28.000
+
+TextLabel_14.Parent = mainFrame
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.Position = UDim2.new(0.307000011, 0, -0.133000001, 0)
+TextLabel_14.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_14.Font = Enum.Font.SourceSans
+TextLabel_14.Text = "The Hub V2.01"
+TextLabel_14.TextColor3 = Color3.fromRGB(232, 232, 232)
+TextLabel_14.TextSize = 32.000
+
+HubHighlight.Name = "HubHighlight"
+HubHighlight.Parent = mainFrame
+HubHighlight.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HubHighlight.BackgroundTransparency = 1.000
+HubHighlight.Position = UDim2.new(0.500781238, 0, 0.0569620281, 0)
+HubHighlight.Size = UDim2.new(0, 82, 0, 58)
+HubHighlight.Image = "rbxassetid://3570695787"
+HubHighlight.ImageColor3 = Color3.fromRGB(255, 118, 39)
+HubHighlight.ScaleType = Enum.ScaleType.Slice
+HubHighlight.SliceCenter = Rect.new(100, 100, 100, 100)
+HubHighlight.SliceScale = 0.120
+
+Hub_2.Name = "Hub"
+Hub_2.Parent = HubHighlight
+Hub_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Hub_2.BackgroundTransparency = 1.000
+Hub_2.Position = UDim2.new(-0.723625839, 0, 0.0499845967, 0)
+Hub_2.Size = UDim2.new(0, 200, 0, 50)
+Hub_2.Font = Enum.Font.SourceSans
+Hub_2.Text = "Hub"
+Hub_2.TextColor3 = Color3.fromRGB(25, 25, 25)
+Hub_2.TextSize = 50.000
+
+Page2_2.Name = "Page2"
+Page2_2.Parent = mainFrame
+Page2_2.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Page2_2.BorderSizePixel = 0
+Page2_2.Position = UDim2.new(0.00211000443, 0, 0.00620994065, 0)
+Page2_2.Size = UDim2.new(0, 510, 0, 314)
+Page2_2.Visible = false
+
+backToMain.Name = "backToMain"
+backToMain.Parent = Page2_2
+backToMain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+backToMain.BackgroundTransparency = 1.000
+backToMain.BorderSizePixel = 0
+backToMain.Position = UDim2.new(0.0331878029, 0, 0.0614770502, 0)
+backToMain.Size = UDim2.new(0, 135, 0, 50)
+backToMain.Font = Enum.Font.SourceSans
+backToMain.TextColor3 = Color3.fromRGB(0, 0, 0)
+backToMain.TextSize = 14.000
+
+TextButton_Roundify_12px_7.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_7.Parent = backToMain
+TextButton_Roundify_12px_7.Active = true
+TextButton_Roundify_12px_7.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_7.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_7.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_7.Selectable = true
+TextButton_Roundify_12px_7.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_7.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_7.ImageColor3 = Color3.fromRGB(255, 118, 39)
+TextButton_Roundify_12px_7.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_7.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_7.SliceScale = 0.120
+
+TextLabel_15.Parent = backToMain
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.Position = UDim2.new(-0.244444445, 0, 0, 0)
+TextLabel_15.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_15.Font = Enum.Font.SourceSansSemibold
+TextLabel_15.Text = "Back"
+TextLabel_15.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_15.TextSize = 35.000
+TextLabel_15.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+Cmd.Name = "Cmd"
+Cmd.Parent = Page2_2
+Cmd.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Cmd.BackgroundTransparency = 1.000
+Cmd.BorderSizePixel = 0
+Cmd.Position = UDim2.new(0.0658854246, 0, 0.378315717, 0)
+Cmd.Size = UDim2.new(0, 135, 0, 50)
+Cmd.Font = Enum.Font.SourceSans
+Cmd.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cmd.TextSize = 14.000
+
+TextButton_Roundify_12px_8.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_8.Parent = Cmd
+TextButton_Roundify_12px_8.Active = true
+TextButton_Roundify_12px_8.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_8.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_8.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_8.Selectable = true
+TextButton_Roundify_12px_8.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_8.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_8.ImageColor3 = Color3.fromRGB(50, 50, 50)
+TextButton_Roundify_12px_8.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_8.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_8.SliceScale = 0.120
+
+TextLabel_16.Parent = Cmd
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.Position = UDim2.new(-0.244444445, 0, 0, 0)
+TextLabel_16.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_16.Font = Enum.Font.SourceSansSemibold
+TextLabel_16.Text = "CMD-X"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextSize = 35.000
+TextLabel_16.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+Shater.Name = "Shater"
+Shater.Parent = Page2_2
+Shater.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Shater.BackgroundTransparency = 1.000
+Shater.BorderSizePixel = 0
+Shater.Position = UDim2.new(0.369132966, 0, 0.375131011, 0)
+Shater.Size = UDim2.new(0, 135, 0, 50)
+Shater.Font = Enum.Font.SourceSans
+Shater.TextColor3 = Color3.fromRGB(0, 0, 0)
+Shater.TextSize = 14.000
+
+TextButton_Roundify_12px_9.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_9.Parent = Shater
+TextButton_Roundify_12px_9.Active = true
+TextButton_Roundify_12px_9.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_9.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_9.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_9.Selectable = true
+TextButton_Roundify_12px_9.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_9.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_9.ImageColor3 = Color3.fromRGB(50, 50, 50)
+TextButton_Roundify_12px_9.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_9.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_9.SliceScale = 0.120
+
+TextLabel_17.Parent = Shater
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.Position = UDim2.new(-0.244444445, 0, -0.0199999996, 0)
+TextLabel_17.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_17.Font = Enum.Font.SourceSansSemibold
+TextLabel_17.Text = "Shattervast"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextSize = 32.000
+TextLabel_17.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+Inf.Name = "Inf"
+Inf.Parent = Page2_2
+Inf.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Inf.BackgroundTransparency = 1.000
+Inf.BorderSizePixel = 0
+Inf.Position = UDim2.new(0.673728585, 0, 0.376763672, 0)
+Inf.Size = UDim2.new(0, 135, 0, 50)
+Inf.Font = Enum.Font.SourceSans
+Inf.TextColor3 = Color3.fromRGB(0, 0, 0)
+Inf.TextSize = 14.000
+
+TextButton_Roundify_12px_10.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_10.Parent = Inf
+TextButton_Roundify_12px_10.Active = true
+TextButton_Roundify_12px_10.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_10.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_10.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_10.Selectable = true
+TextButton_Roundify_12px_10.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_10.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_10.ImageColor3 = Color3.fromRGB(50, 50, 50)
+TextButton_Roundify_12px_10.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_10.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_10.SliceScale = 0.120
+
+TextLabel_18.Parent = Inf
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.Position = UDim2.new(-0.244444445, 0, 0, 0)
+TextLabel_18.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_18.Font = Enum.Font.SourceSansSemibold
+TextLabel_18.Text = "Inf Yield"
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextSize = 35.000
+TextLabel_18.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+chatbypass.Name = "chatbypass"
+chatbypass.Parent = Page2_2
+chatbypass.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+chatbypass.BackgroundTransparency = 1.000
+chatbypass.BorderSizePixel = 0
+chatbypass.Position = UDim2.new(0.369807005, 0, 0.679311454, 0)
+chatbypass.Size = UDim2.new(0, 135, 0, 50)
+chatbypass.Font = Enum.Font.SourceSans
+chatbypass.TextColor3 = Color3.fromRGB(0, 0, 0)
+chatbypass.TextSize = 14.000
+
+TextButton_Roundify_12px_11.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_11.Parent = chatbypass
+TextButton_Roundify_12px_11.Active = true
+TextButton_Roundify_12px_11.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_11.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_11.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_11.Selectable = true
+TextButton_Roundify_12px_11.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_11.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_11.ImageColor3 = Color3.fromRGB(50, 50, 50)
+TextButton_Roundify_12px_11.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_11.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_11.SliceScale = 0.120
+
+TextLabel_19.Parent = chatbypass
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.Position = UDim2.new(-0.244444445, 0, 0, 0)
+TextLabel_19.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_19.Font = Enum.Font.SourceSansSemibold
+TextLabel_19.Text = "Chat Bypass"
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextSize = 28.000
+TextLabel_19.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 
 -- Scripts:
 
-local function PJOYUO_fake_script() -- mainFrame.drag 
-	local script = Instance.new('LocalScript', mainFrame)
-
-	local UIS  = game:GetService("UserInputService")
-	
-	local mainFrame = script.Parent
-	
-	local dragging
-	local startPos
-	local dragStart
-	local dragInput
-	
-	local function mainFramePos(input)
-		local delta = input.Position - dragStart
-		mainFrame.Position = mainFrame:TweenPosition(UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y), 'Out', 'Linear', 0, true);
-	end
-	
-	
-	mainFrame.InputBegan:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseButton1 then
-			dragging = true
-			startPos = mainFrame.Position
-			dragStart = input.Position
-			
-			input.Changed:Connect(function()
-				if input.UserInputState == Enum.UserInputState.End then
-					dragging = false
-				end
-			end)
-		end
-	end)
-	
-	mainFrame.InputChanged:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseMovement then
-			dragInput = input
-		end
-	end)
-	
-	UIS.InputChanged:Connect(function(input)
-		if input == dragInput and dragging then
-			mainFramePos(input)
-		end
-	end)
-end
-coroutine.wrap(PJOYUO_fake_script)()
-local function TOGJKK_fake_script() -- TextButton_Roundify_12px.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_Roundify_12px)
-
-	local btn = script.Parent
-	local btnParent = script.Parent.Parent
-	local isMouseHovering = false
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
-	
-	local darkTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(45, 48, 49)});
-	local defaultTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(112, 119, 121)});
-	local brightTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(159, 169, 172)})
-	
-	btn.MouseEnter:Connect(function()
-		isMouseHovering = true
-		brightTween:Play()
-	end)
-	
-	btn.MouseLeave:Connect(function()
-		isMouseHovering = false
-		defaultTween:Play()
-	end)
-	
-	btnParent.MouseButton1Down:Connect(function()
-		darkTween:Play()
-		loadstring(game:HttpGet("https://paste.ee/r/tUPmo/0"))()
-	end)
-	
-	btnParent.MouseButton1Up:Connect(function()
-		if isMouseHovering == false then
-			defaultTween:Play()
-		else
-			brightTween:Play()
-		end
-	end)
-end
-coroutine.wrap(TOGJKK_fake_script)()
-local function MIOMEOH_fake_script() -- Abyss.LocalScript 
-	local script = Instance.new('LocalScript', Abyss)
-
-	script.Parent.MouseButton1Down:Connect(function()
-		game.StarterGui:SetCore("SendNotification", {
-			Title = "Abyss Eye Executed!";
-			Text = "U executed abyss eye my guy";
-			Duration = 5;
-		})
-	end)
-end
-coroutine.wrap(MIOMEOH_fake_script)()
-local function LAEXUU_fake_script() -- TextButton_Roundify_12px_2.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_Roundify_12px_2)
-
-	local btn = script.Parent
-	local btnParent = script.Parent.Parent
-	local isMouseHovering = false
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
-	
-	local darkTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(45, 48, 49)});
-	local defaultTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(112, 119, 121)});
-	local brightTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(159, 169, 172)})
-	
-	btn.MouseEnter:Connect(function()
-		isMouseHovering = true
-		brightTween:Play()
-	end)
-	
-	btn.MouseLeave:Connect(function()
-		isMouseHovering = false
-		defaultTween:Play()
-	end)
-	
-	btnParent.MouseButton1Down:Connect(function()
-		darkTween:Play()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/PanzerKampfMeinFuhr1/fecop/main/fecopraw'),true))() 
-	end)
-	
-	btnParent.MouseButton1Up:Connect(function()
-		if isMouseHovering == false then
-			defaultTween:Play()
-		else
-			brightTween:Play()
-		end
-	end)
-end
-coroutine.wrap(LAEXUU_fake_script)()
-local function IHDLND_fake_script() -- Cop.LocalScript 
-	local script = Instance.new('LocalScript', Cop)
-
-	local btn = script.Parent
-	
-	btn.MouseButton1Down:Connect(function()
-		game.StarterGui:SetCore("SendNotification", {
-			Title = "Fe Cop Executed!";
-			Text = "U Executed Fe Cop my guy";
-			duration = 5;
-		})
-	end)
-end
-coroutine.wrap(IHDLND_fake_script)()
-local function LYJIQ_fake_script() -- TextButton_Roundify_12px_3.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_Roundify_12px_3)
-
-	local btn = script.Parent
-	local btnParent = script.Parent.Parent
-	local isMouseHovering = false
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
-	
-	local darkTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(45, 48, 49)});
-	local defaultTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(112, 119, 121)});
-	local brightTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(159, 169, 172)})
-	
-	btn.MouseEnter:Connect(function()
-		isMouseHovering = true
-		brightTween:Play()
-	end)
-	
-	btn.MouseLeave:Connect(function()
-		isMouseHovering = false
-		defaultTween:Play()
-	end)
-	
-	btnParent.MouseButton1Down:Connect(function()
-		darkTween:Play()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/o5u3/Zen/main/ZenFlingFE.txt'),true))()
-	end)
-	
-	btnParent.MouseButton1Up:Connect(function()
-		if isMouseHovering == false then
-			defaultTween:Play()
-		else
-			brightTween:Play()
-		end
-	end)
-end
-coroutine.wrap(LYJIQ_fake_script)()
-local function VZGEIPG_fake_script() -- Zen.LocalScript 
-	local script = Instance.new('LocalScript', Zen)
-
-	local btn = script.Parent
-	
-	btn.MouseButton1Down:Connect(function()
-		game.StarterGui:SetCore("SendNotification", {
-			Title = "Zen Executed!";
-			Text = "U Executed Zen my guy";
-			duration = 5;
-		})
-	end)
-end
-coroutine.wrap(VZGEIPG_fake_script)()
-local function QIYGM_fake_script() -- GFighter.LocalScript 
-	local script = Instance.new('LocalScript', GFighter)
-
-	local btn = script.Parent
-	local btnParent = script.Parent.Parent
-	local isMouseHovering = false
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
-	
-	local darkTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(45, 48, 49)});
-	local defaultTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(112, 119, 121)});
-	local brightTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(159, 169, 172)})
-	
-	btn.MouseEnter:Connect(function()
-		isMouseHovering = true
-		brightTween:Play()
-	end)
-	
-	btn.MouseLeave:Connect(function()
-		isMouseHovering = false
-		defaultTween:Play()
-	end)
-	
-	btnParent.MouseButton1Down:Connect(function()
-		darkTween:Play()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/PanzerKampfMeinFuhr1/FeGaleFighter/main/FeGaleFighterRaw'),true))()
-	end)
-	
-	btnParent.MouseButton1Up:Connect(function()
-		if isMouseHovering == false then
-			defaultTween:Play()
-		else
-			brightTween:Play()
-		end
-	end)
-end
-coroutine.wrap(QIYGM_fake_script)()
-local function VLSGC_fake_script() -- GaleFighter.LocalScript 
-	local script = Instance.new('LocalScript', GaleFighter)
-
-	local btn = script.Parent
-	
-	btn.MouseButton1Down:Connect(function()
-		game.StarterGui:SetCore("SendNotification", {
-			Title = "Gale Fighter Executed!";
-			Text = "U Executed Gale Fighter my guy";
-			duration = 5;
-		})
-	end)
-end
-coroutine.wrap(VLSGC_fake_script)()
-local function IJSFC_fake_script() -- TextButton_Roundify_12px_4.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_Roundify_12px_4)
-
-	local btn = script.Parent
-	local btnParent = script.Parent.Parent
-	local isMouseHovering = false
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
-	
-	local darkTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(45, 48, 49)});
-	local defaultTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(112, 119, 121)});
-	local brightTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(159, 169, 172)})
-	
-	btn.MouseEnter:Connect(function()
-		isMouseHovering = true
-		brightTween:Play()
-	end)
-	
-	btn.MouseLeave:Connect(function()
-		isMouseHovering = false
-		defaultTween:Play()
-	end)
-	
-	btnParent.MouseButton1Down:Connect(function()
-		darkTween:Play()
-		loadstring(game:HttpGet(('https://pastebin.com/raw/CPwjPg7N'),true))()
-	end)
-	
-	btnParent.MouseButton1Up:Connect(function()
-		if isMouseHovering == false then
-			defaultTween:Play()
-		else
-			brightTween:Play()
-		end
-	end)
-end
-coroutine.wrap(IJSFC_fake_script)()
-local function LTKN_fake_script() -- Sniper.LocalScript 
-	local script = Instance.new('LocalScript', Sniper)
-
-	local btn = script.Parent
-	
-	btn.MouseButton1Down:Connect(function()
-		game.StarterGui:SetCore("SendNotification", {
-			Title = "Sniper executed!";
-			Text = "U executed sniper my guy";
-			Duration = 5;
-		})
-	end)
-	
-	
-end
-coroutine.wrap(LTKN_fake_script)()
-local function OVWK_fake_script() -- TextButton_Roundify_12px_5.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_Roundify_12px_5)
-
-	local btn = script.Parent
-	local btnParent = script.Parent.Parent
-	local isMouseHovering = false
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
-	
-	local darkTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(45, 48, 49)});
-	local defaultTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(112, 119, 121)});
-	local brightTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(159, 169, 172)})
-	
-	btn.MouseEnter:Connect(function()
-		isMouseHovering = true
-		brightTween:Play()
-	end)
-	
-	btn.MouseLeave:Connect(function()
-		isMouseHovering = false
-		defaultTween:Play()
-	end)
-	
-	btnParent.MouseButton1Down:Connect(function()
-		darkTween:Play()
-		loadstring(game:HttpGetAsync("https://pastebin.com/raw/t0Mkc33N"))()
-	end)
-	
-	btnParent.MouseButton1Up:Connect(function()
-		if isMouseHovering == false then
-			defaultTween:Play()
-		else
-			brightTween:Play()
-		end
-	end)
-end
-coroutine.wrap(OVWK_fake_script)()
-local function VPZHJJP_fake_script() -- Nep.LocalScript 
-	local script = Instance.new('LocalScript', Nep)
-
-	local btn = script.Parent
-	
-	btn.MouseButton1Down:Connect(function()
-		game.StarterGui:SetCore("SendNotification", {
-			Title = "Nep V executed!";
-			Text = "U executed Nep V my guy";
-			Duration = 5;
-		})
-	end)
-	
-	
-end
-coroutine.wrap(VPZHJJP_fake_script)()
-local function GOCMVC_fake_script() -- mainFrame.RightShift 
-	local script = Instance.new('LocalScript', mainFrame)
-
-	local UIS = game:GetService("UserInputService")
-	
-	local mainFrame = script.Parent
-	
-	
-	UIS.InputBegan:Connect(function(input, gameProcessedEvent)
-		if gameProcessedEvent then return end
-		if input.UserInputType == Enum.UserInputType.Keyboard then
-			if input.KeyCode == Enum.KeyCode.RightShift then
-				if mainFrame.Visible == true then
-					mainFrame.Visible = false 
-				else
-					mainFrame.Visible = true
-				end
-			end
-		end
-	end)
-	
-	
-	
-	
-		
-		
-end
-coroutine.wrap(GOCMVC_fake_script)()
-local function FSQF_fake_script() -- TextButton_Roundify_12px_6.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_Roundify_12px_6)
-
-	local btn = script.Parent
-	local btnParent = script.Parent.Parent
-	local isMouseHovering = false
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
-	
-	local darkTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(45, 48, 49)});
-	local defaultTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(112, 119, 121)});
-	local brightTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(159, 169, 172)})
-	
-	btn.MouseEnter:Connect(function()
-		isMouseHovering = true
-		brightTween:Play()
-	end)
-	
-	btn.MouseLeave:Connect(function()
-		isMouseHovering = false
-		defaultTween:Play()
-	end)
-	
-	btnParent.MouseButton1Down:Connect(function()
-		darkTween:Play()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-	end)
-	
-	btnParent.MouseButton1Up:Connect(function()
-		if isMouseHovering == false then
-			defaultTween:Play()
-		else
-			brightTween:Play()
-		end
-	end)
-end
-coroutine.wrap(FSQF_fake_script)()
-local function DLQMXRB_fake_script() -- Inf.LocalScript 
-	local script = Instance.new('LocalScript', Inf)
-
-	local btn = script.Parent
-	
-	btn.MouseButton1Down:Connect(function()
-		game.StarterGui:SetCore("SendNotification", {
-			Title = "Inf Yield Executed!";
-			Text = "U Executed Inf Yield my guy";
-			duration = 5;
-		})
-	end)
-end
-coroutine.wrap(DLQMXRB_fake_script)()
-local function XTVJ_fake_script() -- TextButton_Roundify_12px_7.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_Roundify_12px_7)
-
-	local btn = script.Parent
-	local btnParent = script.Parent.Parent
-	local isMouseHovering = false
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
-	
-	local darkTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(45, 48, 49)});
-	local defaultTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(112, 119, 121)});
-	local brightTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(159, 169, 172)})
-	
-	btn.MouseEnter:Connect(function()
-		isMouseHovering = true
-		brightTween:Play()
-	end)
-	
-	btn.MouseLeave:Connect(function()
-		isMouseHovering = false
-		defaultTween:Play()
-	end)
-	
-	btnParent.MouseButton1Down:Connect(function()
-		darkTween:Play()
-		loadstring(game:HttpGet(('https://pastebin.com/raw/MjmdAaq2'),true))()
-	end)
-	
-	btnParent.MouseButton1Up:Connect(function()
-		if isMouseHovering == false then
-			defaultTween:Play()
-		else
-			brightTween:Play()
-		end
-	end)
-end
-coroutine.wrap(XTVJ_fake_script)()
-local function ZXPXN_fake_script() -- Shater.LocalScript 
-	local script = Instance.new('LocalScript', Shater)
-
-	local btn = script.Parent
-	
-	btn.MouseButton1Down:Connect(function()
-		game.StarterGui:SetCore("SendNotification", {
-			Title = "Shattervast executed!";
-			Text = "U executed Shattervast my guy";
-			Duration = 5;
-		})
-	end)
-	
-	
-end
-coroutine.wrap(ZXPXN_fake_script)()
-local function FRLRQU_fake_script() -- TextButton_Roundify_12px_8.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_Roundify_12px_8)
-
-	local btn = script.Parent
-	local btnParent = script.Parent.Parent
-	local isMouseHovering = false
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
-	
-	local darkTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(45, 48, 49)});
-	local defaultTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(112, 119, 121)});
-	local brightTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(159, 169, 172)})
-	
-	btn.MouseEnter:Connect(function()
-		isMouseHovering = true
-		brightTween:Play()
-	end)
-	
-	btn.MouseLeave:Connect(function()
-		isMouseHovering = false
-		defaultTween:Play()
-	end)
-	
-	btnParent.MouseButton1Down:Connect(function()
-		darkTween:Play()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
-	end)
-	
-	btnParent.MouseButton1Up:Connect(function()
-		if isMouseHovering == false then
-			defaultTween:Play()
-		else
-			brightTween:Play()
-		end
-	end)
-end
-coroutine.wrap(FRLRQU_fake_script)()
-local function MJVXV_fake_script() -- Cmd.LocalScript 
-	local script = Instance.new('LocalScript', Cmd)
-
-	local btn = script.Parent
-	
-	btn.MouseButton1Down:Connect(function()
-		game.StarterGui:SetCore("SendNotification", {
-			Title = "CMDX executed!";
-			Text = "U executed CMDX my guy";
-			Duration = 5;
-		})
-	end)
-	
-	
-end
-coroutine.wrap(MJVXV_fake_script)()
-local function YUXOK_fake_script() -- TextButton_Roundify_12px_9.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_Roundify_12px_9)
-
-	local btn = script.Parent
-	local parentBtn  = script.Parent.Parent
-	local isMouseHovering = false
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
-	local page2 = script.Parent.Parent.Parent
-	local backToPageInOtherPage = script.Parent.Parent.Parent.Parent.adminPage
-	
-	local darkTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(148, 66, 22)})
-	local defaultTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(255, 118, 39)})
-	local brightTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(222, 255, 53)})
-	
-	parentBtn.MouseEnter:Connect(function()
-		isMouseHovering = true
-		brightTween:Play()
-	end)
-	
-	parentBtn.MouseLeave:Connect(function()
-		isMouseHovering = false
-		defaultTween:Play()
-	end)
-	
-	parentBtn.MouseButton1Down:Connect(function()
-		darkTween:Play()
-	end)
-	
-	parentBtn.MouseButton1Up:Connect(function()
-		if isMouseHovering == true then
-			brightTween:Play()
-		else
-			defaultTween:Play()
-		end
-	end)
-	
-	parentBtn.MouseButton1Down:Connect(function()
-		backToPageInOtherPage.Visible = true
-		page2.Visible = false
-	end)
-	
-end
-coroutine.wrap(YUXOK_fake_script)()
-local function SXUKFGM_fake_script() -- mainFrame.LocalScript 
-	local script = Instance.new('LocalScript', mainFrame)
-
-	print("Hello world!")
-	
-end
-coroutine.wrap(SXUKFGM_fake_script)()
-local function TUPAVB_fake_script() -- TextButton_Roundify_12px_10.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_Roundify_12px_10)
-
-	local btn = script.Parent
-	local parentBtn  = script.Parent.Parent
-	local isMouseHovering = false
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
-	local page2 = script.Parent.Parent.Parent.Page2
-	
-	local darkTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(148, 66, 22)})
-	local defaultTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(255, 118, 39)})
-	local brightTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(222, 255, 53)})
-	
-	parentBtn.MouseEnter:Connect(function()
-		isMouseHovering = true
-		brightTween:Play()
-	end)
-	
-	parentBtn.MouseLeave:Connect(function()
-		isMouseHovering = false
-		defaultTween:Play()
-	end)
-	
-	parentBtn.MouseButton1Down:Connect(function()
-		darkTween:Play()
-	end)
-	
-	parentBtn.MouseButton1Up:Connect(function()
-		if isMouseHovering == true then
-			brightTween:Play()
-		else
-			defaultTween:Play()
-		end
-	end)
-	
-	parentBtn.MouseButton1Down:Connect(function()
-		parentBtn.Visible = false
-		page2.Visible = true
-	end)
-end
-coroutine.wrap(TUPAVB_fake_script)()
-local function KGQRHMZ_fake_script() -- UpdateFrame.UpdateFrameDrag 
+local function GDBQU_fake_script() -- UpdateFrame.UpdateFrameDrag 
 	local script = Instance.new('LocalScript', UpdateFrame)
 
 	local UIS = game:GetService("UserInputService")
@@ -1578,8 +933,8 @@ local function KGQRHMZ_fake_script() -- UpdateFrame.UpdateFrameDrag
 	
 	
 end
-coroutine.wrap(KGQRHMZ_fake_script)()
-local function EEEKSS_fake_script() -- PowerBtn.PageDestroy 
+coroutine.wrap(GDBQU_fake_script)()
+local function DYOVVE_fake_script() -- PowerBtn.PageDestroy 
 	local script = Instance.new('LocalScript', PowerBtn)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1619,8 +974,8 @@ local function EEEKSS_fake_script() -- PowerBtn.PageDestroy
 	
 	
 end
-coroutine.wrap(EEEKSS_fake_script)()
-local function GAEY_fake_script() -- PowerBtn.LocalScript 
+coroutine.wrap(DYOVVE_fake_script)()
+local function URBIX_fake_script() -- PowerBtn.LocalScript 
 	local script = Instance.new('LocalScript', PowerBtn)
 
 	local powerBtn = script.Parent
@@ -1641,25 +996,8 @@ local function GAEY_fake_script() -- PowerBtn.LocalScript
 		defaultTween:Play()
 	end)
 end
-coroutine.wrap(GAEY_fake_script)()
-local function GFIGIGG_fake_script() -- TextLabel_20.LocalScript 
-	local script = Instance.new('LocalScript', TextLabel_20)
-
-	script.Parent.Text = [[Added Notifs when 
-	you click on a 
-	button or execute]]
-end
-coroutine.wrap(GFIGIGG_fake_script)()
-local function ZRXRROP_fake_script() -- TextLabel_21.LocalScript 
-	local script = Instance.new('LocalScript', TextLabel_21)
-
-	local text = script.Parent
-	
-	text.Text = [[Added a button hover
-	effect and when clicking]]
-end
-coroutine.wrap(ZRXRROP_fake_script)()
-local function XZFJPQ_fake_script() -- TimeLabel.TimeLabelScript 
+coroutine.wrap(URBIX_fake_script)()
+local function YHITH_fake_script() -- TimeLabel.TimeLabelScript 
 	local script = Instance.new('LocalScript', TimeLabel)
 
 	local TimeLabel = script.Parent
@@ -1670,8 +1008,8 @@ local function XZFJPQ_fake_script() -- TimeLabel.TimeLabelScript
 		TimeLabel.Text = os.date()
 	end
 end
-coroutine.wrap(XZFJPQ_fake_script)()
-local function LHWJOUH_fake_script() -- BaseImage.toTheLeftHighliter 
+coroutine.wrap(YHITH_fake_script)()
+local function MUGE_fake_script() -- BaseImage.toTheLeftHighliter 
 	local script = Instance.new('LocalScript', BaseImage)
 
 	local btn = script.Parent
@@ -1707,8 +1045,8 @@ local function LHWJOUH_fake_script() -- BaseImage.toTheLeftHighliter
 		end
 	end)
 end
-coroutine.wrap(LHWJOUH_fake_script)()
-local function WMMF_fake_script() -- TextButton_Roundify_4px.highLightScrit 
+coroutine.wrap(MUGE_fake_script)()
+local function OIFPMV_fake_script() -- TextButton_Roundify_4px.highLightScrit 
 	local script = Instance.new('LocalScript', TextButton_Roundify_4px)
 
 	local btn = script.Parent
@@ -1745,8 +1083,8 @@ local function WMMF_fake_script() -- TextButton_Roundify_4px.highLightScrit
 		end
 	end)
 end
-coroutine.wrap(WMMF_fake_script)()
-local function YNASDP_fake_script() -- TextButton_Roundify_4px.LocalScript 
+coroutine.wrap(OIFPMV_fake_script)()
+local function ULMIO_fake_script() -- TextButton_Roundify_4px.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_Roundify_4px)
 
 	local btn = script.Parent
@@ -1778,4 +1116,689 @@ local function YNASDP_fake_script() -- TextButton_Roundify_4px.LocalScript
 	
 	
 end
-coroutine.wrap(YNASDP_fake_script)()
+coroutine.wrap(ULMIO_fake_script)()
+local function RUFQ_fake_script() -- TextLabel_4.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_4)
+
+	local text1 = script.Parent
+	
+	text1.Text = [[Added back chat
+	bypass script 
+	(in admin scripts)]]
+end
+coroutine.wrap(RUFQ_fake_script)()
+local function DRWR_fake_script() -- mainFrame.RightShift 
+	local script = Instance.new('LocalScript', mainFrame)
+
+	local UIS = game:GetService("UserInputService")
+	
+	local mainFrame = script.Parent
+	
+	
+	UIS.InputBegan:Connect(function(input, gameProcessedEvent)
+		if gameProcessedEvent then return end
+		if input.UserInputType == Enum.UserInputType.Keyboard then
+			if input.KeyCode == Enum.KeyCode.RightShift then
+				if mainFrame.Visible == true then
+					mainFrame.Visible = false 
+				else
+					mainFrame.Visible = true
+				end
+			end
+		end
+	end)
+	
+	
+	
+	
+		
+		
+end
+coroutine.wrap(DRWR_fake_script)()
+local function LDKGBI_fake_script() -- mainFrame.drag 
+	local script = Instance.new('LocalScript', mainFrame)
+
+	local UIS  = game:GetService("UserInputService")
+	
+	local mainFrame = script.Parent
+	
+	local dragging
+	local startPos
+	local dragStart
+	local dragInput
+	
+	local function mainFramePos(input)
+		local delta = input.Position - dragStart
+		mainFrame.Position = mainFrame:TweenPosition(UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y), 'Out', 'Linear', 0, true);
+	end
+	
+	
+	mainFrame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			dragging = true
+			startPos = mainFrame.Position
+			dragStart = input.Position
+			
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	mainFrame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement then
+			dragInput = input
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			mainFramePos(input)
+		end
+	end)
+end
+coroutine.wrap(LDKGBI_fake_script)()
+local function GRUIS_fake_script() -- Abyss.LocalScript 
+	local script = Instance.new('LocalScript', Abyss)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Abyss Eye Executed!";
+			Text = "U executed abyss eye my guy";
+			Duration = 5;
+		})
+	end)
+end
+coroutine.wrap(GRUIS_fake_script)()
+local function IGQQCLO_fake_script() -- TextButton_Roundify_12px.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_Roundify_12px)
+
+	local btn = script.Parent
+	local btnParent = script.Parent.Parent
+	local isMouseHovering = false
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
+	
+	local darkTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(37, 40, 43)});
+	local defaultTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(50, 50, 50)});
+	local brightTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(71, 75, 77)})
+	
+	btn.MouseEnter:Connect(function()
+		isMouseHovering = true
+		brightTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		isMouseHovering = false
+		defaultTween:Play()
+	end)
+	
+	btnParent.MouseButton1Down:Connect(function()
+		darkTween:Play()
+		loadstring(game:HttpGet("https://paste.ee/r/tUPmo/0"))()
+	end)
+	
+	btnParent.MouseButton1Up:Connect(function()
+		if isMouseHovering == false then
+			defaultTween:Play()
+		else
+			brightTween:Play()
+		end
+	end)
+end
+coroutine.wrap(IGQQCLO_fake_script)()
+local function OZYSR_fake_script() -- TextButton_Roundify_12px_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_Roundify_12px_2)
+
+	local btn = script.Parent
+	local parentBtn  = script.Parent.Parent
+	local isMouseHovering = false
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
+	local page2 = script.Parent.Parent.Parent.Page2
+	
+	local darkTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(148, 66, 22)})
+	local defaultTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(255, 118, 39)})
+	local brightTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(222, 255, 53)})
+	
+	parentBtn.MouseEnter:Connect(function()
+		isMouseHovering = true
+		brightTween:Play()
+	end)
+	
+	parentBtn.MouseLeave:Connect(function()
+		isMouseHovering = false
+		defaultTween:Play()
+	end)
+	
+	parentBtn.MouseButton1Down:Connect(function()
+		darkTween:Play()
+	end)
+	
+	parentBtn.MouseButton1Up:Connect(function()
+		if isMouseHovering == true then
+			brightTween:Play()
+		else
+			defaultTween:Play()
+		end
+	end)
+	
+	parentBtn.MouseButton1Down:Connect(function()
+		parentBtn.Visible = false
+		page2.Visible = true
+	end)
+end
+coroutine.wrap(OZYSR_fake_script)()
+local function OQTY_fake_script() -- Zen.LocalScript 
+	local script = Instance.new('LocalScript', Zen)
+
+	local btn = script.Parent
+	
+	btn.MouseButton1Down:Connect(function()
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Zen Executed!";
+			Text = "U Executed Zen my guy";
+			duration = 5;
+		})
+	end)
+end
+coroutine.wrap(OQTY_fake_script)()
+local function QLKHDJQ_fake_script() -- TextButton_Roundify_12px_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_Roundify_12px_3)
+
+	local btn = script.Parent
+	local btnParent = script.Parent.Parent
+	local isMouseHovering = false
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
+	
+	local darkTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(37, 40, 43)});
+	local defaultTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(50, 50, 50)});
+	local brightTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(71, 75, 77)})
+	
+	btn.MouseEnter:Connect(function()
+		isMouseHovering = true
+		brightTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		isMouseHovering = false
+		defaultTween:Play()
+	end)
+	
+	btnParent.MouseButton1Down:Connect(function()
+		darkTween:Play()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/o5u3/Zen/main/ZenFlingFE.txt'),true))()
+	end)
+	
+	btnParent.MouseButton1Up:Connect(function()
+		if isMouseHovering == false then
+			defaultTween:Play()
+		else
+			brightTween:Play()
+		end
+	end)
+end
+coroutine.wrap(QLKHDJQ_fake_script)()
+local function IMRVV_fake_script() -- Sniper.LocalScript 
+	local script = Instance.new('LocalScript', Sniper)
+
+	local btn = script.Parent
+	
+	btn.MouseButton1Down:Connect(function()
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Sniper executed!";
+			Text = "U executed sniper my guy";
+			Duration = 5;
+		})
+	end)
+	
+	
+end
+coroutine.wrap(IMRVV_fake_script)()
+local function AEPITT_fake_script() -- TextButton_Roundify_12px_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_Roundify_12px_4)
+
+	local btn = script.Parent
+	local btnParent = script.Parent.Parent
+	local isMouseHovering = false
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
+	
+	local darkTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(37, 40, 43)});
+	local defaultTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(50, 50, 50)});
+	local brightTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(71, 75, 77)})
+	
+	btn.MouseEnter:Connect(function()
+		isMouseHovering = true
+		brightTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		isMouseHovering = false
+		defaultTween:Play()
+	end)
+	
+	btnParent.MouseButton1Down:Connect(function()
+		darkTween:Play()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/CPwjPg7N'),true))()
+	end)
+	
+	btnParent.MouseButton1Up:Connect(function()
+		if isMouseHovering == false then
+			defaultTween:Play()
+		else
+			brightTween:Play()
+		end
+	end)
+end
+coroutine.wrap(AEPITT_fake_script)()
+local function XQXVYIV_fake_script() -- Nep.LocalScript 
+	local script = Instance.new('LocalScript', Nep)
+
+	local btn = script.Parent
+	
+	btn.MouseButton1Down:Connect(function()
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Nep V executed!";
+			Text = "U executed Nep V my guy";
+			Duration = 5;
+		})
+	end)
+	
+	
+end
+coroutine.wrap(XQXVYIV_fake_script)()
+local function DWOEH_fake_script() -- TextButton_Roundify_12px_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_Roundify_12px_5)
+
+	local btn = script.Parent
+	local btnParent = script.Parent.Parent
+	local isMouseHovering = false
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
+	
+	local darkTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(37, 40, 43)});
+	local defaultTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(50, 50, 50)});
+	local brightTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(71, 75, 77)})
+	
+	btn.MouseEnter:Connect(function()
+		isMouseHovering = true
+		brightTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		isMouseHovering = false
+		defaultTween:Play()
+	end)
+	
+	btnParent.MouseButton1Down:Connect(function()
+		darkTween:Play()
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/t0Mkc33N"))()
+	end)
+	
+	btnParent.MouseButton1Up:Connect(function()
+		if isMouseHovering == false then
+			defaultTween:Play()
+		else
+			brightTween:Play()
+		end
+	end)
+end
+coroutine.wrap(DWOEH_fake_script)()
+local function GQKB_fake_script() -- GaleFighter.LocalScript 
+	local script = Instance.new('LocalScript', GaleFighter)
+
+	local btn = script.Parent
+	
+	btn.MouseButton1Down:Connect(function()
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Gale Fighter Executed!";
+			Text = "U Executed Gale Fighter my guy";
+			duration = 5;
+		})
+	end)
+end
+coroutine.wrap(GQKB_fake_script)()
+local function ZBVUE_fake_script() -- GFighter.LocalScript 
+	local script = Instance.new('LocalScript', GFighter)
+
+	local btn = script.Parent
+	local btnParent = script.Parent.Parent
+	local isMouseHovering = false
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
+	
+	local darkTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(37, 40, 43)});
+	local defaultTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(50, 50, 50)});
+	local brightTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(71, 75, 77)})
+	
+	btn.MouseEnter:Connect(function()
+		isMouseHovering = true
+		brightTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		isMouseHovering = false
+		defaultTween:Play()
+	end)
+	
+	btnParent.MouseButton1Down:Connect(function()
+		darkTween:Play()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/PanzerKampfMeinFuhr1/FeGaleFighter/main/FeGaleFighterRaw'),true))()
+	end)
+	
+	btnParent.MouseButton1Up:Connect(function()
+		if isMouseHovering == false then
+			defaultTween:Play()
+		else
+			brightTween:Play()
+		end
+	end)
+end
+coroutine.wrap(ZBVUE_fake_script)()
+local function DEKXA_fake_script() -- Cop.LocalScript 
+	local script = Instance.new('LocalScript', Cop)
+
+	local btn = script.Parent
+	
+	btn.MouseButton1Down:Connect(function()
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Fe Cop Executed!";
+			Text = "U Executed Fe Cop my guy";
+			duration = 5;
+		})
+	end)
+end
+coroutine.wrap(DEKXA_fake_script)()
+local function LRGWS_fake_script() -- TextButton_Roundify_12px_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_Roundify_12px_6)
+
+	local btn = script.Parent
+	local btnParent = script.Parent.Parent
+	local isMouseHovering = false
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
+	
+	local darkTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(37, 40, 43)});
+	local defaultTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(50, 50, 50)});
+	local brightTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(71, 75, 77)})
+	
+	btn.MouseEnter:Connect(function()
+		isMouseHovering = true
+		brightTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		isMouseHovering = false
+		defaultTween:Play()
+	end)
+	
+	btnParent.MouseButton1Down:Connect(function()
+		darkTween:Play()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/PanzerKampfMeinFuhr1/fecop/main/fecopraw'),true))()
+	end)
+	
+	btnParent.MouseButton1Up:Connect(function()
+		if isMouseHovering == false then
+			defaultTween:Play()
+		else
+			brightTween:Play()
+		end
+	end)
+end
+coroutine.wrap(LRGWS_fake_script)()
+local function AARO_fake_script() -- TextButton_Roundify_12px_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_Roundify_12px_7)
+
+	local btn = script.Parent
+	local parentBtn  = script.Parent.Parent
+	local isMouseHovering = false
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
+	local page2 = script.Parent.Parent.Parent
+	local backToPageInOtherPage = script.Parent.Parent.Parent.Parent.adminPage
+	
+	local darkTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(148, 66, 22)})
+	local defaultTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(255, 118, 39)})
+	local brightTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(222, 255, 53)})
+	
+	parentBtn.MouseEnter:Connect(function()
+		isMouseHovering = true
+		brightTween:Play()
+	end)
+	
+	parentBtn.MouseLeave:Connect(function()
+		isMouseHovering = false
+		defaultTween:Play()
+	end)
+	
+	parentBtn.MouseButton1Down:Connect(function()
+		darkTween:Play()
+	end)
+	
+	parentBtn.MouseButton1Up:Connect(function()
+		if isMouseHovering == true then
+			brightTween:Play()
+		else
+			defaultTween:Play()
+		end
+	end)
+	
+	parentBtn.MouseButton1Down:Connect(function()
+		backToPageInOtherPage.Visible = true
+		page2.Visible = false
+	end)
+	
+end
+coroutine.wrap(AARO_fake_script)()
+local function ILEJGT_fake_script() -- Cmd.LocalScript 
+	local script = Instance.new('LocalScript', Cmd)
+
+	local btn = script.Parent
+	
+	btn.MouseButton1Down:Connect(function()
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "CMDX executed!";
+			Text = "U executed CMDX my guy";
+			Duration = 5;
+		})
+	end)
+	
+	
+end
+coroutine.wrap(ILEJGT_fake_script)()
+local function GIXNK_fake_script() -- TextButton_Roundify_12px_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_Roundify_12px_8)
+
+	local btn = script.Parent
+	local btnParent = script.Parent.Parent
+	local isMouseHovering = false
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
+	
+	local darkTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(37, 40, 43)});
+	local defaultTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(50, 50, 50)});
+	local brightTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(71, 75, 77)})
+	
+	btn.MouseEnter:Connect(function()
+		isMouseHovering = true
+		brightTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		isMouseHovering = false
+		defaultTween:Play()
+	end)
+	
+	btnParent.MouseButton1Down:Connect(function()
+		darkTween:Play()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+	end)
+	
+	btnParent.MouseButton1Up:Connect(function()
+		if isMouseHovering == false then
+			defaultTween:Play()
+		else
+			brightTween:Play()
+		end
+	end)
+end
+coroutine.wrap(GIXNK_fake_script)()
+local function NARRSN_fake_script() -- Shater.LocalScript 
+	local script = Instance.new('LocalScript', Shater)
+
+	local btn = script.Parent
+	
+	btn.MouseButton1Down:Connect(function()
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Shattervast executed!";
+			Text = "U executed Shattervast my guy";
+			Duration = 5;
+		})
+	end)
+	
+	
+end
+coroutine.wrap(NARRSN_fake_script)()
+local function DGPABAO_fake_script() -- TextButton_Roundify_12px_9.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_Roundify_12px_9)
+
+	local btn = script.Parent
+	local btnParent = script.Parent.Parent
+	local isMouseHovering = false
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
+	
+	local darkTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(37, 40, 43)});
+	local defaultTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(50, 50, 50)});
+	local brightTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(71, 75, 77)})
+	
+	btn.MouseEnter:Connect(function()
+		isMouseHovering = true
+		brightTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		isMouseHovering = false
+		defaultTween:Play()
+	end)
+	
+	btnParent.MouseButton1Down:Connect(function()
+		darkTween:Play()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/MjmdAaq2'),true))()
+	end)
+	
+	btnParent.MouseButton1Up:Connect(function()
+		if isMouseHovering == false then
+			defaultTween:Play()
+		else
+			brightTween:Play()
+		end
+	end)
+end
+coroutine.wrap(DGPABAO_fake_script)()
+local function IQTPYJG_fake_script() -- Inf.LocalScript 
+	local script = Instance.new('LocalScript', Inf)
+
+	local btn = script.Parent
+	
+	btn.MouseButton1Down:Connect(function()
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Inf Yield Executed!";
+			Text = "U Executed Inf Yield my guy";
+			duration = 5;
+		})
+	end)
+end
+coroutine.wrap(IQTPYJG_fake_script)()
+local function YIOAGZS_fake_script() -- TextButton_Roundify_12px_10.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_Roundify_12px_10)
+
+	local btn = script.Parent
+	local btnParent = script.Parent.Parent
+	local isMouseHovering = false
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
+	
+	local darkTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(37, 40, 43)});
+	local defaultTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(50, 50, 50)});
+	local brightTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(71, 75, 77)})
+	
+	btn.MouseEnter:Connect(function()
+		isMouseHovering = true
+		brightTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		isMouseHovering = false
+		defaultTween:Play()
+	end)
+	
+	btnParent.MouseButton1Down:Connect(function()
+		darkTween:Play()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+	
+	btnParent.MouseButton1Up:Connect(function()
+		if isMouseHovering == false then
+			defaultTween:Play()
+		else
+			brightTween:Play()
+		end
+	end)
+end
+coroutine.wrap(YIOAGZS_fake_script)()
+local function CLMWD_fake_script() -- chatbypass.LocalScript 
+	local script = Instance.new('LocalScript', chatbypass)
+
+	local btn = script.Parent
+	
+	btn.MouseButton1Down:Connect(function()
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "chat bypass executed!";
+			Text = "U Executed chat bypass my guy";
+			duration = 5;
+		})
+	end)
+end
+coroutine.wrap(CLMWD_fake_script)()
+local function QGATI_fake_script() -- TextButton_Roundify_12px_11.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_Roundify_12px_11)
+
+	local btn = script.Parent
+	local btnParent = script.Parent.Parent
+	local isMouseHovering = false
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
+	
+	local darkTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(37, 40, 43)});
+	local defaultTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(50, 50, 50)});
+	local brightTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(71, 75, 77)})
+	
+	btn.MouseEnter:Connect(function()
+		isMouseHovering = true
+		brightTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		isMouseHovering = false
+		defaultTween:Play()
+	end)
+	
+	btnParent.MouseButton1Down:Connect(function()
+		darkTween:Play()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/bedra45/chetbypasser/main/chetbypass'))()
+	end)
+	
+	btnParent.MouseButton1Up:Connect(function()
+		if isMouseHovering == false then
+			defaultTween:Play()
+		else
+			brightTween:Play()
+		end
+	end)
+end
+coroutine.wrap(QGATI_fake_script)()
