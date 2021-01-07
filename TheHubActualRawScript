@@ -32,91 +32,96 @@ local ToTheRight = Instance.new("TextButton")
 local TextButton_Roundify_4px = Instance.new("ImageLabel")
 local TextLabel_2 = Instance.new("TextLabel")
 local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
 local mFrame = Instance.new("Frame")
 local r1 = Instance.new("ImageLabel")
 local r2 = Instance.new("ImageLabel")
 local Frame = Instance.new("Frame")
 local pillar = Instance.new("Frame")
 local img = Instance.new("ImageButton")
-local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
 local TextLabel_Roundify_12px = Instance.new("ImageLabel")
-local TextLabel_5 = Instance.new("TextLabel")
-local the = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
 local TextBox = Instance.new("TextBox")
 local TextBox_Roundify_12px = Instance.new("ImageLabel")
-local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
 local homeButton = Instance.new("ImageButton")
 local scriptImg = Instance.new("ImageButton")
 local scriptsButton = Instance.new("TextButton")
-local cred3 = Instance.new("TextLabel")
-local tripDots = Instance.new("ImageButton")
 local Frame_2 = Instance.new("Frame")
-local cred = Instance.new("TextLabel")
-local TextLabel_7 = Instance.new("TextLabel")
-local TextLabel_8 = Instance.new("TextLabel")
-local TextLabel_9 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
 local adminIcon = Instance.new("ImageButton")
 local adminbutton = Instance.new("TextButton")
 local scriptbutton = Instance.new("TextButton")
-local TextLabel_10 = Instance.new("TextLabel")
-local TextLabel_11 = Instance.new("TextLabel")
 local TextLabel_12 = Instance.new("TextLabel")
+local the = Instance.new("TextLabel")
+local cred3 = Instance.new("TextLabel")
+local cred = Instance.new("TextLabel")
+local TextLabel_13 = Instance.new("TextLabel")
+local TextLabel_14 = Instance.new("TextLabel")
+local TextLabel_15 = Instance.new("TextLabel")
 local adminPage = Instance.new("ImageLabel")
 local scriptting = Instance.new("TextLabel")
 local shatter = Instance.new("TextButton")
 local TextButton_Roundify_12px = Instance.new("ImageLabel")
-local TextLabel_13 = Instance.new("TextLabel")
+local TextLabel_16 = Instance.new("TextLabel")
 local chat = Instance.new("TextButton")
 local TextButton_Roundify_12px_2 = Instance.new("ImageLabel")
-local TextLabel_14 = Instance.new("TextLabel")
+local TextLabel_17 = Instance.new("TextLabel")
 local Inf = Instance.new("TextButton")
 local TextButton_Roundify_12px_3 = Instance.new("ImageLabel")
-local TextLabel_15 = Instance.new("TextLabel")
+local TextLabel_18 = Instance.new("TextLabel")
 local CMD = Instance.new("TextButton")
 local TextButton_Roundify_12px_4 = Instance.new("ImageLabel")
-local TextLabel_16 = Instance.new("TextLabel")
+local TextLabel_19 = Instance.new("TextLabel")
 local cred3_2 = Instance.new("TextLabel")
 local cred_2 = Instance.new("TextLabel")
 local scriptPage = Instance.new("ImageLabel")
 local Abyss = Instance.new("TextButton")
 local TextButton_Roundify_12px_5 = Instance.new("ImageLabel")
-local TextLabel_17 = Instance.new("TextLabel")
+local TextLabel_20 = Instance.new("TextLabel")
 local Cop = Instance.new("TextButton")
 local TextButton_Roundify_12px_6 = Instance.new("ImageLabel")
-local TextLabel_18 = Instance.new("TextLabel")
+local TextLabel_21 = Instance.new("TextLabel")
 local GalFight = Instance.new("TextButton")
 local TextButton_Roundify_12px_7 = Instance.new("ImageLabel")
-local TextLabel_19 = Instance.new("TextLabel")
+local TextLabel_22 = Instance.new("TextLabel")
 local NepV = Instance.new("TextButton")
 local TextButton_Roundify_12px_8 = Instance.new("ImageLabel")
-local TextLabel_20 = Instance.new("TextLabel")
+local TextLabel_23 = Instance.new("TextLabel")
 local Sniper = Instance.new("TextButton")
 local TextButton_Roundify_12px_9 = Instance.new("ImageLabel")
-local TextLabel_21 = Instance.new("TextLabel")
+local TextLabel_24 = Instance.new("TextLabel")
 local Zen = Instance.new("TextButton")
 local TextButton_Roundify_12px_10 = Instance.new("ImageLabel")
-local TextLabel_22 = Instance.new("TextLabel")
+local TextLabel_25 = Instance.new("TextLabel")
 local page2 = Instance.new("ImageLabel")
 local elio = Instance.new("TextButton")
 local TextButton_Roundify_12px_11 = Instance.new("ImageLabel")
-local TextLabel_23 = Instance.new("TextLabel")
+local TextLabel_26 = Instance.new("TextLabel")
 local zenith = Instance.new("TextButton")
 local TextButton_Roundify_12px_12 = Instance.new("ImageLabel")
-local TextLabel_24 = Instance.new("TextLabel")
+local TextLabel_27 = Instance.new("TextLabel")
 local firebox = Instance.new("TextButton")
 local TextButton_Roundify_12px_13 = Instance.new("ImageLabel")
-local TextLabel_25 = Instance.new("TextLabel")
+local TextLabel_28 = Instance.new("TextLabel")
+local ares = Instance.new("TextButton")
+local TextButton_Roundify_12px_14 = Instance.new("ImageLabel")
+local TextLabel_29 = Instance.new("TextLabel")
 local cos1 = Instance.new("TextLabel")
-local cos2 = Instance.new("TextLabel")
 local scriptting_2 = Instance.new("TextLabel")
-local cred_3 = Instance.new("TextLabel")
 local cred3_3 = Instance.new("TextLabel")
-local left = Instance.new("TextButton")
-local left_Roundify_12px = Instance.new("ImageLabel")
-local TextLabel_26 = Instance.new("TextLabel")
+local cred_3 = Instance.new("TextLabel")
+local cos2 = Instance.new("TextLabel")
 local right = Instance.new("TextButton")
 local right_Roundify_12px = Instance.new("ImageLabel")
-local TextLabel_27 = Instance.new("TextLabel")
+local TextLabel_30 = Instance.new("TextLabel")
+local left = Instance.new("TextButton")
+local left_Roundify_12px = Instance.new("ImageLabel")
+local TextLabel_31 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -344,12 +349,42 @@ TextLabel_2.TextSize = 14.000
 TextLabel_3.Parent = UpdateFrame
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_3.BackgroundTransparency = 1.000
-TextLabel_3.Position = UDim2.new(0.0366972461, 0, 0.349090874, 0)
+TextLabel_3.Position = UDim2.new(0.0366972461, 0, 0.261818141, 0)
 TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
 TextLabel_3.Font = Enum.Font.SourceSansBold
 TextLabel_3.Text = "UI update"
 TextLabel_3.TextColor3 = Color3.fromRGB(188, 199, 203)
 TextLabel_3.TextSize = 47.000
+
+TextLabel_4.Parent = UpdateFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.0275229346, 0, 0.443636328, 0)
+TextLabel_4.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_4.Font = Enum.Font.SourceSansBold
+TextLabel_4.Text = "Added Elio Blasio,"
+TextLabel_4.TextColor3 = Color3.fromRGB(188, 199, 203)
+TextLabel_4.TextSize = 28.000
+
+TextLabel_5.Parent = UpdateFrame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.0458715558, 0, 0.545454562, 0)
+TextLabel_5.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_5.Font = Enum.Font.SourceSansBold
+TextLabel_5.Text = "Zenith Rifle, FireBox,"
+TextLabel_5.TextColor3 = Color3.fromRGB(188, 199, 203)
+TextLabel_5.TextSize = 27.000
+
+TextLabel_6.Parent = UpdateFrame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.0321100913, 0, 0.636363685, 0)
+TextLabel_6.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_6.Font = Enum.Font.SourceSansBold
+TextLabel_6.Text = "and Ares The Bladist"
+TextLabel_6.TextColor3 = Color3.fromRGB(188, 199, 203)
+TextLabel_6.TextSize = 27.000
 
 mFrame.Name = "mFrame"
 mFrame.Parent = Hub
@@ -404,19 +439,19 @@ img.Size = UDim2.new(0, 25, 0, 25)
 img.Image = "rbxassetid://1329765084"
 img.ImageColor3 = Color3.fromRGB(255, 0, 0)
 
-TextLabel_4.Parent = img
-TextLabel_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_4.BackgroundTransparency = 1.000
-TextLabel_4.BorderSizePixel = 0
-TextLabel_4.Position = UDim2.new(-2.5999999, 0, -2.4000001, 0)
-TextLabel_4.Size = UDim2.new(0, 155, 0, 41)
-TextLabel_4.Font = Enum.Font.SourceSans
-TextLabel_4.Text = "Destroys GUI"
-TextLabel_4.TextColor3 = Color3.fromRGB(255, 118, 39)
-TextLabel_4.TextSize = 32.000
+TextLabel_7.Parent = img
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(-2.5999999, 0, -2.4000001, 0)
+TextLabel_7.Size = UDim2.new(0, 155, 0, 41)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "Destroys GUI"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 118, 39)
+TextLabel_7.TextSize = 32.000
 
 TextLabel_Roundify_12px.Name = "TextLabel_Roundify_12px"
-TextLabel_Roundify_12px.Parent = TextLabel_4
+TextLabel_Roundify_12px.Parent = TextLabel_7
 TextLabel_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
 TextLabel_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_Roundify_12px.BackgroundTransparency = 1.000
@@ -428,29 +463,15 @@ TextLabel_Roundify_12px.ScaleType = Enum.ScaleType.Slice
 TextLabel_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
 TextLabel_Roundify_12px.SliceScale = 0.120
 
-TextLabel_5.Parent = TextLabel_Roundify_12px
-TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_5.BackgroundTransparency = 1.000
-TextLabel_5.Position = UDim2.new(-0.148387089, 0, -0.121951237, 0)
-TextLabel_5.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_5.Font = Enum.Font.SourceSans
-TextLabel_5.Text = "Destroys GUI"
-TextLabel_5.TextColor3 = Color3.fromRGB(255, 118, 39)
-TextLabel_5.TextSize = 32.000
-
-the.Name = "the"
-the.Parent = mFrame
-the.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-the.BackgroundTransparency = 1.000
-the.BorderColor3 = Color3.fromRGB(0, 0, 255)
-the.Position = UDim2.new(0.407975465, 0, -0.0513595194, 0)
-the.Size = UDim2.new(0, 73, 0, 50)
-the.Font = Enum.Font.SourceSansBold
-the.Text = "The"
-the.TextColor3 = Color3.fromRGB(255, 255, 255)
-the.TextSize = 50.000
-the.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
-the.TextStrokeTransparency = 54.000
+TextLabel_8.Parent = TextLabel_Roundify_12px
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(-0.148387089, 0, -0.121951237, 0)
+TextLabel_8.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "Destroys GUI"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 118, 39)
+TextLabel_8.TextSize = 32.000
 
 TextBox.Parent = mFrame
 TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -477,15 +498,15 @@ TextBox_Roundify_12px.ScaleType = Enum.ScaleType.Slice
 TextBox_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
 TextBox_Roundify_12px.SliceScale = 0.120
 
-TextLabel_6.Parent = TextBox_Roundify_12px
-TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_6.BackgroundTransparency = 1.000
-TextLabel_6.Position = UDim2.new(0.109999999, 0, -0.0900000036, 0)
-TextLabel_6.Size = UDim2.new(0, 61, 0, 50)
-TextLabel_6.Font = Enum.Font.SourceSansBold
-TextLabel_6.Text = "Hub"
-TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 255)
-TextLabel_6.TextSize = 50.000
+TextLabel_9.Parent = TextBox_Roundify_12px
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(0.109999999, 0, -0.0900000036, 0)
+TextLabel_9.Size = UDim2.new(0, 61, 0, 50)
+TextLabel_9.Font = Enum.Font.SourceSansBold
+TextLabel_9.Text = "Hub"
+TextLabel_9.TextColor3 = Color3.fromRGB(0, 0, 255)
+TextLabel_9.TextSize = 50.000
 
 homeButton.Name = "homeButton"
 homeButton.Parent = mFrame
@@ -514,72 +535,31 @@ scriptsButton.Text = "Scripts"
 scriptsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 scriptsButton.TextSize = 28.000
 
-cred3.Name = "cred3"
-cred3.Parent = mFrame
-cred3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-cred3.BackgroundTransparency = 1.000
-cred3.Position = UDim2.new(0.35666424, 0, 0.858009696, 0)
-cred3.Size = UDim2.new(0, 359, 0, 70)
-cred3.Font = Enum.Font.SourceSansBold
-cred3.Text = "Script Makers, not me!"
-cred3.TextColor3 = Color3.fromRGB(255, 255, 255)
-cred3.TextSize = 35.000
-
-tripDots.Name = "tripDots"
-tripDots.Parent = mFrame
-tripDots.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-tripDots.BackgroundTransparency = 1.000
-tripDots.Position = UDim2.new(0.0900000036, 0, -0.0810000002, 0)
-tripDots.Rotation = 90.000
-tripDots.Size = UDim2.new(0, 80, 0, 84)
-tripDots.Image = "rbxassetid://6183397292"
-
 Frame_2.Parent = mFrame
 Frame_2.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
 Frame_2.BorderSizePixel = 0
 Frame_2.Position = UDim2.new(0, 0, 0.112000018, 0)
 Frame_2.Size = UDim2.new(0, 146, 0, 2)
 
-cred.Name = "cred"
-cred.Parent = mFrame
-cred.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-cred.BackgroundTransparency = 1.000
-cred.Position = UDim2.new(0.35666424, 0, 0.740184903, 0)
-cred.Size = UDim2.new(0, 359, 0, 70)
-cred.Font = Enum.Font.SourceSansBold
-cred.Text = "Credit goes to the original"
-cred.TextColor3 = Color3.fromRGB(255, 255, 255)
-cred.TextSize = 35.000
+TextLabel_10.Parent = mFrame
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(0.478527606, 0, 0.148036271, 0)
+TextLabel_10.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_10.Font = Enum.Font.SourceSansBold
+TextLabel_10.Text = "Thanks for using this"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 50.000
 
-TextLabel_7.Parent = mFrame
-TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_7.BackgroundTransparency = 1.000
-TextLabel_7.Position = UDim2.new(0.478527606, 0, 0.148036271, 0)
-TextLabel_7.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_7.Font = Enum.Font.SourceSansBold
-TextLabel_7.Text = "Thanks for using this"
-TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_7.TextSize = 50.000
-
-TextLabel_8.Parent = mFrame
-TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_8.BackgroundTransparency = 1.000
-TextLabel_8.Position = UDim2.new(0.582822025, 0, 0.525679767, 0)
-TextLabel_8.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_8.Font = Enum.Font.SourceSansBold
-TextLabel_8.Text = "DISC:"
-TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_8.TextSize = 42.000
-
-TextLabel_9.Parent = mFrame
-TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_9.BackgroundTransparency = 1.000
-TextLabel_9.Position = UDim2.new(0.322085887, 0, 0.450151086, 0)
-TextLabel_9.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_9.Font = Enum.Font.SourceSansBold
-TextLabel_9.Text = "RBLX:"
-TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_9.TextSize = 42.000
+TextLabel_11.Parent = mFrame
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(0.582822025, 0, 0.525679767, 0)
+TextLabel_11.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_11.Font = Enum.Font.SourceSansBold
+TextLabel_11.Text = "DISC:"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 42.000
 
 adminIcon.Name = "adminIcon"
 adminIcon.Parent = mFrame
@@ -611,35 +591,81 @@ scriptbutton.Text = "Scripts"
 scriptbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
 scriptbutton.TextSize = 28.000
 
-TextLabel_10.Parent = mFrame
-TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_10.BackgroundTransparency = 1.000
-TextLabel_10.Position = UDim2.new(0.478527606, 0, 0.277945638, 0)
-TextLabel_10.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_10.Font = Enum.Font.SourceSansBold
-TextLabel_10.Text = "Script hub!"
-TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_10.TextSize = 50.000
-
-TextLabel_11.Parent = mFrame
-TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_11.BackgroundTransparency = 1.000
-TextLabel_11.Position = UDim2.new(0.599693239, 0, 0.622356534, 0)
-TextLabel_11.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_11.Font = Enum.Font.SourceSansBold
-TextLabel_11.Text = "TemporaryNameScript#8378"
-TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_11.TextSize = 28.000
-
 TextLabel_12.Parent = mFrame
 TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_12.BackgroundTransparency = 1.000
-TextLabel_12.Position = UDim2.new(0.322085887, 0, 0.540785551, 0)
+TextLabel_12.Position = UDim2.new(0.478527606, 0, 0.277945638, 0)
 TextLabel_12.Size = UDim2.new(0, 200, 0, 50)
 TextLabel_12.Font = Enum.Font.SourceSansBold
-TextLabel_12.Text = "PanzerKampfMeinFuhr1"
+TextLabel_12.Text = "Script hub!"
 TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_12.TextSize = 28.000
+TextLabel_12.TextSize = 50.000
+
+the.Name = "the"
+the.Parent = mFrame
+the.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+the.BackgroundTransparency = 1.000
+the.BorderColor3 = Color3.fromRGB(0, 0, 255)
+the.Position = UDim2.new(0.407975465, 0, -0.0513595194, 0)
+the.Size = UDim2.new(0, 73, 0, 50)
+the.Font = Enum.Font.SourceSansBold
+the.Text = "The"
+the.TextColor3 = Color3.fromRGB(255, 255, 255)
+the.TextSize = 50.000
+the.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+the.TextStrokeTransparency = 54.000
+
+cred3.Name = "cred3"
+cred3.Parent = mFrame
+cred3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cred3.BackgroundTransparency = 1.000
+cred3.Position = UDim2.new(0.35666424, 0, 0.858009696, 0)
+cred3.Size = UDim2.new(0, 359, 0, 70)
+cred3.Font = Enum.Font.SourceSansBold
+cred3.Text = "Script Makers, not me!"
+cred3.TextColor3 = Color3.fromRGB(255, 255, 255)
+cred3.TextSize = 35.000
+
+cred.Name = "cred"
+cred.Parent = mFrame
+cred.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cred.BackgroundTransparency = 1.000
+cred.Position = UDim2.new(0.35666424, 0, 0.740184903, 0)
+cred.Size = UDim2.new(0, 359, 0, 70)
+cred.Font = Enum.Font.SourceSansBold
+cred.Text = "Credit goes to the original"
+cred.TextColor3 = Color3.fromRGB(255, 255, 255)
+cred.TextSize = 35.000
+
+TextLabel_13.Parent = mFrame
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.Position = UDim2.new(0.599693239, 0, 0.622356534, 0)
+TextLabel_13.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_13.Font = Enum.Font.SourceSansBold
+TextLabel_13.Text = "TemporaryNameScript#8378"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextSize = 28.000
+
+TextLabel_14.Parent = mFrame
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.Position = UDim2.new(0.322085887, 0, 0.450151086, 0)
+TextLabel_14.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_14.Font = Enum.Font.SourceSansBold
+TextLabel_14.Text = "RBLX:"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextSize = 42.000
+
+TextLabel_15.Parent = mFrame
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.Position = UDim2.new(0.322085887, 0, 0.540785551, 0)
+TextLabel_15.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_15.Font = Enum.Font.SourceSansBold
+TextLabel_15.Text = "PanzerKampfMeinFuhr1"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextSize = 28.000
 
 adminPage.Name = "adminPage"
 adminPage.Parent = mFrame
@@ -692,15 +718,15 @@ TextButton_Roundify_12px.ScaleType = Enum.ScaleType.Slice
 TextButton_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
 TextButton_Roundify_12px.SliceScale = 0.120
 
-TextLabel_13.Parent = shatter
-TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_13.BackgroundTransparency = 1.000
-TextLabel_13.Position = UDim2.new(-0.306451619, 0, -0.108695649, 0)
-TextLabel_13.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_13.Font = Enum.Font.SourceSansBold
-TextLabel_13.Text = "Shattervast"
-TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_13.TextSize = 27.000
+TextLabel_16.Parent = shatter
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.Position = UDim2.new(-0.306451619, 0, -0.108695649, 0)
+TextLabel_16.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_16.Font = Enum.Font.SourceSansBold
+TextLabel_16.Text = "Shattervast"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextSize = 27.000
 
 chat.Name = "chat"
 chat.Parent = adminPage
@@ -729,15 +755,15 @@ TextButton_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
 TextButton_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
 TextButton_Roundify_12px_2.SliceScale = 0.120
 
-TextLabel_14.Parent = chat
-TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_14.BackgroundTransparency = 1.000
-TextLabel_14.Position = UDim2.new(-0.306451619, 0, -0.108695649, 0)
-TextLabel_14.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_14.Font = Enum.Font.SourceSansBold
-TextLabel_14.Text = "Chat Bypass"
-TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_14.TextSize = 27.000
+TextLabel_17.Parent = chat
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.Position = UDim2.new(-0.306451619, 0, -0.108695649, 0)
+TextLabel_17.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_17.Font = Enum.Font.SourceSansBold
+TextLabel_17.Text = "Chat Bypass"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextSize = 27.000
 
 Inf.Name = "Inf"
 Inf.Parent = adminPage
@@ -766,15 +792,15 @@ TextButton_Roundify_12px_3.ScaleType = Enum.ScaleType.Slice
 TextButton_Roundify_12px_3.SliceCenter = Rect.new(100, 100, 100, 100)
 TextButton_Roundify_12px_3.SliceScale = 0.120
 
-TextLabel_15.Parent = Inf
-TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_15.BackgroundTransparency = 1.000
-TextLabel_15.Position = UDim2.new(-0.306451619, 0, -0.108695649, 0)
-TextLabel_15.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_15.Font = Enum.Font.SourceSansBold
-TextLabel_15.Text = "Inf Yield"
-TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_15.TextSize = 32.000
+TextLabel_18.Parent = Inf
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.Position = UDim2.new(-0.306451619, 0, -0.108695649, 0)
+TextLabel_18.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_18.Font = Enum.Font.SourceSansBold
+TextLabel_18.Text = "Inf Yield"
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextSize = 32.000
 
 CMD.Name = "CMD"
 CMD.Parent = adminPage
@@ -803,15 +829,15 @@ TextButton_Roundify_12px_4.ScaleType = Enum.ScaleType.Slice
 TextButton_Roundify_12px_4.SliceCenter = Rect.new(100, 100, 100, 100)
 TextButton_Roundify_12px_4.SliceScale = 0.120
 
-TextLabel_16.Parent = CMD
-TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_16.BackgroundTransparency = 1.000
-TextLabel_16.Position = UDim2.new(-0.306451619, 0, -0.108695649, 0)
-TextLabel_16.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_16.Font = Enum.Font.SourceSansBold
-TextLabel_16.Text = "CMD-X"
-TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_16.TextSize = 32.000
+TextLabel_19.Parent = CMD
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.Position = UDim2.new(-0.306451619, 0, -0.108695649, 0)
+TextLabel_19.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_19.Font = Enum.Font.SourceSansBold
+TextLabel_19.Text = "CMD-X"
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextSize = 32.000
 
 cred3_2.Name = "cred3"
 cred3_2.Parent = adminPage
@@ -875,15 +901,15 @@ TextButton_Roundify_12px_5.ScaleType = Enum.ScaleType.Slice
 TextButton_Roundify_12px_5.SliceCenter = Rect.new(100, 100, 100, 100)
 TextButton_Roundify_12px_5.SliceScale = 0.120
 
-TextLabel_17.Parent = Abyss
-TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_17.BackgroundTransparency = 1.000
-TextLabel_17.Position = UDim2.new(-0.306451619, 0, -0.108695649, 0)
-TextLabel_17.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_17.Font = Enum.Font.SourceSansBold
-TextLabel_17.Text = "Abyss Eye"
-TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_17.TextSize = 32.000
+TextLabel_20.Parent = Abyss
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.Position = UDim2.new(-0.306451619, 0, -0.108695649, 0)
+TextLabel_20.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_20.Font = Enum.Font.SourceSansBold
+TextLabel_20.Text = "Abyss Eye"
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.TextSize = 32.000
 
 Cop.Name = "Cop"
 Cop.Parent = scriptPage
@@ -912,15 +938,15 @@ TextButton_Roundify_12px_6.ScaleType = Enum.ScaleType.Slice
 TextButton_Roundify_12px_6.SliceCenter = Rect.new(100, 100, 100, 100)
 TextButton_Roundify_12px_6.SliceScale = 0.120
 
-TextLabel_18.Parent = Cop
-TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_18.BackgroundTransparency = 1.000
-TextLabel_18.Position = UDim2.new(-0.306451619, 0, -0.108695649, 0)
-TextLabel_18.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_18.Font = Enum.Font.SourceSansBold
-TextLabel_18.Text = "Cop"
-TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_18.TextSize = 32.000
+TextLabel_21.Parent = Cop
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 1.000
+TextLabel_21.Position = UDim2.new(-0.306451619, 0, -0.108695649, 0)
+TextLabel_21.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_21.Font = Enum.Font.SourceSansBold
+TextLabel_21.Text = "Cop"
+TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.TextSize = 32.000
 
 GalFight.Name = "GalFight"
 GalFight.Parent = scriptPage
@@ -949,15 +975,15 @@ TextButton_Roundify_12px_7.ScaleType = Enum.ScaleType.Slice
 TextButton_Roundify_12px_7.SliceCenter = Rect.new(100, 100, 100, 100)
 TextButton_Roundify_12px_7.SliceScale = 0.120
 
-TextLabel_19.Parent = GalFight
-TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_19.BackgroundTransparency = 1.000
-TextLabel_19.Position = UDim2.new(-0.306451619, 0, -0.108695649, 0)
-TextLabel_19.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_19.Font = Enum.Font.SourceSansBold
-TextLabel_19.Text = "G. Fighter"
-TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_19.TextSize = 32.000
+TextLabel_22.Parent = GalFight
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.BackgroundTransparency = 1.000
+TextLabel_22.Position = UDim2.new(-0.306451619, 0, -0.108695649, 0)
+TextLabel_22.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_22.Font = Enum.Font.SourceSansBold
+TextLabel_22.Text = "G. Fighter"
+TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.TextSize = 32.000
 
 NepV.Name = "NepV"
 NepV.Parent = scriptPage
@@ -986,15 +1012,15 @@ TextButton_Roundify_12px_8.ScaleType = Enum.ScaleType.Slice
 TextButton_Roundify_12px_8.SliceCenter = Rect.new(100, 100, 100, 100)
 TextButton_Roundify_12px_8.SliceScale = 0.120
 
-TextLabel_20.Parent = NepV
-TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_20.BackgroundTransparency = 1.000
-TextLabel_20.Position = UDim2.new(-0.306451619, 0, -0.108695649, 0)
-TextLabel_20.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_20.Font = Enum.Font.SourceSansBold
-TextLabel_20.Text = "Nep V"
-TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_20.TextSize = 32.000
+TextLabel_23.Parent = NepV
+TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.BackgroundTransparency = 1.000
+TextLabel_23.Position = UDim2.new(-0.306451619, 0, -0.108695649, 0)
+TextLabel_23.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_23.Font = Enum.Font.SourceSansBold
+TextLabel_23.Text = "Nep V"
+TextLabel_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.TextSize = 32.000
 
 Sniper.Name = "Sniper"
 Sniper.Parent = scriptPage
@@ -1023,15 +1049,15 @@ TextButton_Roundify_12px_9.ScaleType = Enum.ScaleType.Slice
 TextButton_Roundify_12px_9.SliceCenter = Rect.new(100, 100, 100, 100)
 TextButton_Roundify_12px_9.SliceScale = 0.120
 
-TextLabel_21.Parent = Sniper
-TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_21.BackgroundTransparency = 1.000
-TextLabel_21.Position = UDim2.new(-0.306451619, 0, -0.108695649, 0)
-TextLabel_21.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_21.Font = Enum.Font.SourceSansBold
-TextLabel_21.Text = "Sniper"
-TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_21.TextSize = 32.000
+TextLabel_24.Parent = Sniper
+TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.BackgroundTransparency = 1.000
+TextLabel_24.Position = UDim2.new(-0.306451619, 0, -0.108695649, 0)
+TextLabel_24.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_24.Font = Enum.Font.SourceSansBold
+TextLabel_24.Text = "Sniper"
+TextLabel_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.TextSize = 32.000
 
 Zen.Name = "Zen"
 Zen.Parent = scriptPage
@@ -1060,21 +1086,21 @@ TextButton_Roundify_12px_10.ScaleType = Enum.ScaleType.Slice
 TextButton_Roundify_12px_10.SliceCenter = Rect.new(100, 100, 100, 100)
 TextButton_Roundify_12px_10.SliceScale = 0.120
 
-TextLabel_22.Parent = Zen
-TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_22.BackgroundTransparency = 1.000
-TextLabel_22.Position = UDim2.new(-0.306451619, 0, -0.108695649, 0)
-TextLabel_22.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_22.Font = Enum.Font.SourceSansBold
-TextLabel_22.Text = "Zen"
-TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_22.TextSize = 32.000
+TextLabel_25.Parent = Zen
+TextLabel_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.BackgroundTransparency = 1.000
+TextLabel_25.Position = UDim2.new(-0.306451619, 0, -0.108695649, 0)
+TextLabel_25.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_25.Font = Enum.Font.SourceSansBold
+TextLabel_25.Text = "Zen"
+TextLabel_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.TextSize = 32.000
 
 page2.Name = "page2"
 page2.Parent = scriptPage
 page2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 page2.BackgroundTransparency = 1.000
-page2.Size = UDim2.new(0, 476, 0, 308)
+page2.Size = UDim2.new(0, 476, 0, 306)
 page2.Visible = false
 page2.Image = "rbxassetid://3570695787"
 page2.ImageColor3 = Color3.fromRGB(15, 15, 15)
@@ -1109,15 +1135,15 @@ TextButton_Roundify_12px_11.ScaleType = Enum.ScaleType.Slice
 TextButton_Roundify_12px_11.SliceCenter = Rect.new(100, 100, 100, 100)
 TextButton_Roundify_12px_11.SliceScale = 0.120
 
-TextLabel_23.Parent = elio
-TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_23.BackgroundTransparency = 1.000
-TextLabel_23.Position = UDim2.new(-0.306451619, 0, -0.108695649, 0)
-TextLabel_23.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_23.Font = Enum.Font.SourceSansBold
-TextLabel_23.Text = "Elio Blasio"
-TextLabel_23.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_23.TextSize = 31.000
+TextLabel_26.Parent = elio
+TextLabel_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.BackgroundTransparency = 1.000
+TextLabel_26.Position = UDim2.new(-0.306451619, 0, -0.108695649, 0)
+TextLabel_26.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_26.Font = Enum.Font.SourceSansBold
+TextLabel_26.Text = "Elio Blasio"
+TextLabel_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.TextSize = 31.000
 
 zenith.Name = "zenith"
 zenith.Parent = page2
@@ -1146,15 +1172,15 @@ TextButton_Roundify_12px_12.ScaleType = Enum.ScaleType.Slice
 TextButton_Roundify_12px_12.SliceCenter = Rect.new(100, 100, 100, 100)
 TextButton_Roundify_12px_12.SliceScale = 0.120
 
-TextLabel_24.Parent = zenith
-TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_24.BackgroundTransparency = 1.000
-TextLabel_24.Position = UDim2.new(-0.306451619, 0, -0.108695649, 0)
-TextLabel_24.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_24.Font = Enum.Font.SourceSansBold
-TextLabel_24.Text = "Zenith Rifle"
-TextLabel_24.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_24.TextSize = 28.000
+TextLabel_27.Parent = zenith
+TextLabel_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.BackgroundTransparency = 1.000
+TextLabel_27.Position = UDim2.new(-0.306451619, 0, -0.108695649, 0)
+TextLabel_27.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_27.Font = Enum.Font.SourceSansBold
+TextLabel_27.Text = "Zenith Rifle"
+TextLabel_27.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.TextSize = 28.000
 
 firebox.Name = "firebox"
 firebox.Parent = page2
@@ -1183,15 +1209,52 @@ TextButton_Roundify_12px_13.ScaleType = Enum.ScaleType.Slice
 TextButton_Roundify_12px_13.SliceCenter = Rect.new(100, 100, 100, 100)
 TextButton_Roundify_12px_13.SliceScale = 0.120
 
-TextLabel_25.Parent = firebox
-TextLabel_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_25.BackgroundTransparency = 1.000
-TextLabel_25.Position = UDim2.new(-0.306451619, 0, -0.108695649, 0)
-TextLabel_25.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_25.Font = Enum.Font.SourceSansBold
-TextLabel_25.Text = "Fire Box"
-TextLabel_25.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_25.TextSize = 32.000
+TextLabel_28.Parent = firebox
+TextLabel_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.BackgroundTransparency = 1.000
+TextLabel_28.Position = UDim2.new(-0.306451619, 0, -0.108695649, 0)
+TextLabel_28.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_28.Font = Enum.Font.SourceSansBold
+TextLabel_28.Text = "Fire Box"
+TextLabel_28.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.TextSize = 32.000
+
+ares.Name = "ares"
+ares.Parent = page2
+ares.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+ares.BackgroundTransparency = 1.000
+ares.BorderSizePixel = 0
+ares.Position = UDim2.new(0.312254459, 0, 0.576910973, 0)
+ares.Size = UDim2.new(0, 172, 0, 46)
+ares.Font = Enum.Font.SourceSans
+ares.Text = "Abyss Eye"
+ares.TextColor3 = Color3.fromRGB(0, 0, 0)
+ares.TextSize = 14.000
+
+TextButton_Roundify_12px_14.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_14.Parent = ares
+TextButton_Roundify_12px_14.Active = true
+TextButton_Roundify_12px_14.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_14.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_14.Position = UDim2.new(0.497842312, 0, 0.44230786, 0)
+TextButton_Roundify_12px_14.Selectable = true
+TextButton_Roundify_12px_14.Size = UDim2.new(0.995684505, 0, 0.884615362, 0)
+TextButton_Roundify_12px_14.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_14.ImageColor3 = Color3.fromRGB(0, 0, 255)
+TextButton_Roundify_12px_14.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_14.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_14.SliceScale = 0.120
+
+TextLabel_29.Parent = ares
+TextLabel_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_29.BackgroundTransparency = 1.000
+TextLabel_29.Position = UDim2.new(-0.07389348, 0, -0.0869565159, 0)
+TextLabel_29.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_29.Font = Enum.Font.SourceSansBold
+TextLabel_29.Text = "Ares The Bladist"
+TextLabel_29.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_29.TextSize = 28.000
 
 cos1.Name = "cos1"
 cos1.Parent = scriptPage
@@ -1204,17 +1267,6 @@ cos1.Text = "1"
 cos1.TextColor3 = Color3.fromRGB(0, 0, 255)
 cos1.TextSize = 50.000
 
-cos2.Name = "cos2"
-cos2.Parent = scriptPage
-cos2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-cos2.BackgroundTransparency = 1.000
-cos2.Position = UDim2.new(0.587002099, 0, 0.052117262, 0)
-cos2.Size = UDim2.new(0, 200, 0, 50)
-cos2.Font = Enum.Font.SourceSans
-cos2.Text = "2"
-cos2.TextColor3 = Color3.fromRGB(255, 255, 255)
-cos2.TextSize = 50.000
-
 scriptting_2.Name = "scriptting"
 scriptting_2.Parent = scriptPage
 scriptting_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -1225,17 +1277,6 @@ scriptting_2.Font = Enum.Font.SourceSansBold
 scriptting_2.Text = "Scripts"
 scriptting_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 scriptting_2.TextSize = 48.000
-
-cred_3.Name = "cred"
-cred_3.Parent = scriptPage
-cred_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-cred_3.BackgroundTransparency = 1.000
-cred_3.Position = UDim2.new(0.121863395, 0, 0.687553346, 0)
-cred_3.Size = UDim2.new(0, 359, 0, 70)
-cred_3.Font = Enum.Font.SourceSansBold
-cred_3.Text = "Credit goes to the original"
-cred_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-cred_3.TextSize = 35.000
 
 cred3_3.Name = "cred3"
 cred3_3.Parent = scriptPage
@@ -1248,41 +1289,27 @@ cred3_3.Text = "Script Makers, not me!"
 cred3_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 cred3_3.TextSize = 35.000
 
-left.Name = "left"
-left.Parent = scriptPage
-left.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-left.BackgroundTransparency = 1.000
-left.BorderSizePixel = 0
-left.Position = UDim2.new(0.0419287235, 0, 0.0749185681, 0)
-left.Size = UDim2.new(0, 63, 0, 49)
-left.Font = Enum.Font.SourceSans
-left.Text = ">"
-left.TextColor3 = Color3.fromRGB(0, 0, 0)
-left.TextSize = 14.000
+cred_3.Name = "cred"
+cred_3.Parent = scriptPage
+cred_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cred_3.BackgroundTransparency = 1.000
+cred_3.Position = UDim2.new(0.121863395, 0, 0.687553346, 0)
+cred_3.Size = UDim2.new(0, 359, 0, 70)
+cred_3.Font = Enum.Font.SourceSansBold
+cred_3.Text = "Credit goes to the original"
+cred_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+cred_3.TextSize = 35.000
 
-left_Roundify_12px.Name = "left_Roundify_12px"
-left_Roundify_12px.Parent = left
-left_Roundify_12px.Active = true
-left_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
-left_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-left_Roundify_12px.BackgroundTransparency = 1.000
-left_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
-left_Roundify_12px.Selectable = true
-left_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
-left_Roundify_12px.Image = "rbxassetid://3570695787"
-left_Roundify_12px.ScaleType = Enum.ScaleType.Slice
-left_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
-left_Roundify_12px.SliceScale = 0.120
-
-TextLabel_26.Parent = left
-TextLabel_26.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_26.BackgroundTransparency = 1.000
-TextLabel_26.Position = UDim2.new(-0.0317460299, 0, 0, 0)
-TextLabel_26.Size = UDim2.new(0, 67, 0, 50)
-TextLabel_26.Font = Enum.Font.SourceSansBold
-TextLabel_26.Text = "<"
-TextLabel_26.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_26.TextSize = 50.000
+cos2.Name = "cos2"
+cos2.Parent = scriptPage
+cos2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cos2.BackgroundTransparency = 1.000
+cos2.Position = UDim2.new(0.587002099, 0, 0.052117262, 0)
+cos2.Size = UDim2.new(0, 200, 0, 50)
+cos2.Font = Enum.Font.SourceSans
+cos2.Text = "2"
+cos2.TextColor3 = Color3.fromRGB(255, 255, 255)
+cos2.TextSize = 50.000
 
 right.Name = "right"
 right.Parent = scriptPage
@@ -1310,19 +1337,55 @@ right_Roundify_12px.ScaleType = Enum.ScaleType.Slice
 right_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
 right_Roundify_12px.SliceScale = 0.120
 
-TextLabel_27.Parent = right
-TextLabel_27.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_27.BackgroundTransparency = 1.000
-TextLabel_27.Position = UDim2.new(-0.0317460299, 0, 0, 0)
-TextLabel_27.Size = UDim2.new(0, 67, 0, 50)
-TextLabel_27.Font = Enum.Font.SourceSansBold
-TextLabel_27.Text = ">"
-TextLabel_27.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_27.TextSize = 50.000
+TextLabel_30.Parent = right
+TextLabel_30.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_30.BackgroundTransparency = 1.000
+TextLabel_30.Position = UDim2.new(-0.0317460299, 0, 0, 0)
+TextLabel_30.Size = UDim2.new(0, 67, 0, 50)
+TextLabel_30.Font = Enum.Font.SourceSansBold
+TextLabel_30.Text = ">"
+TextLabel_30.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_30.TextSize = 50.000
+
+left.Name = "left"
+left.Parent = scriptPage
+left.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+left.BackgroundTransparency = 1.000
+left.BorderSizePixel = 0
+left.Position = UDim2.new(0.0419287235, 0, 0.0749185681, 0)
+left.Size = UDim2.new(0, 63, 0, 49)
+left.Font = Enum.Font.SourceSans
+left.Text = ">"
+left.TextColor3 = Color3.fromRGB(0, 0, 0)
+left.TextSize = 14.000
+
+left_Roundify_12px.Name = "left_Roundify_12px"
+left_Roundify_12px.Parent = left
+left_Roundify_12px.Active = true
+left_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+left_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+left_Roundify_12px.BackgroundTransparency = 1.000
+left_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+left_Roundify_12px.Selectable = true
+left_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+left_Roundify_12px.Image = "rbxassetid://3570695787"
+left_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+left_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+left_Roundify_12px.SliceScale = 0.120
+
+TextLabel_31.Parent = left
+TextLabel_31.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_31.BackgroundTransparency = 1.000
+TextLabel_31.Position = UDim2.new(-0.0317460299, 0, 0, 0)
+TextLabel_31.Size = UDim2.new(0, 67, 0, 50)
+TextLabel_31.Font = Enum.Font.SourceSansBold
+TextLabel_31.Text = "<"
+TextLabel_31.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_31.TextSize = 50.000
 
 -- Scripts:
 
-local function CYCBRX_fake_script() -- UpdateFrame.UpdateFrameDrag 
+local function AGXB_fake_script() -- UpdateFrame.UpdateFrameDrag 
 	local script = Instance.new('LocalScript', UpdateFrame)
 
 	local UIS = game:GetService("UserInputService")
@@ -1367,8 +1430,8 @@ local function CYCBRX_fake_script() -- UpdateFrame.UpdateFrameDrag
 	
 	
 end
-coroutine.wrap(CYCBRX_fake_script)()
-local function QACW_fake_script() -- PowerBtn.PageDestroy 
+coroutine.wrap(AGXB_fake_script)()
+local function IFLBYO_fake_script() -- PowerBtn.PageDestroy 
 	local script = Instance.new('LocalScript', PowerBtn)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1408,8 +1471,8 @@ local function QACW_fake_script() -- PowerBtn.PageDestroy
 	
 	
 end
-coroutine.wrap(QACW_fake_script)()
-local function SFHAC_fake_script() -- PowerBtn.LocalScript 
+coroutine.wrap(IFLBYO_fake_script)()
+local function GMNVR_fake_script() -- PowerBtn.LocalScript 
 	local script = Instance.new('LocalScript', PowerBtn)
 
 	local powerBtn = script.Parent
@@ -1430,8 +1493,8 @@ local function SFHAC_fake_script() -- PowerBtn.LocalScript
 		defaultTween:Play()
 	end)
 end
-coroutine.wrap(SFHAC_fake_script)()
-local function KFJR_fake_script() -- TimeLabel.TimeLabelScript 
+coroutine.wrap(GMNVR_fake_script)()
+local function UYVOE_fake_script() -- TimeLabel.TimeLabelScript 
 	local script = Instance.new('LocalScript', TimeLabel)
 
 	local TimeLabel = script.Parent
@@ -1442,8 +1505,8 @@ local function KFJR_fake_script() -- TimeLabel.TimeLabelScript
 		TimeLabel.Text = os.date()
 	end
 end
-coroutine.wrap(KFJR_fake_script)()
-local function XVFQ_fake_script() -- BaseImage.toTheLeftHighliter 
+coroutine.wrap(UYVOE_fake_script)()
+local function COTZZ_fake_script() -- BaseImage.toTheLeftHighliter 
 	local script = Instance.new('LocalScript', BaseImage)
 
 	local btn = script.Parent
@@ -1479,8 +1542,8 @@ local function XVFQ_fake_script() -- BaseImage.toTheLeftHighliter
 		end
 	end)
 end
-coroutine.wrap(XVFQ_fake_script)()
-local function AAHNPG_fake_script() -- TextButton_Roundify_4px.highLightScrit 
+coroutine.wrap(COTZZ_fake_script)()
+local function XPGP_fake_script() -- TextButton_Roundify_4px.highLightScrit 
 	local script = Instance.new('LocalScript', TextButton_Roundify_4px)
 
 	local btn = script.Parent
@@ -1517,8 +1580,8 @@ local function AAHNPG_fake_script() -- TextButton_Roundify_4px.highLightScrit
 		end
 	end)
 end
-coroutine.wrap(AAHNPG_fake_script)()
-local function QTMAJDJ_fake_script() -- TextButton_Roundify_4px.LocalScript 
+coroutine.wrap(XPGP_fake_script)()
+local function WYYZU_fake_script() -- TextButton_Roundify_4px.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_Roundify_4px)
 
 	local btn = script.Parent
@@ -1550,8 +1613,8 @@ local function QTMAJDJ_fake_script() -- TextButton_Roundify_4px.LocalScript
 	
 	
 end
-coroutine.wrap(QTMAJDJ_fake_script)()
-local function PCITHL_fake_script() -- r1.drag 
+coroutine.wrap(WYYZU_fake_script)()
+local function EMTADWM_fake_script() -- r1.drag 
 	local script = Instance.new('LocalScript', r1)
 
 	local mFrame = script.Parent.Parent
@@ -1594,8 +1657,8 @@ local function PCITHL_fake_script() -- r1.drag
 		end
 	end)
 end
-coroutine.wrap(PCITHL_fake_script)()
-local function GHCZW_fake_script() -- r2.drag 
+coroutine.wrap(EMTADWM_fake_script)()
+local function PLFXI_fake_script() -- r2.drag 
 	local script = Instance.new('LocalScript', r2)
 
 	local mFrame = script.Parent.Parent
@@ -1638,8 +1701,44 @@ local function GHCZW_fake_script() -- r2.drag
 		end
 	end)
 end
-coroutine.wrap(GHCZW_fake_script)()
-local function EURADLE_fake_script() -- img.minVis 
+coroutine.wrap(PLFXI_fake_script)()
+local function ISRAHBU_fake_script() -- img.LocalScript 
+	local script = Instance.new('LocalScript', img)
+
+	local img = script.Parent
+	local isOn = false
+	
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
+	
+	local defaultTween = tweenService:Create(img, tweenInfo, {ImageColor3 = Color3.fromRGB(255, 0, 0)})
+	local blueTween = tweenService:Create(img, tweenInfo, {ImageColor3 = Color3.fromRGB(170, 170, 255)})
+	local darkTween = tweenService:Create(img, tweenInfo, {ImageColor3 = Color3.fromRGB(35, 35, 35)})
+	
+	img.MouseEnter:Connect(function()
+		isOn = true
+		blueTween:Play()
+	end)
+	
+	img.MouseLeave:Connect(function()
+		isOn = false
+		defaultTween:Play()
+	end)
+	
+	img.MouseButton1Down:Connect(function()
+		darkTween:Play()
+	end)
+	
+	img.MouseButton1Up:Connect(function()
+		if isOn == true then
+			blueTween:Play()
+		else
+			defaultTween:Play()
+		end
+	end)
+end
+coroutine.wrap(ISRAHBU_fake_script)()
+local function HPSKEN_fake_script() -- img.minVis 
 	local script = Instance.new('LocalScript', img)
 
 	local UIS = game:GetService("UserInputService")
@@ -1684,44 +1783,8 @@ local function EURADLE_fake_script() -- img.minVis
 		mFrame:Destroy()
 	end)
 end
-coroutine.wrap(EURADLE_fake_script)()
-local function BGQIFYS_fake_script() -- img.LocalScript 
-	local script = Instance.new('LocalScript', img)
-
-	local img = script.Parent
-	local isOn = false
-	
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
-	
-	local defaultTween = tweenService:Create(img, tweenInfo, {ImageColor3 = Color3.fromRGB(255, 0, 0)})
-	local blueTween = tweenService:Create(img, tweenInfo, {ImageColor3 = Color3.fromRGB(170, 170, 255)})
-	local darkTween = tweenService:Create(img, tweenInfo, {ImageColor3 = Color3.fromRGB(35, 35, 35)})
-	
-	img.MouseEnter:Connect(function()
-		isOn = true
-		blueTween:Play()
-	end)
-	
-	img.MouseLeave:Connect(function()
-		isOn = false
-		defaultTween:Play()
-	end)
-	
-	img.MouseButton1Down:Connect(function()
-		darkTween:Play()
-	end)
-	
-	img.MouseButton1Up:Connect(function()
-		if isOn == true then
-			blueTween:Play()
-		else
-			defaultTween:Play()
-		end
-	end)
-end
-coroutine.wrap(BGQIFYS_fake_script)()
-local function HVYKAV_fake_script() -- mFrame.drag 
+coroutine.wrap(HPSKEN_fake_script)()
+local function FZSOK_fake_script() -- mFrame.drag 
 	local script = Instance.new('LocalScript', mFrame)
 
 	local mFrame = script.Parent
@@ -1763,158 +1826,175 @@ local function HVYKAV_fake_script() -- mFrame.drag
 		end
 	end)
 end
-coroutine.wrap(HVYKAV_fake_script)()
-local function UNBDKQ_fake_script() -- homeButton.colorTween 
+coroutine.wrap(FZSOK_fake_script)()
+local function ZVKDSX_fake_script() -- homeButton.LocalScript 
 	local script = Instance.new('LocalScript', homeButton)
 
 	local btn = script.Parent
-	
-	local isOn = false
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
-	
-	local blueTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(0, 0, 255)});
-	local defaultTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(255, 255, 255)})
-	local clickTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(35, 35, 35)})
-	
-	btn.MouseEnter:Connect(function()
-		isOn = true
-		blueTween:Play()
-	end)
-	
-	btn.MouseLeave:Connect(function()
-		isOn = false
-		defaultTween:Play()
-	end)
-	
-	btn.MouseButton1Down:Connect(function()
-		clickTween:Play()
-	end)
-	
-	btn.MouseButton1Up:Connect(function()
-		if isOn == true then
-			blueTween:Play() else
-			defaultTween:Play()
-		end
-	end)
-end
-coroutine.wrap(UNBDKQ_fake_script)()
-local function FPBQYNM_fake_script() -- homeButton.LocalScript 
-	local script = Instance.new('LocalScript', homeButton)
-
-	local btn = script.Parent
-	local scriptPage = btn.Parent.scriptPage
-	local cred = script.Parent.Parent.cred
-	local cred2 = script.Parent.Parent.cred3
 	local adminPage = script.Parent.Parent.adminPage
+	local scriptPage = script.Parent.Parent.scriptPage
 	
 	btn.MouseButton1Down:Connect(function()
+		adminPage.Visible = false
 		scriptPage.Visible = false
-		adminPage.Visible = false
-		
 	end)
 end
-coroutine.wrap(FPBQYNM_fake_script)()
-local function KGBM_fake_script() -- scriptImg.colorTween 
-	local script = Instance.new('LocalScript', scriptImg)
+coroutine.wrap(ZVKDSX_fake_script)()
+local function ADYX_fake_script() -- homeButton.LocalScript 
+	local script = Instance.new('LocalScript', homeButton)
 
 	local btn = script.Parent
-	local scrButton = btn.scriptsButton
 	
-	local isOn = false
-	local tweenService = game:GetService("TweenService")
+	local isOn
+	
+	local tweenService = game:GetService("TweenService");
 	local tweenInfo = TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
 	
-	local blueTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(0, 0, 255)});
+	local blueTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(0, 0, 255)})
+	local darkTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(35, 35, 35)})
 	local defaultTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(255, 255, 255)})
-	local clickTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(35, 35, 35)})
-	local blueTween2 = tweenService:Create(scrButton, tweenInfo, {TextColor3 = Color3.fromRGB(0, 0, 255)});
-	local defaultTween2 = tweenService:Create(scrButton, tweenInfo, {TextColor3 = Color3.fromRGB(255, 255, 255)})
-	local clickTween2 = tweenService:Create(scrButton, tweenInfo, {TextColor3 = Color3.fromRGB(35, 35, 35)})
+	
 	
 	btn.MouseEnter:Connect(function()
 		isOn = true
-		blueTween2:Play()
 		blueTween:Play()
 	end)
 	
 	btn.MouseLeave:Connect(function()
 		isOn = false
-		defaultTween2:Play()
 		defaultTween:Play()
 	end)
 	
 	btn.MouseButton1Down:Connect(function()
-		clickTween2:Play()
-		clickTween:Play()
+		darkTween:Play()
 	end)
 	
 	btn.MouseButton1Up:Connect(function()
 		if isOn == true then
-			blueTween:Play() 
-			blueTween2:Play()
+			blueTween:Play()
 		else
 			defaultTween:Play()
-			defaultTween2:Play()
 		end
 	end)
 	
-	scrButton.MouseEnter:Connect(function()
+end
+coroutine.wrap(ADYX_fake_script)()
+local function VEJJAQ_fake_script() -- scriptsButton.LocalScript 
+	local script = Instance.new('LocalScript', scriptsButton)
+
+	local btn = script.Parent
+	local scrBtn = btn.Parent
+	
+	local isOn
+	
+	local tweenService = game:GetService("TweenService");
+	local tweenInfo = TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
+	
+	local blueTween = tweenService:Create(scrBtn, tweenInfo, {ImageColor3 = Color3.fromRGB(0, 0, 255)})
+	local darkTween = tweenService:Create(scrBtn, tweenInfo, {ImageColor3 = Color3.fromRGB(35, 35, 35)})
+	local defaultTween = tweenService:Create(scrBtn, tweenInfo, {ImageColor3 = Color3.fromRGB(255, 255, 255)})
+	
+	local blueTween1 = tweenService:Create(btn, tweenInfo, {TextColor3 = Color3.fromRGB(0, 0, 255)})
+	local darkTween1 = tweenService:Create(btn, tweenInfo, {TextColor3 = Color3.fromRGB(35, 35, 35)})
+	local defaultTween1 = tweenService:Create(btn, tweenInfo, {TextColor3 = Color3.fromRGB(255, 255, 255)})
+	
+	
+	btn.MouseEnter:Connect(function()
 		isOn = true
-		blueTween2:Play()
 		blueTween:Play()
+		blueTween1:Play()
 	end)
 	
-	scrButton.MouseLeave:Connect(function()
+	btn.MouseLeave:Connect(function()
 		isOn = false
-		defaultTween2:Play()
 		defaultTween:Play()
+		defaultTween1:Play()
 	end)
 	
-	scrButton.MouseButton1Down:Connect(function()
-		clickTween2:Play()
-		clickTween:Play()
+	btn.MouseButton1Down:Connect(function()
+		darkTween:Play()
+		darkTween1:Play()
 	end)
 	
-	scrButton.MouseButton1Up:Connect(function()
+	btn.MouseButton1Up:Connect(function()
 		if isOn == true then
-			blueTween:Play() 
-			blueTween2:Play()
+			blueTween:Play()
+			blueTween1:Play()
 		else
 			defaultTween:Play()
-			defaultTween2:Play()
+			defaultTween1:Play()
 		end
 	end)
 end
-coroutine.wrap(KGBM_fake_script)()
-local function BJFZGN_fake_script() -- scriptImg.LocalScript 
+coroutine.wrap(VEJJAQ_fake_script)()
+local function FHSCKZM_fake_script() -- scriptImg.LocalScript 
 	local script = Instance.new('LocalScript', scriptImg)
 
-	local scriptImg = script.Parent
-	local scriptButton = scriptImg.scriptsButton
-	local scriptPage = scriptImg.Parent.scriptPage
+	local btn = script.Parent
+	local scrBtn = btn.scriptsButton
+	local scriptsPage = script.Parent.Parent.scriptPage
 	local adminPage = script.Parent.Parent.adminPage
 	
-	
-	scriptImg.MouseButton1Down:Connect(function()
-		scriptPage.Visible = true
+	btn.MouseButton1Down:Connect(function()
+		scriptsPage.Visible = true
 		adminPage.Visible = false
-	end) 
+	end)
 	
-	scriptButton.MouseButton1Down:Connect(function()
-		scriptPage.Visible = true
+	scrBtn.MouseButton1Down:Connect(function()
+		scriptsPage.Visible = true
 		adminPage.Visible = false
 	end)
 end
-coroutine.wrap(BJFZGN_fake_script)()
-local function TAZUQHA_fake_script() -- tripDots.LocalScript 
-	local script = Instance.new('LocalScript', tripDots)
+coroutine.wrap(FHSCKZM_fake_script)()
+local function DLSQ_fake_script() -- scriptImg.LocalScript 
+	local script = Instance.new('LocalScript', scriptImg)
 
-	local dots = script.Parent
+	local btn = script.Parent
+	local scrBtn = btn.scriptsButton
 	
+	local isOn
+	
+	local tweenService = game:GetService("TweenService");
+	local tweenInfo = TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
+	
+	local blueTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(0, 0, 255)})
+	local darkTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(35, 35, 35)})
+	local defaultTween = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(255, 255, 255)})
+	
+	local blueTween1 = tweenService:Create(scrBtn, tweenInfo, {TextColor3 = Color3.fromRGB(0, 0, 255)})
+	local darkTween1 = tweenService:Create(scrBtn, tweenInfo, {TextColor3 = Color3.fromRGB(35, 35, 35)})
+	local defaultTween1 = tweenService:Create(scrBtn, tweenInfo, {TextColor3 = Color3.fromRGB(255, 255, 255)})
+	
+	
+	btn.MouseEnter:Connect(function()
+		isOn = true
+		blueTween:Play()
+		blueTween1:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		isOn = false
+		defaultTween:Play()
+		defaultTween1:Play()
+	end)
+	
+	btn.MouseButton1Down:Connect(function()
+		darkTween:Play()
+		darkTween1:Play()
+	end)
+	
+	btn.MouseButton1Up:Connect(function()
+		if isOn == true then
+			blueTween:Play()
+			blueTween1:Play()
+		else
+			defaultTween:Play()
+			defaultTween1:Play()
+		end
+	end)
 end
-coroutine.wrap(TAZUQHA_fake_script)()
-local function KVXXR_fake_script() -- mFrame.rightShiftDetec 
+coroutine.wrap(DLSQ_fake_script)()
+local function HOGWHAN_fake_script() -- mFrame.rightShiftDetec 
 	local script = Instance.new('LocalScript', mFrame)
 
 	local UIS = game:GetService("UserInputService")
@@ -1934,174 +2014,220 @@ local function KVXXR_fake_script() -- mFrame.rightShiftDetec
 	end)
 	
 end
-coroutine.wrap(KVXXR_fake_script)()
-local function SLWV_fake_script() -- adminbutton.LocalScript 
+coroutine.wrap(HOGWHAN_fake_script)()
+local function EWWHZA_fake_script() -- adminbutton.LocalScript 
 	local script = Instance.new('LocalScript', adminbutton)
 
 	local btn = script.Parent
+	local scrBtn = btn.Parent.scriptbutton
+	local admIcon = script.Parent.Parent
 	
-	local adminpage = script.Parent.Parent.Parent.adminPage
-	local scriptPage = script.Parent.Parent.Parent.scriptPage
+	local isOn
 	
-	btn.MouseButton1Down:Connect(function()
-		scriptPage.Visible = false
-		adminpage.Visible = true
+	local tweenService = game:GetService("TweenService");
+	local tweenInfo = TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
+	
+	local blueTween = tweenService:Create(btn, tweenInfo, {TextColor3 = Color3.fromRGB(0, 0, 255)})
+	local darkTween = tweenService:Create(btn, tweenInfo, {TextColor3 = Color3.fromRGB(35, 35, 35)})
+	local defaultTween = tweenService:Create(btn, tweenInfo, {TextColor3 = Color3.fromRGB(255, 255, 255)})
+	
+	local blueTween1 = tweenService:Create(scrBtn, tweenInfo, {TextColor3 = Color3.fromRGB(0, 0, 255)})
+	local darkTween1 = tweenService:Create(scrBtn, tweenInfo, {TextColor3 = Color3.fromRGB(35, 35, 35)})
+	local defaultTween1 = tweenService:Create(scrBtn, tweenInfo, {TextColor3 = Color3.fromRGB(255, 255, 255)})
+	
+	local blueTween2 = tweenService:Create(admIcon, tweenInfo, {ImageColor3 = Color3.fromRGB(0, 0, 255)})
+	local darkTween2 = tweenService:Create(admIcon, tweenInfo, {ImageColor3 = Color3.fromRGB(35, 35, 35)})
+	local defaultTween2 = tweenService:Create(admIcon, tweenInfo, {ImageColor3 = Color3.fromRGB(255, 255, 255)})
+	
+	
+	btn.MouseEnter:Connect(function()
+		isOn = true
+		blueTween:Play()
+		blueTween1:Play()
+		blueTween2:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		isOn = false
+		defaultTween:Play()
+		defaultTween1:Play()
+		defaultTween2:Play()
 	
 	end)
+	
+	btn.MouseButton1Down:Connect(function()
+		darkTween:Play()
+		darkTween1:Play()
+		darkTween2:Play()
+	
+	end)
+	
+	btn.MouseButton1Up:Connect(function()
+		if isOn == true then
+			blueTween:Play()
+			blueTween1:Play()
+			blueTween2:Play()
+	
+		else
+			defaultTween:Play()
+			defaultTween1:Play()
+			defaultTween2:Play()
+	
+		end
+	end)
 end
-coroutine.wrap(SLWV_fake_script)()
-local function UQBRVJA_fake_script() -- scriptbutton.LocalScript 
+coroutine.wrap(EWWHZA_fake_script)()
+local function VMWX_fake_script() -- scriptbutton.LocalScript 
 	local script = Instance.new('LocalScript', scriptbutton)
 
 	local btn = script.Parent
+	local admBtn = btn.Parent.adminbutton
+	local admIcon = script.Parent.Parent
 	
-	local adminpage = script.Parent.Parent.Parent.adminPage
-	local scriptPage = script.Parent.Parent.Parent.scriptPage
+	local isOn
+	
+	local tweenService = game:GetService("TweenService");
+	local tweenInfo = TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
+	
+	local blueTween = tweenService:Create(btn, tweenInfo, {TextColor3 = Color3.fromRGB(0, 0, 255)})
+	local darkTween = tweenService:Create(btn, tweenInfo, {TextColor3 = Color3.fromRGB(35, 35, 35)})
+	local defaultTween = tweenService:Create(btn, tweenInfo, {TextColor3 = Color3.fromRGB(255, 255, 255)})
+	
+	local blueTween1 = tweenService:Create(admBtn, tweenInfo, {TextColor3 = Color3.fromRGB(0, 0, 255)})
+	local darkTween1 = tweenService:Create(admBtn, tweenInfo, {TextColor3 = Color3.fromRGB(35, 35, 35)})
+	local defaultTween1 = tweenService:Create(admBtn, tweenInfo, {TextColor3 = Color3.fromRGB(255, 255, 255)})
+	
+	local blueTween2 = tweenService:Create(admIcon, tweenInfo, {ImageColor3 = Color3.fromRGB(0, 0, 255)})
+	local darkTween2 = tweenService:Create(admIcon, tweenInfo, {ImageColor3 = Color3.fromRGB(35, 35, 35)})
+	local defaultTween2 = tweenService:Create(admIcon, tweenInfo, {ImageColor3 = Color3.fromRGB(255, 255, 255)})
+	
+	
+	btn.MouseEnter:Connect(function()
+		isOn = true
+		blueTween:Play()
+		blueTween1:Play()
+		blueTween2:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		isOn = false
+		defaultTween:Play()
+		defaultTween1:Play()
+		defaultTween2:Play()
+	
+	end)
 	
 	btn.MouseButton1Down:Connect(function()
-		scriptPage.Visible = false
-		adminpage.Visible = true
-	end)
-end
-coroutine.wrap(UQBRVJA_fake_script)()
-local function FEOZITC_fake_script() -- adminIcon.tween 
-	local script = Instance.new('LocalScript', adminIcon)
-
-	local icon = script.Parent
-	local adbutton = icon.adminbutton
-	local scrbutton = icon.scriptbutton
-	
-	local isOn = false
-	
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut)
-	
-	local darkTween = tweenService:Create(icon, tweenInfo, {ImageColor3 = Color3.fromRGB(35, 35, 35)})
-	local blueTween = tweenService:Create(icon, tweenInfo, {ImageColor3 = Color3.fromRGB(0, 0, 255)})
-	local defaultTween = tweenService:Create(icon, tweenInfo, {ImageColor3 = Color3.fromRGB(255, 255, 255)})
-	
-	local darkTween1 = tweenService:Create(adbutton, tweenInfo, {TextColor3 = Color3.fromRGB(35, 35, 35)})
-	local blueTween1 = tweenService:Create(adbutton, tweenInfo, {TextColor3 = Color3.fromRGB(0, 0, 255)})
-	local defaultTween1 = tweenService:Create(adbutton, tweenInfo, {TextColor3 = Color3.fromRGB(255, 255, 255)})
-	
-	local darkTween2 = tweenService:Create(scrbutton, tweenInfo, {TextColor3 = Color3.fromRGB(35, 35, 35)})
-	local blueTween2 = tweenService:Create(scrbutton, tweenInfo, {TextColor3 = Color3.fromRGB(0, 0, 255)})
-	local defaultTween2 = tweenService:Create(scrbutton, tweenInfo, {TextColor3 = Color3.fromRGB(255, 255, 255)})
-	
-	icon.MouseEnter:Connect(function()
-		isOn = true
-		blueTween:Play()
-		blueTween2:Play()
-		blueTween1:Play()
-	end)
-	
-	icon.MouseLeave:Connect(function()
-		isOn = false
-		defaultTween:Play()
-		defaultTween2:Play()
-		defaultTween1:Play()
-	end)
-	
-	icon.MouseButton1Down:Connect(function()
 		darkTween:Play()
 		darkTween1:Play()
 		darkTween2:Play()
+	
 	end)
 	
-	
-	icon.MouseButton1Up:Connect(function()
+	btn.MouseButton1Up:Connect(function()
 		if isOn == true then
 			blueTween:Play()
-			blueTween2:Play()
 			blueTween1:Play()
+			blueTween2:Play()
+	
 		else
 			defaultTween:Play()
-			defaultTween2:Play()
 			defaultTween1:Play()
-		end
-	end)
-	
-	scrbutton.MouseEnter:Connect(function()
-		isOn = true
-		blueTween:Play()
-		blueTween2:Play()
-		blueTween1:Play()
-	end)
-	
-	scrbutton.MouseLeave:Connect(function()
-		isOn = false
-		defaultTween:Play()
-		defaultTween2:Play()
-		defaultTween1:Play()
-	end)
-	
-	scrbutton.MouseButton1Down:Connect(function()
-		darkTween:Play()
-		darkTween1:Play()
-		darkTween2:Play()
-	end)
-	
-	scrbutton.MouseButton1Up:Connect(function()
-		if isOn == true then
-			blueTween:Play()
-			blueTween2:Play()
-			blueTween1:Play()
-		else
-			defaultTween:Play()
 			defaultTween2:Play()
-			defaultTween1:Play()
-		end
-	end)
 	
-	adbutton.MouseEnter:Connect(function()
-		isOn = true
-		blueTween:Play()
-		blueTween2:Play()
-		blueTween1:Play()
-	end)
-	
-	adbutton.MouseLeave:Connect(function()
-		isOn = false
-		defaultTween:Play()
-		defaultTween2:Play()
-		defaultTween1:Play()
-	end)
-	
-	adbutton.MouseButton1Down:Connect(function()
-		darkTween:Play()
-		darkTween1:Play()
-		darkTween2:Play()
-	end)
-	
-	adbutton.MouseButton1Up:Connect(function()
-		if isOn == true then
-			blueTween:Play()
-			blueTween2:Play()
-			blueTween1:Play()
-		else
-			defaultTween:Play()
-			defaultTween2:Play()
-			defaultTween1:Play()
 		end
 	end)
 end
-coroutine.wrap(FEOZITC_fake_script)()
-local function LFQEJW_fake_script() -- adminIcon.LocalScript 
+coroutine.wrap(VMWX_fake_script)()
+local function NVYM_fake_script() -- adminIcon.LocalScript 
 	local script = Instance.new('LocalScript', adminIcon)
 
 	local btn = script.Parent
-	
-	local adminpage = script.Parent.Parent.adminPage
+	local adminBtn = btn.adminbutton
+	local scriptButton = btn.scriptbutton
+	local adminPage = script.Parent.Parent.adminPage
 	local scriptPage = script.Parent.Parent.scriptPage
 	
+	btn.MouseButton1Down:Connect(function()
+		adminPage.Visible = true
+		scriptPage.Visible = false
+	end)
+	
+	adminBtn.MouseButton1Down:Connect(function()
+		adminPage.Visible = true
+		scriptPage.Visible = false
+	end)
+	
+	scriptButton.MouseButton1Down:Connect(function()
+		adminPage.Visible = true
+		scriptPage.Visible = false
+	end)
+	
+	
+	
+end
+coroutine.wrap(NVYM_fake_script)()
+local function HXCF_fake_script() -- adminIcon.LocalScript 
+	local script = Instance.new('LocalScript', adminIcon)
+
+	local btn = script.Parent
+	local admBtn = btn.adminbutton
+	local scrBtn = btn.scriptbutton
+	
+	local isOn
+	
+	local tweenService = game:GetService("TweenService");
+	local tweenInfo = TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
+	
+	local blueTween = tweenService:Create(admBtn, tweenInfo, {TextColor3 = Color3.fromRGB(0, 0, 255)})
+	local darkTween = tweenService:Create(admBtn, tweenInfo, {TextColor3 = Color3.fromRGB(35, 35, 35)})
+	local defaultTween = tweenService:Create(admBtn, tweenInfo, {TextColor3 = Color3.fromRGB(255, 255, 255)})
+	
+	local blueTween1 = tweenService:Create(scrBtn, tweenInfo, {TextColor3 = Color3.fromRGB(0, 0, 255)})
+	local darkTween1 = tweenService:Create(scrBtn, tweenInfo, {TextColor3 = Color3.fromRGB(35, 35, 35)})
+	local defaultTween1 = tweenService:Create(scrBtn, tweenInfo, {TextColor3 = Color3.fromRGB(255, 255, 255)})
+	
+	local blueTween2 = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(0, 0, 255)})
+	local darkTween2 = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(35, 35, 35)})
+	local defaultTween2 = tweenService:Create(btn, tweenInfo, {ImageColor3 = Color3.fromRGB(255, 255, 255)})
+	
+	
+	btn.MouseEnter:Connect(function()
+		isOn = true
+		blueTween:Play()
+		blueTween1:Play()
+		blueTween2:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		isOn = false
+		defaultTween:Play()
+		defaultTween1:Play()
+		defaultTween2:Play()
+	
+	end)
 	
 	btn.MouseButton1Down:Connect(function()
-		scriptPage.Visible = false
-		adminpage.Visible = true
+		darkTween:Play()
+		darkTween1:Play()
+		darkTween2:Play()
+	end)
+	
+	btn.MouseButton1Up:Connect(function()
+		if isOn == true then
+			blueTween:Play()
+			blueTween1:Play()
+			blueTween2:Play()
+		else
+			defaultTween:Play()
+			defaultTween1:Play()
+			defaultTween2:Play()
+	
+		end
 	end)
 end
-coroutine.wrap(LFQEJW_fake_script)()
-local function PRPIR_fake_script() -- shatter.scriptExe 
+coroutine.wrap(HXCF_fake_script)()
+local function XSKXXCD_fake_script() -- shatter.scriptExe 
 	local script = Instance.new('LocalScript', shatter)
 
 	local btn = script.Parent
@@ -2110,8 +2236,8 @@ local function PRPIR_fake_script() -- shatter.scriptExe
 		loadstring(game:HttpGet(('https://pastebin.com/raw/MjmdAaq2'),true))()
 	end)
 end
-coroutine.wrap(PRPIR_fake_script)()
-local function QZDEMQW_fake_script() -- shatter.notifScript 
+coroutine.wrap(XSKXXCD_fake_script)()
+local function TLAVLRY_fake_script() -- shatter.notifScript 
 	local script = Instance.new('LocalScript', shatter)
 
 	local btn = script.Parent
@@ -2125,8 +2251,8 @@ local function QZDEMQW_fake_script() -- shatter.notifScript
 	end)
 	
 end
-coroutine.wrap(QZDEMQW_fake_script)()
-local function TPGD_fake_script() -- shatter.tweenScript 
+coroutine.wrap(TLAVLRY_fake_script)()
+local function NESCVF_fake_script() -- shatter.tweenScript 
 	local script = Instance.new('LocalScript', shatter)
 
 	local btn = script.Parent
@@ -2172,8 +2298,8 @@ local function TPGD_fake_script() -- shatter.tweenScript
 	end)
 	
 end
-coroutine.wrap(TPGD_fake_script)()
-local function KRNVJJF_fake_script() -- chat.scriptExe 
+coroutine.wrap(NESCVF_fake_script)()
+local function KZKVRNC_fake_script() -- chat.scriptExe 
 	local script = Instance.new('LocalScript', chat)
 
 	local btn = script.Parent
@@ -2182,8 +2308,8 @@ local function KRNVJJF_fake_script() -- chat.scriptExe
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/bedra45/chetbypasser/main/chetbypass'))()
 	end)
 end
-coroutine.wrap(KRNVJJF_fake_script)()
-local function IDQTXYP_fake_script() -- chat.notifScript 
+coroutine.wrap(KZKVRNC_fake_script)()
+local function VSLNPHX_fake_script() -- chat.notifScript 
 	local script = Instance.new('LocalScript', chat)
 
 	local btn = script.Parent
@@ -2197,8 +2323,8 @@ local function IDQTXYP_fake_script() -- chat.notifScript
 	end)
 	
 end
-coroutine.wrap(IDQTXYP_fake_script)()
-local function VZSWF_fake_script() -- chat.tweenScript 
+coroutine.wrap(VSLNPHX_fake_script)()
+local function ZKBNX_fake_script() -- chat.tweenScript 
 	local script = Instance.new('LocalScript', chat)
 
 	local btn = script.Parent
@@ -2244,8 +2370,8 @@ local function VZSWF_fake_script() -- chat.tweenScript
 	end)
 	
 end
-coroutine.wrap(VZSWF_fake_script)()
-local function AEQCNUK_fake_script() -- Inf.scriptExe 
+coroutine.wrap(ZKBNX_fake_script)()
+local function HUBV_fake_script() -- Inf.scriptExe 
 	local script = Instance.new('LocalScript', Inf)
 
 	local btn = script.Parent
@@ -2254,8 +2380,8 @@ local function AEQCNUK_fake_script() -- Inf.scriptExe
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(AEQCNUK_fake_script)()
-local function BMFMBL_fake_script() -- Inf.notifScript 
+coroutine.wrap(HUBV_fake_script)()
+local function NTHZNF_fake_script() -- Inf.notifScript 
 	local script = Instance.new('LocalScript', Inf)
 
 	local btn = script.Parent
@@ -2269,8 +2395,8 @@ local function BMFMBL_fake_script() -- Inf.notifScript
 	end)
 	
 end
-coroutine.wrap(BMFMBL_fake_script)()
-local function IXQXMKU_fake_script() -- Inf.tweenScript 
+coroutine.wrap(NTHZNF_fake_script)()
+local function BEDO_fake_script() -- Inf.tweenScript 
 	local script = Instance.new('LocalScript', Inf)
 
 	local btn = script.Parent
@@ -2316,8 +2442,8 @@ local function IXQXMKU_fake_script() -- Inf.tweenScript
 	end)
 	
 end
-coroutine.wrap(IXQXMKU_fake_script)()
-local function XDGUZ_fake_script() -- CMD.scriptExe 
+coroutine.wrap(BEDO_fake_script)()
+local function QIUZ_fake_script() -- CMD.scriptExe 
 	local script = Instance.new('LocalScript', CMD)
 
 	local btn = script.Parent
@@ -2326,8 +2452,8 @@ local function XDGUZ_fake_script() -- CMD.scriptExe
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
 	end)
 end
-coroutine.wrap(XDGUZ_fake_script)()
-local function IVGRYT_fake_script() -- CMD.notifScript 
+coroutine.wrap(QIUZ_fake_script)()
+local function ENDFA_fake_script() -- CMD.notifScript 
 	local script = Instance.new('LocalScript', CMD)
 
 	local btn = script.Parent
@@ -2341,8 +2467,8 @@ local function IVGRYT_fake_script() -- CMD.notifScript
 	end)
 	
 end
-coroutine.wrap(IVGRYT_fake_script)()
-local function CLWI_fake_script() -- CMD.tweenScript 
+coroutine.wrap(ENDFA_fake_script)()
+local function AODIW_fake_script() -- CMD.tweenScript 
 	local script = Instance.new('LocalScript', CMD)
 
 	local btn = script.Parent
@@ -2388,8 +2514,8 @@ local function CLWI_fake_script() -- CMD.tweenScript
 	end)
 	
 end
-coroutine.wrap(CLWI_fake_script)()
-local function MCXA_fake_script() -- Abyss.notifScript 
+coroutine.wrap(AODIW_fake_script)()
+local function PLBD_fake_script() -- Abyss.notifScript 
 	local script = Instance.new('LocalScript', Abyss)
 
 	local btn = script.Parent
@@ -2403,8 +2529,8 @@ local function MCXA_fake_script() -- Abyss.notifScript
 	end)
 	
 end
-coroutine.wrap(MCXA_fake_script)()
-local function OTRKOYZ_fake_script() -- Abyss.scriptExe 
+coroutine.wrap(PLBD_fake_script)()
+local function WFTSIH_fake_script() -- Abyss.scriptExe 
 	local script = Instance.new('LocalScript', Abyss)
 
 	local btn = script.Parent
@@ -2413,8 +2539,8 @@ local function OTRKOYZ_fake_script() -- Abyss.scriptExe
 		loadstring(game:HttpGet("https://paste.ee/r/tUPmo/0"))()
 	end)
 end
-coroutine.wrap(OTRKOYZ_fake_script)()
-local function AQPTZKA_fake_script() -- Abyss.tweenScript 
+coroutine.wrap(WFTSIH_fake_script)()
+local function RBSS_fake_script() -- Abyss.tweenScript 
 	local script = Instance.new('LocalScript', Abyss)
 
 	local btn = script.Parent
@@ -2460,8 +2586,8 @@ local function AQPTZKA_fake_script() -- Abyss.tweenScript
 	end)
 	
 end
-coroutine.wrap(AQPTZKA_fake_script)()
-local function HLKWODK_fake_script() -- Cop.notifScript 
+coroutine.wrap(RBSS_fake_script)()
+local function YRFS_fake_script() -- Cop.notifScript 
 	local script = Instance.new('LocalScript', Cop)
 
 	local btn = script.Parent
@@ -2475,8 +2601,8 @@ local function HLKWODK_fake_script() -- Cop.notifScript
 	end)
 	
 end
-coroutine.wrap(HLKWODK_fake_script)()
-local function AGSX_fake_script() -- Cop.scriptExe 
+coroutine.wrap(YRFS_fake_script)()
+local function YTZAX_fake_script() -- Cop.scriptExe 
 	local script = Instance.new('LocalScript', Cop)
 
 	local btn = script.Parent
@@ -2485,8 +2611,8 @@ local function AGSX_fake_script() -- Cop.scriptExe
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/PanzerKampfMeinFuhr1/fecop/main/fecopraw'),true))()
 	end)
 end
-coroutine.wrap(AGSX_fake_script)()
-local function LIBTWDY_fake_script() -- Cop.tweenScript 
+coroutine.wrap(YTZAX_fake_script)()
+local function TRON_fake_script() -- Cop.tweenScript 
 	local script = Instance.new('LocalScript', Cop)
 
 	local btn = script.Parent
@@ -2532,8 +2658,8 @@ local function LIBTWDY_fake_script() -- Cop.tweenScript
 	end)
 	
 end
-coroutine.wrap(LIBTWDY_fake_script)()
-local function GHIGJ_fake_script() -- GalFight.notifScript 
+coroutine.wrap(TRON_fake_script)()
+local function PSCLY_fake_script() -- GalFight.notifScript 
 	local script = Instance.new('LocalScript', GalFight)
 
 	local btn = script.Parent
@@ -2547,8 +2673,8 @@ local function GHIGJ_fake_script() -- GalFight.notifScript
 	end)
 	
 end
-coroutine.wrap(GHIGJ_fake_script)()
-local function KMCPDDN_fake_script() -- GalFight.scriptExe 
+coroutine.wrap(PSCLY_fake_script)()
+local function REAMA_fake_script() -- GalFight.scriptExe 
 	local script = Instance.new('LocalScript', GalFight)
 
 	local btn = script.Parent
@@ -2557,8 +2683,8 @@ local function KMCPDDN_fake_script() -- GalFight.scriptExe
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/PanzerKampfMeinFuhr1/FeGaleFighter/main/FeGaleFighterRaw'),true))()
 	end)
 end
-coroutine.wrap(KMCPDDN_fake_script)()
-local function NOMF_fake_script() -- GalFight.tweenScript 
+coroutine.wrap(REAMA_fake_script)()
+local function NWZES_fake_script() -- GalFight.tweenScript 
 	local script = Instance.new('LocalScript', GalFight)
 
 	local btn = script.Parent
@@ -2604,8 +2730,8 @@ local function NOMF_fake_script() -- GalFight.tweenScript
 	end)
 	
 end
-coroutine.wrap(NOMF_fake_script)()
-local function VLNKV_fake_script() -- NepV.notifScript 
+coroutine.wrap(NWZES_fake_script)()
+local function KOPLFI_fake_script() -- NepV.notifScript 
 	local script = Instance.new('LocalScript', NepV)
 
 	local btn = script.Parent
@@ -2619,8 +2745,8 @@ local function VLNKV_fake_script() -- NepV.notifScript
 	end)
 	
 end
-coroutine.wrap(VLNKV_fake_script)()
-local function HKEY_fake_script() -- NepV.scriptExe 
+coroutine.wrap(KOPLFI_fake_script)()
+local function VKTYGFZ_fake_script() -- NepV.scriptExe 
 	local script = Instance.new('LocalScript', NepV)
 
 	local btn = script.Parent
@@ -2629,8 +2755,8 @@ local function HKEY_fake_script() -- NepV.scriptExe
 		loadstring(game:HttpGetAsync("https://pastebin.com/raw/t0Mkc33N"))() 
 	end)
 end
-coroutine.wrap(HKEY_fake_script)()
-local function BYUUAT_fake_script() -- NepV.tweenScript 
+coroutine.wrap(VKTYGFZ_fake_script)()
+local function TLQSOF_fake_script() -- NepV.tweenScript 
 	local script = Instance.new('LocalScript', NepV)
 
 	local btn = script.Parent
@@ -2676,8 +2802,8 @@ local function BYUUAT_fake_script() -- NepV.tweenScript
 	end)
 	
 end
-coroutine.wrap(BYUUAT_fake_script)()
-local function MXBNB_fake_script() -- Sniper.tweenScript 
+coroutine.wrap(TLQSOF_fake_script)()
+local function IJNVPD_fake_script() -- Sniper.tweenScript 
 	local script = Instance.new('LocalScript', Sniper)
 
 	local btn = script.Parent
@@ -2723,8 +2849,8 @@ local function MXBNB_fake_script() -- Sniper.tweenScript
 	end)
 	
 end
-coroutine.wrap(MXBNB_fake_script)()
-local function EPSO_fake_script() -- Sniper.notifScript 
+coroutine.wrap(IJNVPD_fake_script)()
+local function HKDWG_fake_script() -- Sniper.notifScript 
 	local script = Instance.new('LocalScript', Sniper)
 
 	local btn = script.Parent
@@ -2738,8 +2864,8 @@ local function EPSO_fake_script() -- Sniper.notifScript
 	end)
 	
 end
-coroutine.wrap(EPSO_fake_script)()
-local function OEUJG_fake_script() -- Sniper.scriptExe 
+coroutine.wrap(HKDWG_fake_script)()
+local function AQOG_fake_script() -- Sniper.scriptExe 
 	local script = Instance.new('LocalScript', Sniper)
 
 	local btn = script.Parent
@@ -2748,8 +2874,8 @@ local function OEUJG_fake_script() -- Sniper.scriptExe
 		loadstring(game:HttpGet(('https://pastebin.com/raw/CPwjPg7N'),true))()
 	end)
 end
-coroutine.wrap(OEUJG_fake_script)()
-local function SOKFT_fake_script() -- Zen.notifScript 
+coroutine.wrap(AQOG_fake_script)()
+local function SINIP_fake_script() -- Zen.notifScript 
 	local script = Instance.new('LocalScript', Zen)
 
 	local btn = script.Parent
@@ -2763,8 +2889,8 @@ local function SOKFT_fake_script() -- Zen.notifScript
 	end)
 	
 end
-coroutine.wrap(SOKFT_fake_script)()
-local function HGXGZSQ_fake_script() -- Zen.scriptExe 
+coroutine.wrap(SINIP_fake_script)()
+local function ZODHHY_fake_script() -- Zen.scriptExe 
 	local script = Instance.new('LocalScript', Zen)
 
 	local btn = script.Parent
@@ -2773,8 +2899,8 @@ local function HGXGZSQ_fake_script() -- Zen.scriptExe
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/o5u3/Zen/main/ZenFlingFE.txt'),true))()
 	end)
 end
-coroutine.wrap(HGXGZSQ_fake_script)()
-local function GPCJXUC_fake_script() -- Zen.tweenScript 
+coroutine.wrap(ZODHHY_fake_script)()
+local function TWGAU_fake_script() -- Zen.tweenScript 
 	local script = Instance.new('LocalScript', Zen)
 
 	local btn = script.Parent
@@ -2820,8 +2946,8 @@ local function GPCJXUC_fake_script() -- Zen.tweenScript
 	end)
 	
 end
-coroutine.wrap(GPCJXUC_fake_script)()
-local function ZIFRMM_fake_script() -- elio.tweenScript 
+coroutine.wrap(TWGAU_fake_script)()
+local function LDTTNDK_fake_script() -- elio.tweenScript 
 	local script = Instance.new('LocalScript', elio)
 
 	local btn = script.Parent
@@ -2867,8 +2993,8 @@ local function ZIFRMM_fake_script() -- elio.tweenScript
 	end)
 	
 end
-coroutine.wrap(ZIFRMM_fake_script)()
-local function XFUCQ_fake_script() -- elio.notifScript 
+coroutine.wrap(LDTTNDK_fake_script)()
+local function VJKCE_fake_script() -- elio.notifScript 
 	local script = Instance.new('LocalScript', elio)
 
 	local btn = script.Parent
@@ -2882,8 +3008,8 @@ local function XFUCQ_fake_script() -- elio.notifScript
 	end)
 	
 end
-coroutine.wrap(XFUCQ_fake_script)()
-local function EVCFRQD_fake_script() -- elio.LocalScript 
+coroutine.wrap(VJKCE_fake_script)()
+local function GKUBZ_fake_script() -- elio.LocalScript 
 	local script = Instance.new('LocalScript', elio)
 
 	local btn = script.Parent
@@ -2891,8 +3017,8 @@ local function EVCFRQD_fake_script() -- elio.LocalScript
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/PanzerKampfMeinFuhr1/elio-blasio/main/elio%20blasio%20raw'),true))()
 	end)
 end
-coroutine.wrap(EVCFRQD_fake_script)()
-local function RLJJ_fake_script() -- zenith.tweenScript 
+coroutine.wrap(GKUBZ_fake_script)()
+local function FBFV_fake_script() -- zenith.tweenScript 
 	local script = Instance.new('LocalScript', zenith)
 
 	local btn = script.Parent
@@ -2938,8 +3064,8 @@ local function RLJJ_fake_script() -- zenith.tweenScript
 	end)
 	
 end
-coroutine.wrap(RLJJ_fake_script)()
-local function FWCFUD_fake_script() -- zenith.notifScript 
+coroutine.wrap(FBFV_fake_script)()
+local function RNJONJ_fake_script() -- zenith.notifScript 
 	local script = Instance.new('LocalScript', zenith)
 
 	local btn = script.Parent
@@ -2953,8 +3079,8 @@ local function FWCFUD_fake_script() -- zenith.notifScript
 	end)
 	
 end
-coroutine.wrap(FWCFUD_fake_script)()
-local function NFWCK_fake_script() -- zenith.LocalScript 
+coroutine.wrap(RNJONJ_fake_script)()
+local function HEDU_fake_script() -- zenith.LocalScript 
 	local script = Instance.new('LocalScript', zenith)
 
 	local btn = script.Parent
@@ -2962,8 +3088,8 @@ local function NFWCK_fake_script() -- zenith.LocalScript
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/PanzerKampfMeinFuhr1/zenithrifle/main/zenrifraw'),true))()
 	end)
 end
-coroutine.wrap(NFWCK_fake_script)()
-local function IERIEWY_fake_script() -- firebox.tweenScript 
+coroutine.wrap(HEDU_fake_script)()
+local function ZUETKNC_fake_script() -- firebox.tweenScript 
 	local script = Instance.new('LocalScript', firebox)
 
 	local btn = script.Parent
@@ -3009,8 +3135,8 @@ local function IERIEWY_fake_script() -- firebox.tweenScript
 	end)
 	
 end
-coroutine.wrap(IERIEWY_fake_script)()
-local function JBEA_fake_script() -- firebox.notifScript 
+coroutine.wrap(ZUETKNC_fake_script)()
+local function GBYQI_fake_script() -- firebox.notifScript 
 	local script = Instance.new('LocalScript', firebox)
 
 	local btn = script.Parent
@@ -3024,8 +3150,8 @@ local function JBEA_fake_script() -- firebox.notifScript
 	end)
 	
 end
-coroutine.wrap(JBEA_fake_script)()
-local function IWKWBDE_fake_script() -- firebox.LocalScript 
+coroutine.wrap(GBYQI_fake_script)()
+local function COLMGF_fake_script() -- firebox.LocalScript 
 	local script = Instance.new('LocalScript', firebox)
 
 	local btn = script.Parent
@@ -3033,8 +3159,79 @@ local function IWKWBDE_fake_script() -- firebox.LocalScript
 		loadstring(game:HttpGetAsync("https://pastebin.com/raw/D7pigANg"))()
 	end)
 end
-coroutine.wrap(IWKWBDE_fake_script)()
-local function HHOGJ_fake_script() -- cos1.cosScript 
+coroutine.wrap(COLMGF_fake_script)()
+local function PIVK_fake_script() -- ares.LocalScript 
+	local script = Instance.new('LocalScript', ares)
+
+	local btn = script.Parent
+	btn.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/PanzerKampfMeinFuhr1/zenithrifle/main/zenrifraw'),true))()
+	end)
+end
+coroutine.wrap(PIVK_fake_script)()
+local function MVWAP_fake_script() -- ares.notifScript 
+	local script = Instance.new('LocalScript', ares)
+
+	local btn = script.Parent
+	
+	btn.MouseButton1Down:Connect(function()
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Ares the bladist Executed!";
+			Text = "U executed ares the bladist my guy";
+			Duration = 5;
+		})
+	end)
+	
+end
+coroutine.wrap(MVWAP_fake_script)()
+local function OCJXU_fake_script() -- ares.tweenScript 
+	local script = Instance.new('LocalScript', ares)
+
+	local btn = script.Parent
+	local btnImage = btn.TextButton_Roundify_12px
+	local btnText = btn.TextLabel
+	
+	local isOn
+	
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
+	
+	local defaultTweenText = tweenService:Create(btnText, tweenInfo, {TextColor3 = Color3.fromRGB(255, 255, 255)})
+	local defaultTweenObject = tweenService:Create(btnImage, tweenInfo, {ImageColor3 = Color3.fromRGB(0, 0, 255)})
+	local switchTweenText = tweenService:Create(btnText, tweenInfo, {TextColor3 = Color3.fromRGB(0, 0, 255)})
+	local switchTweenObject = tweenService:Create(btnImage, tweenInfo, {ImageColor3 = Color3.fromRGB(255, 255, 255)})
+	local clickTween = tweenService:Create(btnImage, tweenInfo, {ImageColor3 = Color3.fromRGB(35, 35, 35)})
+	
+	btn.MouseEnter:Connect(function()
+		isOn = true
+		switchTweenObject:Play()
+		switchTweenText:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		isOn = false
+		defaultTweenObject:Play()
+		defaultTweenText:Play()
+	end)
+	
+	btn.MouseButton1Down:Connect(function()
+		clickTween:Play()
+		defaultTweenText:Play()
+	end)
+	
+	btn.MouseButton1Up:Connect(function()
+		if isOn == true then
+			switchTweenObject:Play()
+			switchTweenText:Play()
+		else
+			defaultTweenObject:Play()
+			defaultTweenText:Play()
+		end
+	end)
+	
+end
+coroutine.wrap(OCJXU_fake_script)()
+local function VDIJ_fake_script() -- cos1.cosScript 
 	local script = Instance.new('LocalScript', cos1)
 
 	local scriptPage = script.Parent.Parent.page2
@@ -3058,8 +3255,8 @@ local function HHOGJ_fake_script() -- cos1.cosScript
 		whiteTween:Play()
 	end)
 end
-coroutine.wrap(HHOGJ_fake_script)()
-local function APUDNOB_fake_script() -- cos2.cosScript2 
+coroutine.wrap(VDIJ_fake_script)()
+local function AVQT_fake_script() -- cos2.cosScript2 
 	local script = Instance.new('LocalScript', cos2)
 
 	local scriptPage = script.Parent.Parent.page2
@@ -3083,161 +3280,118 @@ local function APUDNOB_fake_script() -- cos2.cosScript2
 		blueTween:Play()
 	end)
 end
-coroutine.wrap(APUDNOB_fake_script)()
-local function BAQC_fake_script() -- left.tweenLeft 
-	local script = Instance.new('LocalScript', left)
+coroutine.wrap(AVQT_fake_script)()
+local function GZTTOAE_fake_script() -- scriptPage.LocalScript 
+	local script = Instance.new('LocalScript', scriptPage)
 
-	local image = script.Parent.left_Roundify_12px
-	local text = script.Parent.TextLabel
-	local btn = script.Parent
+	local left = script.Parent.left
+	local right = script.Parent.right
 	
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
+	local LText = left.TextLabel
+	local RText = right.TextLabel
 	
+	local rImage = right.right_Roundify_12px
+	local lImage = left.left_Roundify_12px
+	 
 	local isOn
 	
-	local textDefault = tweenService:Create(text, tweenInfo, {TextColor3 = Color3.fromRGB(0, 0, 0)})
-	local textTweenW = tweenService:Create(text, tweenInfo, {TextColor3 = Color3.fromRGB(255, 255, 255)})
-	local imageDefault = tweenService:Create(image, tweenInfo, {ImageColor3 = Color3.fromRGB(255, 255, 255)})
-	local imageTweenB = tweenService:Create(image, tweenInfo, {ImageColor3 = Color3.fromRGB(0, 0, 255)})
-	local imageDark = tweenService:Create(image, tweenInfo, {ImageColor3 = Color3.fromRGB(35, 35, 35)})
+	local tweenService = game:GetService("TweenService");
+	local tweenInfo = TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
+	
+	local whiteTweenLT = tweenService:Create(LText, tweenInfo, {TextColor3 = Color3.fromRGB(255, 255, 255)})
+	local darkTweenLT = tweenService:Create(LText, tweenInfo, {TextColor3 = Color3.fromRGB(35, 35, 35)})
+	local defaultLT = tweenService:Create(LText, tweenInfo, {TextColor3 = Color3.fromRGB(0, 0, 0)})
 	
 	
-	btn.MouseEnter:Connect(function()
-		isOn = true 
-		imageTweenB:Play()
-		textTweenW:Play()
+	local whiteTweenRT = tweenService:Create(RText, tweenInfo, {TextColor3 = Color3.fromRGB(255, 255, 255)})
+	local darkTweenRT = tweenService:Create(RText, tweenInfo, {TextColor3 = Color3.fromRGB(35, 35, 35)})
+	local defaultRT = tweenService:Create(RText, tweenInfo, {TextColor3 = Color3.fromRGB(0, 0, 0)})
+	
+	local blueTweenRI = tweenService:Create(rImage, tweenInfo, {ImageColor3 = Color3.fromRGB(0, 0, 255)})
+	local darkTweenRI = tweenService:Create(rImage, tweenInfo, {ImageColor3 = Color3.fromRGB(35, 35, 35)})
+	local defaultTweenRI = tweenService:Create(rImage, tweenInfo, {ImageColor3 = Color3.fromRGB(255, 255, 255)})
+	
+	local blueTweenLI = tweenService:Create(lImage, tweenInfo, {ImageColor3 = Color3.fromRGB(0, 0, 255)})
+	local darkTweenLI = tweenService:Create(lImage, tweenInfo, {ImageColor3 = Color3.fromRGB(35, 35, 35)})
+	local defaultTweenLI = tweenService:Create(lImage, tweenInfo, {ImageColor3 = Color3.fromRGB(255, 255, 255)})
+	
+	
+	
+	
+	left.MouseEnter:Connect(function()
+		isOn = true
+		whiteTweenLT:Play()
+		blueTweenLI:Play()
 	end)
 	
-	btn.MouseLeave:Connect(function()
-		isOn = false 
-		imageDefault:Play()
-		textDefault:Play()
+	left.MouseLeave:Connect(function()
+		isOn = false
+		defaultLT:Play()
+		defaultTweenLI:Play()
 	end)
 	
-	btn.MouseButton1Down:Connect(function()
-		imageDefault:Play()
-		textDefault:Play()
+	left.MouseButton1Down:Connect(function()
+		darkTweenLT:Play()
+		darkTweenLI:Play()
 	end)
 	
-	btn.MouseButton1Down:Connect(function()
-		imageDark:Play()
-		textTweenW:Play()
-	end)
-	
-	btn.MouseButton1Up:Connect(function()
+	left.MouseButton1Up:Connect(function()
 		if isOn == true then
-			imageTweenB:Play()
-			textTweenW:Play()
+			whiteTweenLT:Play()
+			blueTweenLI:Play()
 		else
-			imageDefault:Play()
-			textDefault:Play()
+			defaultLT:Play()
+			defaultTweenLI:Play()
 		end
 	end)
 	
-end
-coroutine.wrap(BAQC_fake_script)()
-local function OUKTUM_fake_script() -- left.btnScript 
-	local script = Instance.new('LocalScript', left)
-
-	local btn = script.Parent
-	local page2 = script.Parent.Parent.page2
-	local ab = script.Parent.Parent.Abyss
-	local cop = script.Parent.Parent.Cop
-	local gfa = script.Parent.Parent.GalFight
-	local nep = script.Parent.Parent.NepV
-	local sn = script.Parent.Parent.Sniper
-	local ze = script.Parent.Parent.Zen
-	
-	btn.MouseButton1Down:Connect(function()
-		page2.Visible = false
-		ab.Visible = true
-		cop.Visible = true
-		gfa.Visible = true
-		nep.Visible = true
-		sn.Visible = true
-		ze.Visible = true
+	right.MouseEnter:Connect(function()
+		isOn = true
+		whiteTweenRT:Play()
+		blueTweenRI:Play()
 	end)
 	
-	
-end
-coroutine.wrap(OUKTUM_fake_script)()
-local function BMLAB_fake_script() -- right.tweenRight 
-	local script = Instance.new('LocalScript', right)
-
-	local image = script.Parent.right_Roundify_12px
-	local text = script.Parent.TextLabel
-	local btn = script.Parent
-	
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut);
-	
-	local isOn
-	
-	local textDefault = tweenService:Create(text, tweenInfo, {TextColor3 = Color3.fromRGB(0, 0, 0)})
-	local textTweenW = tweenService:Create(text, tweenInfo, {TextColor3 = Color3.fromRGB(255, 255, 255)})
-	local imageDefault = tweenService:Create(image, tweenInfo, {ImageColor3 = Color3.fromRGB(255, 255, 255)})
-	local imageTweenB = tweenService:Create(image, tweenInfo, {ImageColor3 = Color3.fromRGB(0, 0, 255)})
-	local imageDark = tweenService:Create(image, tweenInfo, {ImageColor3 = Color3.fromRGB(35, 35, 35)})
-	
-	
-	btn.MouseEnter:Connect(function()
-		isOn = true 
-		imageTweenB:Play()
-		textTweenW:Play()
+	right.MouseLeave:Connect(function()
+		isOn = false
+		defaultRT:Play()
+		defaultTweenRI:Play()
 	end)
 	
-	btn.MouseLeave:Connect(function()
-		isOn = false 
-		imageDefault:Play()
-		textDefault:Play()
+	right.MouseButton1Down:Connect(function()
+		darkTweenRT:Play()
+		darkTweenRI:Play()
 	end)
 	
-	btn.MouseButton1Down:Connect(function()
-		imageDefault:Play()
-		textDefault:Play()
-	end)
-	
-	btn.MouseButton1Down:Connect(function()
-		imageDark:Play()
-		textTweenW:Play()
-	end)
-	
-	btn.MouseButton1Up:Connect(function()
+	right.MouseButton1Up:Connect(function()
 		if isOn == true then
-			imageTweenB:Play()
-			textTweenW:Play()
+			whiteTweenRT:Play()
+			blueTweenRI:Play()
 		else
-			imageDefault:Play()
-			textDefault:Play()
+			defaultRT:Play()
+			defaultTweenRI:Play()
 		end
 	end)
-	
 end
-coroutine.wrap(BMLAB_fake_script)()
-local function GLXDVKS_fake_script() -- right.btnScript 
+coroutine.wrap(GZTTOAE_fake_script)()
+local function DCOJZU_fake_script() -- right.LocalScript 
 	local script = Instance.new('LocalScript', right)
 
 	local btn = script.Parent
-	local page2 = script.Parent.Parent.page2
-	local page1 = script.Parent.Parent.Parent.scriptPage
-	local ab = script.Parent.Parent.Abyss
-	local cop = script.Parent.Parent.Cop
-	local gfa = script.Parent.Parent.GalFight
-	local nep = script.Parent.Parent.NepV
-	local sn = script.Parent.Parent.Sniper
-	local ze = script.Parent.Parent.Zen
+	local page2 = script.Parent.Parent.Parent.scriptPage.page2
 	
 	btn.MouseButton1Down:Connect(function()
 		page2.Visible = true
-		ab.Visible = false
-		cop.Visible = false
-		gfa.Visible = false
-		nep.Visible = false
-		sn.Visible = false
-		ze.Visible = false
 	end)
-	
-	
 end
-coroutine.wrap(GLXDVKS_fake_script)()
+coroutine.wrap(DCOJZU_fake_script)()
+local function CGYT_fake_script() -- left.LocalScript 
+	local script = Instance.new('LocalScript', left)
+
+	local btn = script.Parent
+	local page2 = script.Parent.Parent.Parent.scriptPage.page2
+	
+	btn.MouseButton1Down:Connect(function()
+		page2.Visible = false
+	end)
+end
+coroutine.wrap(CGYT_fake_script)()
